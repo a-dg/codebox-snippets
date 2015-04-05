@@ -1,0 +1,1 @@
+tar -czf uploads.tgz uploads

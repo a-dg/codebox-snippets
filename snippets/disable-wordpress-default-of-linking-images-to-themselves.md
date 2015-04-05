@@ -1,0 +1,2 @@
+- Go to: /wp-admin/options.php
+- Remove "file" from "image_default_link_type" field

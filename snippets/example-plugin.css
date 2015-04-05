@@ -1,0 +1,21 @@
+.item-group {
+  clear: both;
+}
+.item-group h2 {
+  padding-top: 30px;
+}
+.item-group .item-list {
+  padding: 0 20px 0 0;
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+}
+.item-group .item-list li {
+  margin-bottom: 8px;
+}
+.item-group .item-list a {
+  text-decoration: none;
+}
+.item-group .item-list a:hover {
+  text-decoration: underline;
+}

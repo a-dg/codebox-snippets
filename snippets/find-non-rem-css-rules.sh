@@ -1,0 +1,1 @@
+\b(left|right|top|bottom|margin|padding|width|height|background-size|font-size)(-\w+)?: (\(|\$|\w+px)

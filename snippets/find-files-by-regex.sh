@@ -1,0 +1,1 @@
+find /wp-content/uploads -name "*-es.jpg"

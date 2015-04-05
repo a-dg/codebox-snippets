@@ -1,0 +1,6 @@
+@mixin upper($val) {
+  text-transform: uppercase;
+  @if str-length($val) {
+    letter-spacing: r($val);
+  }
+}

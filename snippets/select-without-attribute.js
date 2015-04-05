@@ -1,0 +1,1 @@
+$('p:not([class])').css('background', 'red');

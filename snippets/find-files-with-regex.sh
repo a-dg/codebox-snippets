@@ -1,0 +1,1 @@
+find . -type f -print | egrep "[0-9]+"

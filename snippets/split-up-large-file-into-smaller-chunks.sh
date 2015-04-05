@@ -1,0 +1,1 @@
+split -l 10000 large_file.log split_

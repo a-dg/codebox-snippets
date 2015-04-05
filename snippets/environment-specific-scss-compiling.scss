@@ -1,0 +1,14 @@
+// In app.scss:
+// Production
+$output_rem: true;
+@import 'main';
+
+// In app-dev.scss:
+// Local, dev, staging
+$output_rem: false;
+@import 'main';
+
+// In _main.scss:
+$base_font_size: 16px;
+@import 'rem';
+@import ...

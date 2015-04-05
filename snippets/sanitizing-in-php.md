@@ -1,0 +1,5 @@
+- `Str::clean`
+- `Str::machine`
+- `(int)`, `intval`
+- `array_map`
+- `regex`

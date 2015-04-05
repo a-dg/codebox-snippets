@@ -1,0 +1,17 @@
+div {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+div > img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: auto;
+  min-width: 100%;
+  max-width: none;
+  min-height: 100%;
+  display: block;
+  -webkit-tranform: translate(-50%, -50%);
+}

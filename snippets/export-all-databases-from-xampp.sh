@@ -1,0 +1,1 @@
+sudo /Applications/XAMPP/xamppfiles/bin./mysqldump -u[username] -p[password] --all-databases > ~/all-databases.sql

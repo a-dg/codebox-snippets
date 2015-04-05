@@ -1,0 +1,20 @@
+@mixin active($selector) {
+  #{$selector}:after {
+    color: black;
+  }
+}
+#box1 {
+  @include active(.inner);
+}
+/* #box1 .inner:after { color: black; } */
+
+
+@mixin inactive($selector) {
+  &:after {
+    color: white;
+  }
+}
+#box2 {
+  @include inactive(#box2);
+}
+/* #box2:after { color: white; } */

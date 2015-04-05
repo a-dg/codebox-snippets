@@ -1,0 +1,7 @@
+.v-mid {
+  display: table;
+}
+.v-mid > .in {
+  display: table-cell;
+  vertical-align: middle;
+}

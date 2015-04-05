@@ -1,0 +1,1 @@
+strings file_name.pdf | grep FontName

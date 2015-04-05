@@ -1,0 +1,1 @@
+htmlentities($str, ENT_COMPAT, 'UTF-8'))

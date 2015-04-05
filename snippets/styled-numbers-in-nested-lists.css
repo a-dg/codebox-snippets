@@ -1,0 +1,13 @@
+ol {
+  counter-reset: ordered_list_item;
+  /* start nested ol elements at number 1 */
+}
+ol > li {
+  counter-increment: ordered_list_item;
+  background: none;
+  padding-left: 0;
+}
+ol > li:before {
+  content: counter(orderedlistitem, decimal) '. ';
+  color: #C27421;
+}

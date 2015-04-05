@@ -1,0 +1,13 @@
+@mixin self_placeholder {
+  &::-webkit-input-placeholder { @content }
+  &::-moz-placeholder          { @content }
+  &:-moz-placeholder           { @content }
+  &:-ms-input-placeholder      { @content }
+}
+
+input {
+  border: 1px solid $color_grey_light;
+  @include self_placeholder {
+    color: $color_grey_light;
+  }
+}
