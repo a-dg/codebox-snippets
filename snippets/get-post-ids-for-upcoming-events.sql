@@ -6,4 +6,5 @@ FROM wp_posts AS p
 WHERE p.post_type = 'event'
   AND p.post_status = 'publish'
   AND pm.meta_key = 'event_date_start'
-  AND STR_TO_DATE(pm.meta_value, '%Y/%m/%d') > NOW();
+  AND STR_TO_DATE(pm.meta_value, '%Y/%m/%d') > NOW()
+ORDER BY STR_TO_DATE(pm.meta_value, '%Y/%m/%d') DESC;
