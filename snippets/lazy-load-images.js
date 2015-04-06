@@ -43,12 +43,12 @@
       $(this).lazyLoadBg();
     });
   }
-  function is_in_viewport($obj, lookahead) {
+  function is_in_range($obj, lookahead) {
     if(!$obj.is(':visible')) return false;
     
-    // Lookahead scales region to be scanned for unloaded images
+    // Lookahead scales the region to be scanned for unloaded images:
     // 0 = Only load images that are visible in the viewport (even a single pixel row)
-    // 0.5 = Look outside of viewport by an additional 50% of its height
+    // 0.5 = Look outside of the viewport by an additional 50% of its height
     var obj_top = $obj.offset().top;
     var obj_height = $obj.height();
     var window_top = $body.scrollTop();
@@ -62,7 +62,7 @@
   
   $.fn.lazyLoad = function(){
     var $img = this;
-    if(!is_in_viewport($img, 0.25)) return false;
+    if(!is_in_range($img, 0.25)) return false;
     
     var new_image = new Image();
     var new_source = $img.attr('data-source');
@@ -75,7 +75,7 @@
   };
   $.fn.lazyLoadBg = function(){
     var $bg = this;
-    if(!is_in_viewport($bg, 0.25)) return false;
+    if(!is_in_range($bg, 0.25)) return false;
     
     $bg.addClass(working_class);
     var $container = $bg.parent();

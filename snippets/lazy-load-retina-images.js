@@ -20,7 +20,7 @@
   });
   function check_images() {
     $('img.' + retina_class).each(function(){
-      if(is_in_viewport($(this), 0.25)) {
+      if(is_in_range($(this), 0.25)) {
         load_image($(this));
         $(this).removeClass(retina_class);
       }
@@ -32,12 +32,12 @@
     req.send();
     return (req.status != 404);
   }
-  function is_in_viewport($obj, lookahead) {
+  function is_in_range($obj, lookahead) {
     if(!$obj.is(':visible')) return false;
     
-    // Lookahead scales region to be scanned for unloaded images
+    // Lookahead scales the region to be scanned for unloaded images:
     // 0 = Only load images that are visible in the viewport (even a single pixel row)
-    // 0.5 = Look outside of viewport by an additional 50% of its height
+    // 0.5 = Look outside of the viewport by an additional 50% of its height
     var obj_top = $obj.offset().top;
     var obj_height = $obj.height();
     var window_top = $body.scrollTop();
