@@ -5,7 +5,7 @@
  */
 public static function getBreadcrumbs(\Taco\Post $post_obj) {
   $separator = ' &raquo; ';
-  $post_id = $post_obj->get('ID');
+  $post_id = $post_obj->ID;
   $post_type = $post_obj->getPostType();
   $ancestor_links = array();
   $post_title = null;
@@ -37,7 +37,7 @@ public static function getBreadcrumbs(\Taco\Post $post_obj) {
       $ancestor_links[] = sprintf(
         '<li><a href="%s">%s</a></li>',
         $topic->getPermalink(),
-        $topic->get('name')
+        $topic->name
       );
     }
   }

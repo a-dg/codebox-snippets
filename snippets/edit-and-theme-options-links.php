@@ -77,5 +77,5 @@ function get_theme_options_link($what='this') {
   if(!(is_user_logged_in() && current_user_can('manage_options'))) return null;
   
   $theme = ThemeOption::getInstance();
-  return get_edit_link($theme->get('ID'), 'theme-option', $what.' in Theme Options');
+  return get_edit_link($theme->ID, 'theme-option', $what.' in Theme Options');
 }
