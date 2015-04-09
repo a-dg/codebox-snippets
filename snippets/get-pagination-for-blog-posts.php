@@ -1,6 +1,6 @@
 $current_page = (get_query_var('paged')) ?: 1;
 $per_page = get_option('posts_per_page');
-$per_page = Post::getPostsPerPage();
+// Or: $per_page = Post::getPostsPerPage();
 
 $all_posts = Post::getWhere(array(
   'orderby' => 'date',
