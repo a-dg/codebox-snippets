@@ -20,6 +20,7 @@ public static function getBreadcrumbs(\Taco\Post $post_obj) {
     if(Arr::iterable($ancestors)) {
       $ancestors = array_reverse($ancestors);
       foreach($ancestors as $ancestor_post_id) {
+        // TODO: find a better way of doing this
         $ancestor = \Taco\Post\Factory::create($ancestor_post_id, false);
         $single_post = get_post($post_id);
         $ancestor_links[] = sprintf(
