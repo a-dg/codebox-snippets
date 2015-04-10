@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>1A520A7C-9662-4F41-BB7E-755C7DEAFF8B</UUID>
-        <nextObjectID>1010</nextObjectID>
+        <nextObjectID>1012</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -221,7 +221,7 @@ YXJyYXkpIHsKICAgICRodG1sID0gJyc7CiAgICB3aGlsZSgkbnVtX2NvbHMgPiAwKSB7CiAgICAgICRp
     </object>
     <object type="TAG" id="z132">
         <attribute name="name" type="string">php</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z892 z1000 z920 z873 z862 z972 z909 z629 z924 z220 z727 z898 z947 z158 z953 z723 z203 z243 z130 z1004 z683 z914 z798 z922 z940 z255 z955 z864 z945 z821 z918 z639"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z894 z821 z727 z945 z918 z798 z683 z243 z629 z898 z947 z922 z909 z953 z940 z955 z158 z639 z1000 z924 z914 z862 z873 z220 z723 z905 z972 z130 z920 z892 z203 z1004 z255 z864"></relationship>
     </object>
     <object type="ASSET" id="z133">
         <attribute name="content" type="binary">ZnVuY3Rpb24gc3BsaXRfbmF2X2ludG9fY29sdW1ucygkY2hpbGRfcGFnZV9pZHMsICRudW1fY29s
@@ -725,11 +725,11 @@ c3RzIEFTIHAKICBJTk5FUiBKT0lOIHdwX3Bvc3RtZXRhIEFTIHBtX2VtYWlsIE9OIHAuSUQgPSBwbV9l
     </object>
     <object type="SNIPPET" id="z228">
         <attribute name="name" type="string">Dynamic rules with SCSS mixin</attribute>
-        <attribute name="modified" type="date">388619451.86942899227142333984</attribute>
+        <attribute name="modified" type="date">450377316.50580102205276489258</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z229"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z223"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z663 z223"></relationship>
     </object>
     <object type="ASSET" id="z229">
         <attribute name="sort" type="int32">-1</attribute>
@@ -949,11 +949,11 @@ LmltYWdlX25hbWUgPSBpbWFnZXMuaW1hZ2VfbmFtZTsK
     </object>
     <object type="SNIPPET" id="z262">
         <attribute name="name" type="string">Blend colors in SCSS</attribute>
-        <attribute name="modified" type="date">408388436.99853199720382690430</attribute>
+        <attribute name="modified" type="date">450377339.53826701641082763672</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z263"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z223"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z663 z223"></relationship>
     </object>
     <object type="ASSET" id="z263">
         <attribute name="notes" type="string">- Take the first color, and blend in a percentage of the second color</attribute>
@@ -1256,7 +1256,7 @@ dWJsaXNoZWQsCiAgUkVQTEFDRShzdGF0ZXMsICcmYW1wOycsICcmJykgQVMgc3RhdGVzLAogIFJFUExB
     </object>
     <object type="TAG" id="z663">
         <attribute name="name" type="string">scss</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z665 z756 z741 z940 z213 z875 z743 z745"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z940 z262 z760 z756 z875 z213 z665 z745 z228 z696 z741 z702 z743"></relationship>
     </object>
     <object type="ASSET" id="z664">
         <attribute name="sort" type="int32">-1</attribute>
@@ -1392,8 +1392,8 @@ Tl9TQ0hFTUEuQ09MVU1OUwogIFdIRVJFIHRhYmxlX25hbWUgPSAnY291cnNlX2xpc3QnIjsKJGNvbHVt
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z690"></relationship>
     </object>
     <object type="ASSET" id="z695">
-        <attribute name="content" type="binary">IyBGaW5kCnVybFwoJyhcLlwuL2ltZy4qXC5bYS16XXszfSknXCkKCiMgUmVwbGFjZQp1cmwoJyQx
-PyN7JHZlcnNpb259Jyk=
+        <attribute name="content" type="binary">IyBGaW5kCnVybFwoJyguKlwuW2Etel17M30pJ1wpCgojIFJlcGxhY2UKdXJsKCckMT8jeyR2ZXJz
+aW9ufScp
 </attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">add-version-number-to-css-image.sh</attribute>
@@ -1401,11 +1401,11 @@ PyN7JHZlcnNpb259Jyk=
     </object>
     <object type="SNIPPET" id="z696">
         <attribute name="name" type="string">Add version number to CSS image</attribute>
-        <attribute name="modified" type="date">426523922.27654600143432617188</attribute>
+        <attribute name="modified" type="date">450377264.21506297588348388672</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z695"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z223"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z663 z223"></relationship>
     </object>
     <object type="ASSET" id="z701">
         <attribute name="notes" type="string">TODO:
@@ -1420,11 +1420,11 @@ Z3JvdW5kLXNpemV8Zm9udC1zaXplKSgtXHcrKT86IChcKHxcJHxcdytweCk=
     </object>
     <object type="SNIPPET" id="z702">
         <attribute name="name" type="string">Find non-rem CSS rules</attribute>
-        <attribute name="modified" type="date">428681631.52743399143218994141</attribute>
+        <attribute name="modified" type="date">450377373.29759097099304199219</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z701"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z223 z690"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z690 z663 z223"></relationship>
     </object>
     <object type="ASSET" id="z703">
         <attribute name="sort" type="int32">-1</attribute>
@@ -1680,7 +1680,7 @@ L3dvcmRwcmVzcy8nOwpjaGRpcigkaW5zdGFsbF9kaXIpOwppbmNsdWRlKCd3cC1sb2FkLnBocCcpOwoK
     </object>
     <object type="TAG" id="z749">
         <attribute name="name" type="string">taco</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z916 z992 z247 z934 z981 z806 z994 z977 z979 z918 z1008 z926 z853 z922 z983 z924 z985 z251 z932 z858 z1010 z1002 z748 z927 z796 z770 z996 z912 z987 z1006 z930 z857 z866 z920 z938 z935"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z916 z992 z247 z934 z981 z806 z994 z977 z979 z918 z1008 z926 z853 z922 z983 z1012 z924 z985 z251 z932 z858 z1010 z1002 z748 z927 z796 z770 z996 z912 z987 z1006 z930 z857 z866 z920 z938 z935"></relationship>
     </object>
     <object type="ASSET" id="z750">
         <attribute name="sort" type="int32">-1</attribute>
@@ -1750,11 +1750,11 @@ CiQxOiAkMjs=
     </object>
     <object type="SNIPPET" id="z760">
         <attribute name="name" type="string">Remove rem mixin</attribute>
-        <attribute name="modified" type="date">446666540.55746799707412719727</attribute>
+        <attribute name="modified" type="date">450377384.39967697858810424805</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z759"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z223"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z663 z223"></relationship>
     </object>
     <object type="ASSET" id="z767">
         <attribute name="sort" type="int32">-1</attribute>
@@ -2607,7 +2607,7 @@ J3NsdWcnLCBnZXRfcXVlcnlfdmFyKCd0ZXJtJyksIGdldF9xdWVyeV92YXIoJ3RheG9ub215JykpOwog
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">get-favicon-and-related-images.php</attribute>
         <attribute name="content" type="binary">PGxpbmsgcmVsPSJzaG9ydGN1dCBpY29uIiBocmVmPSI8P3BocCBlY2hvIGdldF90ZW1wbGF0ZV9k
-aXJlY3RvcnlfdXJpKCk7ID8+L2Zhdmljb24uaWNvIiAvPgo8P3BocAokdGVtcGxhdGVfZGlyID0gZ2V0X3RlbXBsYXRlX2RpcmVjdG9yeV91cmkoKTsKJHNpemVzID0gYXJyYXkoCiAgJycsCiAgJzU3eDU3JywKICAnNzJ4NzInLAogICc3Nng3NicsCiAgJzExNHgxMTQnLAogICcxMjB4MTIwJywKICAnMTQ0eDE0NCcsCiAgJzE1MngxNTInLAopOwpmb3JlYWNoKCRzaXplcyBhcyAkc2l6ZSkgewogICRzaXplc19hdHRyID0gKHN0cmxlbigkc2l6ZSkpCiAgICA/ICdzaXplcz0iJy4kc2l6ZS4nIicKICAgIDogbnVsbDsKICAkc2l6ZV9zdWZmaXggPSAoc3RybGVuKCRzaXplKSkKICAgID8gJy0nLiRzaXplCiAgICA6IG51bGw7CiAgZWNobyBzcHJpbnRmKAogICAgJzxsaW5rIHJlbD0iYXBwbGUtdG91Y2gtaWNvbiIgJXMgaHJlZj0iJXMvaW1nL2FwcGxlLXRvdWNoLWljb24lcy5wbmciIC8+JywKICAgICRzaXplc19hdHRyLAogICAgJHRlbXBsYXRlX2RpciwKICAgICRzaXplX3N1ZmZpeAogICk7Cn0KPz4=
+aXJlY3RvcnlfdXJpKCk7ID8+L2Zhdmljb24uaWNvIj4KPD9waHAKJHRlbXBsYXRlX2RpciA9IGdldF90ZW1wbGF0ZV9kaXJlY3RvcnlfdXJpKCk7CiRzaXplcyA9IGFycmF5KAogICcnLCAvLyA1NyB4IDU3CiAgJzU3eDU3JywKICAnNzJ4NzInLAogICc3Nng3NicsCiAgJzExNHgxMTQnLAogICcxMjB4MTIwJywKICAnMTQ0eDE0NCcsCiAgJzE1MngxNTInLAopOwpmb3JlYWNoKCRzaXplcyBhcyAkc2l6ZSkgewogICRzaXplc19hdHRyID0gKHN0cmxlbigkc2l6ZSkpCiAgICA/ICdzaXplcz0iJy4kc2l6ZS4nIicKICAgIDogbnVsbDsKICAkc2l6ZV9zdWZmaXggPSAoc3RybGVuKCRzaXplKSkKICAgID8gJy0nLiRzaXplCiAgICA6IG51bGw7CiAgZWNobyBzcHJpbnRmKAogICAgJzxsaW5rIHJlbD0iYXBwbGUtdG91Y2gtaWNvbiIgJXMgaHJlZj0iJXMvaW1nL2FwcGxlLXRvdWNoLWljb24lcy5wbmclcyI+JywKICAgICRzaXplc19hdHRyLAogICAgJHRlbXBsYXRlX2RpciwKICAgICRzaXplX3N1ZmZpeCwKICAgIFRIRU1FX1NVRkZJWAogICk7Cn0KPz4=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z892"></relationship>
     </object>
@@ -2629,11 +2629,11 @@ KHN0cnBvcygkdXNlcl9hZ2VudCwgJ3dpbmRvd3MnKSAhPT0gZmFsc2UpIHsKICBlY2hvIHNwcmludGYo
     </object>
     <object type="SNIPPET" id="z894">
         <attribute name="name" type="string">Get Windows stylesheet</attribute>
-        <attribute name="modified" type="date">449723848.92634099721908569336</attribute>
+        <attribute name="modified" type="date">450377402.30326002836227416992</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z893"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z901 z223"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z901 z132 z223"></relationship>
     </object>
     <object type="ASSET" id="z895">
         <attribute name="uti" type="string">com.codebox.content.syntax.text.html.basic</attribute>
@@ -2714,11 +2714,11 @@ V19CUkVBS1BPSU5UX0xBQkVMJykgfHwgU0hPV19CUkVBS1BPSU5UX0xBQkVMKSB7CiAgICAkYnJlYWtw
     </object>
     <object type="SNIPPET" id="z905">
         <attribute name="name" type="string">Show breakpoint label</attribute>
-        <attribute name="modified" type="date">449724200.52216398715972900391</attribute>
+        <attribute name="modified" type="date">450377421.78697597980499267578</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z904"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z223"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z132 z223"></relationship>
     </object>
     <object type="ASSET" id="z908">
         <attribute name="sort" type="int32">-1</attribute>
@@ -3446,5 +3446,21 @@ bGVtZW50IG9yIGxpc3QKICogQHBhcmFtIHN0cmluZyAkdGF4b25vbXkKICogQHBhcmFtIG9iaiAkY3Vy
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1009"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z817 z749"></relationship>
+    </object>
+    <object type="ASSET" id="z1011">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">get-asset-path-with-version-number.php</attribute>
+        <attribute name="content" type="binary">LyoqCiAqIFJlbW92ZSBkb21haW4gbmFtZSBmcm9tIFVSTAogKiBAcGFyYW0gc3RyaW5nICR1cmwK
+ICogQHJldHVybiBzdHJpbmcKICovCmZ1bmN0aW9uIHJlbW92ZV9kb21haW5fbmFtZSgkdXJsKSB7CiAgcmV0dXJuIHN0cl9yZXBsYWNlKFVSTF9CQVNFLCAnJywgJHVybCk7Cn0KCi8qKgogKiBHZXQgdGhlbWUgZGlyZWN0b3J5IFVSTCB3aXRob3V0IGRvbWFpbiBuYW1lCiAqIEByZXR1cm4gc3RyaW5nCiAqLwpmdW5jdGlvbiBnZXRfYXBwX2RpcigpIHsKICByZXR1cm4gcmVtb3ZlX2RvbWFpbl9uYW1lKGdldF90ZW1wbGF0ZV9kaXJlY3RvcnlfdXJpKCkpOwp9CgovKioKICogR2V0IHRoZSBhc3NldCBwYXRoIHdpdGggdGhlbWUgdmVyc2lvbiBudW1iZXIKICogQHBhcmFtIHN0cmluZyAkcmVsYXRpdmVfcGF0aAogKiBAcmV0dXJuIHN0cmluZwogKi8KZnVuY3Rpb24gZ2V0X2Fzc2V0X3BhdGgoJHJlbGF0aXZlX3BhdGgpIHsKICAkdXNlX3VuZGVyc2NvcmVfYXNzZXRzX2RpcmVjdG9yeSA9IGZhbHNlOwogICRjbGVhbl9yZWxhdGl2ZV9wYXRoID0gcHJlZ19yZXBsYWNlKCcvXltfXC9dKy8nLCAnJywgJHJlbGF0aXZlX3BhdGgpOwogIHJldHVybiBzcHJpbnRmKAogICAgJyVzLyVzJXMlcycsCiAgICBnZXRfYXBwX2RpcigpLAogICAgKCR1c2VfdW5kZXJzY29yZV9hc3NldHNfZGlyZWN0b3J5KSA/ICdfLycgOiBudWxsLAogICAgJGNsZWFuX3JlbGF0aXZlX3BhdGgsCiAgICBUSEVNRV9TVUZGSVgKICApOwp9CgovLyBVc2FnZQplY2hvIGdldF9hc3NldF9wYXRoKCdpbWcvcGFydG5lcnMvYW1lcmljb3Jwcy5wbmcnKTs=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1012"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1012">
+        <attribute name="name" type="string">Get asset path with version number</attribute>
+        <attribute name="modified" type="date">450388542.92894899845123291016</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1011"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z749"></relationship>
     </object>
 </database>
