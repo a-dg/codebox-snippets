@@ -1,8 +1,8 @@
-<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" />
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 <?php
 $template_dir = get_template_directory_uri();
 $sizes = array(
-  '',
+  '', // 57 x 57
   '57x57',
   '72x72',
   '76x76',
@@ -19,10 +19,11 @@ foreach($sizes as $size) {
     ? '-'.$size
     : null;
   echo sprintf(
-    '<link rel="apple-touch-icon" %s href="%s/img/apple-touch-icon%s.png" />',
+    '<link rel="apple-touch-icon" %s href="%s/img/apple-touch-icon%s.png%s">',
     $sizes_attr,
     $template_dir,
-    $size_suffix
+    $size_suffix,
+    THEME_SUFFIX
   );
 }
 ?>
