@@ -7,8 +7,14 @@ define('COLUMNS_CONTENT', 'columns average-8');
 define('COLUMNS_SIDEBAR', 'columns average-4');
 define('COLUMNS_CENTERED', 'small-8 medium-6 average-12 small-offset-2 medium-offset-3 average-offset-0');
 
+// Get request protocol
+$protocol = (
+  (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+  || $_SERVER['SERVER_PORT'] == 443
+) ? 'https' : 'http';
+
 // URLs
-define('URL_BASE', sprintf('%s://%s', $_SERVER['REQUEST_SCHEME'], $_SERVER['HTTP_HOST']));
+define('URL_BASE', sprintf('%s://%s', $protocol, $_SERVER['HTTP_HOST']));
 define('URL_REQUEST', URL_BASE.$_SERVER['REQUEST_URI']);
 define('URL_NEWS', '/news/');
 define('URL_RESOURCE_LIBRARY', '/research-tools/resource-library/');

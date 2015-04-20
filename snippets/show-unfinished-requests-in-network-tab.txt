@@ -1,0 +1,1 @@
+Filter network tab with: is:running

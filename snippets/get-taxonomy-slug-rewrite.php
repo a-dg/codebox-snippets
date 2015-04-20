@@ -1,3 +1,4 @@
+// Maybe this in a post type class
 public function getTaxonomies() {
   return array(
     'news-type' => array(
@@ -6,4 +7,9 @@ public function getTaxonomies() {
       )
     )
   );
+}
+
+// Or possibly this in the taxonomy class
+public function getRewrite() {
+  return array('slug' => 'programs');
 }
