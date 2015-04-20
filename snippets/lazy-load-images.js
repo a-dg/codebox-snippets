@@ -43,10 +43,10 @@
       $(this).lazyLoadBg();
     });
   }
-  function is_in_range($obj, lookahead) {
+  function is_in_range($obj, lookaround) {
     if(!$obj.is(':visible')) return false;
     
-    // Lookahead scales the region to be scanned for unloaded images:
+    // Lookaround scales the region to be scanned for unloaded images:
     // 0 = Only load images that are visible in the viewport (even a single pixel row)
     // 0.5 = Look outside of the viewport by an additional 50% of its height
     var obj_top = $obj.offset().top;
@@ -54,8 +54,8 @@
     var window_top = $body.scrollTop();
     var window_height = $(window).height();
     
-    var top_in_range = (obj_top < window_top + (window_height * (1 + lookahead)));
-    var bottom_in_range = (obj_top + obj_height > window_top - (window_height * lookahead));
+    var top_in_range = (obj_top < window_top + (window_height * (1 + lookaround)));
+    var bottom_in_range = (obj_top + obj_height > window_top - (window_height * lookaround));
     return (top_in_range && bottom_in_range);
   }
   
