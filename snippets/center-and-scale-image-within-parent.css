@@ -13,5 +13,5 @@ div > img {
   max-width: none;
   min-height: 100%;
   display: block;
-  -webkit-tranform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
