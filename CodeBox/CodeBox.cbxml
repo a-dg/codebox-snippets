@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>1A520A7C-9662-4F41-BB7E-755C7DEAFF8B</UUID>
-        <nextObjectID>1038</nextObjectID>
+        <nextObjectID>1039</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -1113,7 +1113,7 @@ V0hFUkUgdW5pdCA9ICdidXJyaXRvJzsKCiMgQ291bnQgcGVyIHVuaXF1ZSB2YWx1ZQpTRUxFQ1QgZW1h
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">center-and-scale-image-within-parent.css</attribute>
         <attribute name="content" type="binary">ZGl2IHsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgd2lkdGg6IDQwMHB4OwogIGhlaWdodDogMzAw
-cHg7CiAgb3ZlcmZsb3c6IGhpZGRlbjsKfQpkaXYgPiBpbWcgewogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICBsZWZ0OiA1MCU7CiAgdG9wOiA1MCU7CiAgd2lkdGg6IGF1dG87CiAgbWluLXdpZHRoOiAxMDAlOwogIG1heC13aWR0aDogbm9uZTsKICBtaW4taGVpZ2h0OiAxMDAlOwogIGRpc3BsYXk6IGJsb2NrOwogIC13ZWJraXQtdHJhbmZvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTsKfQo=
+cHg7CiAgb3ZlcmZsb3c6IGhpZGRlbjsKfQpkaXYgPiBpbWcgewogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICBsZWZ0OiA1MCU7CiAgdG9wOiA1MCU7CiAgd2lkdGg6IGF1dG87CiAgbWluLXdpZHRoOiAxMDAlOwogIG1heC13aWR0aDogbm9uZTsKICBtaW4taGVpZ2h0OiAxMDAlOwogIGRpc3BsYXk6IGJsb2NrOwogIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7Cn0K
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z637"></relationship>
     </object>
@@ -1713,7 +1713,7 @@ MSByKCQyKTsK
         <attribute name="modified" type="date">450329451.15328299999237060547</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z758 z757 z988"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z758 z988 z1039 z757"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z663 z223"></relationship>
     </object>
     <object type="ASSET" id="z757">
@@ -1729,7 +1729,7 @@ ZCtwW3h0XS4qKTsoXHMqL3syLH0uKlxTfFxzKi9cKi4qXCovKT9ccyokCgojIFJlcGxhY2UKJDE6IHIo
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z756"></relationship>
     </object>
     <object type="ASSET" id="z758">
-        <attribute name="sort" type="int32">2</attribute>
+        <attribute name="sort" type="int32">3</attribute>
         <attribute name="path" type="string">convert-css-to-rem-function-by-property-with-units.sh</attribute>
         <attribute name="notes" type="string">- Only finds lines with properties specified
 - Only replaces when px or pt units are being used
@@ -3610,5 +3610,17 @@ YS0+d2VpZ2h0ID4gKGludCkgJGItPndlaWdodCkgPyAxIDogLTE7Cn0pOw==
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1037"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z749"></relationship>
+    </object>
+    <object type="ASSET" id="z1039">
+        <attribute name="sort" type="int32">2</attribute>
+        <attribute name="path" type="string">convert-css-to-rem-function-by-property-scss.sh</attribute>
+        <attribute name="notes" type="string">- Only finds lines with properties specified
+- Doesn't care what units are being used, as long as there is a number or SCSS variable in the value
+- Preserves CSS and SCSS at the end of the line only
+- Skips lines that already use r(), rr(), rem(), or rem_round()</attribute>
+        <attribute name="content" type="binary">IyBGaW5kCl4oXHMqKD86bGVmdHxyaWdodHx0b3B8Ym90dG9tfG1hcmdpbnxtYXJnaW4tbGVmdHxt
+YXJnaW4tcmlnaHR8bWFyZ2luLXRvcHxtYXJnaW4tYm90dG9tfHBhZGRpbmd8cGFkZGluZy1sZWZ0fHBhZGRpbmctcmlnaHR8cGFkZGluZy10b3B8cGFkZGluZy1ib3R0b218d2lkdGh8aGVpZ2h0fG1pbi13aWR0aHxtaW4taGVpZ2h0fG1heC13aWR0aHxtYXgtaGVpZ2h0fGJvcmRlcnxib3JkZXItbGVmdHxib3JkZXItcmlnaHR8Ym9yZGVyLXRvcHxib3JkZXItYm90dG9tfGJvcmRlci13aWR0aHxib3JkZXItbGVmdC13aWR0aHxib3JkZXItcmlnaHQtd2lkdGh8Ym9yZGVyLXRvcC13aWR0aHxib3JkZXItYm90dG9tLXdpZHRofGJvcmRlci1yYWRpdXN8Ym9yZGVyLXRvcC1sZWZ0LXJhZGl1c3xib3JkZXItdG9wLXJpZ2h0LXJhZGl1c3xib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzfGJvcmRlci1ib3R0b20tcmlnaHQtcmFkaXVzfGJvcmRlci1zcGFjaW5nfG91dGxpbmUtd2lkdGh8YmFja2dyb3VuZHxiYWNrZ3JvdW5kLXBvc2l0aW9ufGJhY2tncm91bmQtcG9zaXRpb24teHxiYWNrZ3JvdW5kLXBvc2l0aW9uLXl8YmFja2dyb3VuZC1zaXplfGJveC1zaGFkb3d8Zm9udC1zaXplfGxpbmUtaGVpZ2h0fGxldHRlci1zcGFjaW5nfHdvcmQtc3BhY2luZ3x0ZXh0LWluZGVudHx2ZXJ0aWNhbC1hbGlnbnx0ZXh0LXNoYWRvd3xtYXJrZXItb2Zmc2V0fGNvbHVtbnN8Y29sdW1uLXdpZHRofGNvbHVtbi1ydWxlfGNvbHVtbi1ydWxlLXdpZHRoKSlcOlxzKig/ISg/OnJ8cnJ8cmVtfHJlbV9yb3VuZClcKCkoLipbXGRcJF0rLiopOyhccyovezIsfS4qXFN8XHMqL1wqLipcKi8pP1xzKiQKCiMgUmVwbGFjZQokMTogcigkMik7JDM=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z756"></relationship>
     </object>
 </database>
