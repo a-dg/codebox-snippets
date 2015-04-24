@@ -9,6 +9,15 @@ function get_edit_link($id=null, $edit_type='post', $label=null) {
   if(!(is_user_logged_in() && current_user_can('manage_options'))) return null;
   
   $edit_link_css_class = 'front-end-edit-link clearfix';
+  
+  if(is_null($id)) {
+    return sprintf(
+      '<p class="%s dashboard"><a href="%s">Go to dashboard</a></p>',
+      $edit_link_css_class,
+      get_admin_url()
+    );
+  }
+  
   if(is_null($label)) {
     $label = Str::human(str_replace('-', ' ', $edit_type));
   }
@@ -78,4 +87,7 @@ function get_theme_options_link($what='this') {
   
   $theme = ThemeOption::getInstance();
   return get_edit_link($theme->ID, 'theme-option', $what.' in Theme Options');
+}
+function get_dashboard_link() {
+  return get_edit_link();
 }
