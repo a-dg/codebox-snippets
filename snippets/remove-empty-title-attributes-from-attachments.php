@@ -1,5 +1,5 @@
 function remove_empty_title_attributes($attr) {
-  if($attr['title'] == '') {
+  if(!strlen(trim($attr['title'])) {
     unset($attr['title']);
   }
   return $attr;
