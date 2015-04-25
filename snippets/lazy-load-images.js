@@ -50,7 +50,7 @@
     // 0 = Only load images that are visible in the viewport (even a single pixel row)
     // 0.5 = Look outside of the viewport by an additional 50% of its height
     var obj_top = $obj.offset().top;
-    var obj_height = $obj.height();
+    var obj_height = $obj.innerHeight();
     var window_top = $body.scrollTop();
     var window_height = $(window).height();
     
