@@ -6,7 +6,7 @@
   var faded_class = 'faded';
   var is_webkit = /webkit/.test(navigator.userAgent.toLowerCase());
   var $body = null;
-  var page_loaded = false;
+  var page_loaded = false; // TODO: use this somehow
   
   var throttle_check_images = $.throttle(function(){
     check_images();
@@ -87,6 +87,7 @@
         $bg.removeClass(working_class);
         if(!$container.children('.' + lazy_bg_class + '.' + faded_class).length) {
           $container.addClass('loaded').find('.' + lazy_bg_class).remove();
+          // TODO: why remove .lazy-bg elements?
         }
       }, anim_dur);
     }).attr('src', $bg.attr('data-image'));
