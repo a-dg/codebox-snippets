@@ -18,8 +18,8 @@
     $body = $(is_webkit ? 'body' : 'html');
     $(window)
       .on('load', window_load)
-      .on('scroll.lazy', throttle_check_images)
-      .on('resize.lazy', throttle_check_images);
+      .on('scroll.' + lazy_class, throttle_check_images)
+      .on('resize.' + lazy_class, throttle_check_images);
   });
   
   
@@ -33,8 +33,8 @@
     var $lazy_bgs = $('.' + lazy_bg_class + '.' + faded_class + ':not(.' + working_class + ')');
     if(!$lazy_imgs.length && !$lazy_bgs.length) {
       $(window)
-        .off('scroll.lazy')
-        .off('resize.lazy');
+        .off('scroll.' + lazy_class)
+        .off('resize.' + lazy_class);
     }
     $lazy_imgs.each(function(){
       $(this).lazyLoad();
@@ -81,7 +81,7 @@
     var $container = $bg.parent();
     var new_image = new Image();
     $(new_image).on('load', function(){
-      $bg.css('background-image', 'url("' + $bg.attr('data-image') + '")');
+      $bg.css('background-image', 'url(\'' + $bg.attr('data-image') + '\')');
       $bg.removeClass(faded_class);
       setTimeout(function(){
         $bg.removeClass(working_class);
