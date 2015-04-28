@@ -24,5 +24,7 @@ function get_current_breakpoint() {
     }
   });
   return breakpoint;
+  
+  // TODO: use index in breakpoints array to determine if the one breakpoint is narrower or wider than another, instead of doing something like if(breakpoint == 'medium' || breakpoint == 'average' || breakpoint == 'large')
   // return [breakpoint, breakpoints.indexOf(breakpoint)];
 }

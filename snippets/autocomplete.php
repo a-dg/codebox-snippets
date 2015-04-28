@@ -78,7 +78,7 @@ if(strlen($search_term) && strlen($post_type)) {
       } elseif($post_type == 'instructor') {
         $result_title[] = '('.$result['post_name'].')';
       }
-      echo '<div class="autocomplete-suggestion" '.implode(' ', $result_data).'>'.implode(' ', $result_title).'</div>';
+      echo '<div class="autocomplete-suggestion" '.join(' ', $result_data).'>'.join(' ', $result_title).'</div>';
     }
   }
 } else {

@@ -1,3 +1,3 @@
-UPDATE log, images
+UPDATE log
 SET log.image_id = images.id
 WHERE log.image_name = images.image_name;

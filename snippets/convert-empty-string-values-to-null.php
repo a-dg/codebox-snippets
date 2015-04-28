@@ -17,6 +17,6 @@ if(Arr::iterable($column_names)) {
 $sql_convert_empty_strings_to_null = sprintf(
   "UPDATE course_list
   SET %s",
-  implode(', ', $column_updates)
+  join(', ', $column_updates)
 );
 $wpdb->query($sql_convert_empty_strings_to_null);

@@ -15,7 +15,7 @@ public static function getArchiveList() {
     GROUP BY unique_year, unique_month
     ORDER BY unique_year DESC, unique_month DESC",
     $wpdb->posts,
-    'article' // static::getPostType()
+    static::getPostType()
   );
   $results = $wpdb->get_results($sql_get_archives, ARRAY_A);
   if(!Arr::iterable($results)) return null;

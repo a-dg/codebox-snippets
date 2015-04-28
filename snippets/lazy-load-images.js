@@ -29,6 +29,7 @@
     }, anim_dur);
   }
   function check_images() {
+    // TODO: incorporate eager loading from OIA
     var $lazy_imgs = $('img.' + lazy_class + ':not(.' + working_class + ')');
     var $lazy_bgs = $('.' + lazy_bg_class + '.' + faded_class + ':not(.' + working_class + ')');
     if(!$lazy_imgs.length && !$lazy_bgs.length) {
