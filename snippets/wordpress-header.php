@@ -23,7 +23,7 @@
   echo '<title>'.$full_title.'</title>';
   ?>
   
-  <?php //include dirname(__FILE__).'/incl-open-graph-meta.php'; ?>
+  <?php // include __DIR__.'/incl-open-graph-meta.php'; ?>
   
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   

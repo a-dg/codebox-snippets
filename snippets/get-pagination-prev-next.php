@@ -71,8 +71,8 @@ public static function getPaginationItems($current_page, $total_posts, $args=arr
     'max_pages' => 5,
     'per_page' => 10,
     'link_prefix' => null,
-    'previous_label' => '&hellip;',
-    'next_label' => '&hellip;',
+    'previous_label' => 'Previous',
+    'next_label' => 'Next',
     'is_ajax' => false,
     'is_select' => false,
   );
@@ -84,7 +84,7 @@ public static function getPaginationItems($current_page, $total_posts, $args=arr
   if($total_posts <= $per_page) return null;
   
   $pagination = array();
-  $page_count = ceil($total_posts / $per_page);
+  $page_count = (int) ceil($total_posts / $per_page);
   
   if($is_select) {
     $options = array();
@@ -109,32 +109,48 @@ public static function getPaginationItems($current_page, $total_posts, $args=arr
   // Set first and last page numbers to be displayed
   // between "previous" and "next" links
   $first_page_number = ($max_pages < $page_count)
-    ? max($current_page - floor($max_pages / 2), 1)
+    ? (int) max($current_page - floor($max_pages / 2), 1)
     : 1;
-  $last_page_number = min($first_page_number + ($max_pages - 1), $page_count);
+  $last_page_number = (int) min($first_page_number + ($max_pages - 1), $page_count);
   
   // Evaluate first page number again, for when
   // one of the last pages is selected
   $first_page_number = ($max_pages < $page_count)
-    ? min($first_page_number, $last_page_number - ($max_pages - 1))
+    ? (int) min($first_page_number, $last_page_number - ($max_pages - 1))
     : $first_page_number;
   
   if(!$is_ajax) {
     $link_prefix = $link_prefix.'/page/';
-    $link_prefix = preg_replace('/\/+/', '/', $link_prefix);
+    $link_prefix = preg_replace('/\/{2,}/', '/', $link_prefix);
   }
   
   // Previous link
-  if($first_page_number != 1) {
+  if($current_page !== 1) {
     $previous_link = (!$is_ajax)
-      ? $link_prefix.($first_page_number - 1).'/'
+      ? $link_prefix.($current_page - 1).'/'
       : '#';
     $pagination[] = sprintf(
-      '<li data-page="%d"><a href="%s">%s</a></li>',
-      ($first_page_number - 1),
+      '<li class="prev" data-page="%d"><a href="%s">%s</a></li>',
+      ($current_page - 1),
       $previous_link,
       $previous_label
     );
+  }
+  
+  // Page 1
+  if($first_page_number !== 1) {
+    $page_number_link = (!$is_ajax)
+      ? $link_prefix.'1/'
+      : '#';
+    $pagination[] = sprintf(
+      '<li data-page="1"><a href="%s">1</a></li>',
+      $page_number_link
+    );
+  }
+  
+  // Dots after page 1
+  if($first_page_number > 2) {
+    $pagination[] = '<li class="dots">&hellip;</li>';
   }
   
   // Page number links
@@ -154,14 +170,32 @@ public static function getPaginationItems($current_page, $total_posts, $args=arr
     );
   }
   
-  // Next link
-  if($last_page_number < $page_count) {
-    $next_link = (!$is_ajax)
-      ? $link_prefix.($last_page_number + 1).'/'
+  // Dots before last page
+  if($last_page_number < $page_count - 1) {
+    $pagination[] = '<li class="dots">&hellip;</li>';
+  }
+  
+  // Last page
+  if($last_page_number !== $page_count) {
+    $page_number_link = (!$is_ajax)
+      ? $link_prefix.$page_count.'/'
       : '#';
     $pagination[] = sprintf(
-      '<li data-page="%d"><a href="%s">%s</a></li>',
-      ($last_page_number + 1),
+      '<li data-page="%d"><a href="%s">%d</a></li>',
+      $page_count,
+      $page_number_link,
+      $page_count
+    );
+  }
+  
+  // Next link
+  if($current_page !== $page_count) {
+    $next_link = (!$is_ajax)
+      ? $link_prefix.($current_page + 1).'/'
+      : '#';
+    $pagination[] = sprintf(
+      '<li class="next" data-page="%d"><a href="%s">%s</a>',
+      ($current_page + 1),
       $next_link,
       $next_label
     );

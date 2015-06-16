@@ -1,0 +1,10 @@
+strong em,
+strong i,
+b em,
+b i,
+em strong,
+i strong,
+em b,
+i b {
+  font-style: normal;
+}

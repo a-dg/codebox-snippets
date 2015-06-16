@@ -1,5 +1,5 @@
 # Find
-url\('(.*\.[a-z]{3})'\)
+url\('(.*\.(png|gif|jpg))'\)
 
 # Replace
 url('$1?#{$version}')

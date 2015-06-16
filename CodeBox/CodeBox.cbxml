@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>1A520A7C-9662-4F41-BB7E-755C7DEAFF8B</UUID>
-        <nextObjectID>1079</nextObjectID>
+        <nextObjectID>1113</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -78,7 +78,7 @@ aW5kJywgJ3JlcGxhY2UnKQpXSEVSRSBwb3N0X3R5cGUgPSAncG9zdC10eXBlJzsK
     </object>
     <object type="TAG" id="z114">
         <attribute name="name" type="string">sql</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z129 z808 z113 z197 z622 z125 z195 z257 z120 z267 z1018 z823 z249 z635 z127 z964 z243 z225 z839 z683 z121 z810 z227 z955 z656 z115 z1016"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z257 z115 z127 z249 z823 z227 z267 z964 z113 z225 z810 z120 z197 z243 z1107 z1111 z1016 z129 z839 z683 z808 z1018 z955 z195 z1095 z125 z635 z622 z656 z121 z1102"></relationship>
     </object>
     <object type="SNIPPET" id="z115">
         <attribute name="name" type="string">Replace post meta key</attribute>
@@ -116,7 +116,7 @@ QVMgcCBPTiBwLklEID0gcG0ucG9zdF9pZApXSEVSRSBwLnBvc3RfdHlwZSA9ICdldmVudCc7Cg==
     </object>
     <object type="TAG" id="z119">
         <attribute name="name" type="string">wordpress</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z252 z129 z1059 z731 z898 z794 z195 z846 z967 z800 z677 z130 z970 z225 z848 z121 z1047 z115 z776 z909 z912 z786 z890 z120 z780 z782 z1051 z774 z835 z810 z127 z784 z1049 z227 z788 z886 z778 z772 z955 z844 z125 z675 z1061 z1053 z267 z204 z751 z249 z1022 z768 z239 z656"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z656 z776 z912 z768 z751 z784 z846 z1107 z731 z252 z898 z835 z786 z204 z890 z1082 z195 z675 z227 z127 z778 z129 z810 z239 z909 z267 z970 z788 z1061 z844 z955 z1053 z780 z1059 z130 z249 z772 z800 z782 z1022 z1049 z677 z886 z1111 z120 z1047 z774 z967 z848 z115 z125 z1051 z121 z225 z794"></relationship>
     </object>
     <object type="SNIPPET" id="z120">
         <attribute name="name" type="string">Select post meta by post type</attribute>
@@ -147,8 +147,8 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
     <object type="ASSET" id="z123">
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">convert-post-with-category-to-post-of-type.sql</attribute>
-        <attribute name="content" type="binary">IyBPbGQgY2F0ZWdvcnkgSUQ6IDUKIyBOZXcgcG9zdCB0eXBlOiAnZ3JhbnQnCgpVUERBVEUgd3Bf
-cG9zdHMgQVMgcAogIElOTkVSIEpPSU4gd3BfdGVybV9yZWxhdGlvbnNoaXBzIEFTIHRyIE9OIHAuSUQgPSB0ci5vYmplY3RfaWQKICBJTk5FUiBKT0lOIHdwX3Rlcm1fdGF4b25vbXkgQVMgdHQgT04gdHIudGVybV90YXhvbm9teV9pZCA9IHR0LnRlcm1fdGF4b25vbXlfaWQKICBJTk5FUiBKT0lOIHdwX3Rlcm1zIEFTIHQgT04gdC50ZXJtX2lkID0gdHQudGVybV9pZApTRVQgcC5wb3N0X3R5cGUgPSAnZ3JhbnQnCldIRVJFIHR0LnRheG9ub215ID0gJ2NhdGVnb3J5JwogIEFORCBwLnBvc3Rfc3RhdHVzID0gJ3B1Ymxpc2gnCiAgQU5EIHQudGVybV9pZCA9IDU7Cg==
+        <attribute name="content" type="binary">IyBPbGQgY2F0ZWdvcnkgSUQ6IDUKIyBOZXcgcG9zdCB0eXBlOiAnZ3JhbnQnClVQREFURSB3cF9w
+b3N0cyBBUyBwCiAgSU5ORVIgSk9JTiB3cF90ZXJtX3JlbGF0aW9uc2hpcHMgQVMgdHIgT04gcC5JRCA9IHRyLm9iamVjdF9pZAogIElOTkVSIEpPSU4gd3BfdGVybV90YXhvbm9teSBBUyB0dCBPTiB0ci50ZXJtX3RheG9ub215X2lkID0gdHQudGVybV90YXhvbm9teV9pZAogIElOTkVSIEpPSU4gd3BfdGVybXMgQVMgdCBPTiB0LnRlcm1faWQgPSB0dC50ZXJtX2lkClNFVCBwLnBvc3RfdHlwZSA9ICdncmFudCcKV0hFUkUgdHQudGF4b25vbXkgPSAnY2F0ZWdvcnknCiAgQU5EIHQudGVybV9pZCA9IDU7CgojIFJlbW92ZSBjYXRlZ29yaWVzIGZyb20gcG9zdHMKREVMRVRFCkZST00gd3BfdGVybV9yZWxhdGlvbnNoaXBzCldIRVJFIG9iamVjdF9pZCBJTiAoCiAgU0VMRUNUIElECiAgRlJPTSB3cF9wb3N0cwogIFdIRVJFIHBvc3RfdHlwZSA9ICdncmFudCcKKQpBTkQgdGVybV90YXhvbm9teV9pZCBJTiAoCiAgU0VMRUNUIHRlcm1fdGF4b25vbXlfaWQKICBGUk9NIHdwX3Rlcm1fdGF4b25vbXkKICBXSEVSRSB0YXhvbm9teSA9ICdjYXRlZ29yeScKKQo=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z121"></relationship>
     </object>
@@ -186,15 +186,15 @@ b250ZW50ID0gUkVQTEFDRShwb3N0X2NvbnRlbnQsIENPTkNBVChAZG9tYWluLCAnL3dwLWNvbnRlbnQv
     </object>
     <object type="ASSET" id="z128">
         <attribute name="sort" type="int32">-1</attribute>
-        <attribute name="path" type="string">replace-url-domain.sql</attribute>
-        <attribute name="content" type="binary">U0VUIEBmcm9tX2RvbWFpbiA9ICcnOwpTRVQgQHRvX2RvbWFpbiA9ICcnOwpTRVQgQHByZWZpeCA9
-ICd3cCc7CgpTRVQgQHMxID0gQ09OQ0FUKCdVUERBVEUgJywgQHByZWZpeCwgJ19wb3N0cyBTRVQgcG9zdF9jb250ZW50ID0gcmVwbGFjZShwb3N0X2NvbnRlbnQsICInLCBAZnJvbV9kb21haW4sJyIsICInLCBAdG9fZG9tYWluLCciKTsnKTsKU0VUIEBzMiA9IENPTkNBVCgnVVBEQVRFICcsIEBwcmVmaXgsICdfb3B0aW9ucyBTRVQgb3B0aW9uX3ZhbHVlID0gcmVwbGFjZShvcHRpb25fdmFsdWUsICInLCBAZnJvbV9kb21haW4sJyIsICInLCBAdG9fZG9tYWluLCciKSBXSEVSRSBvcHRpb25fbmFtZT0iaG9tZSIgT1Igb3B0aW9uX25hbWUgPSAic2l0ZXVybCInKTsKU0VUIEBzMyA9IENPTkNBVCgnVVBEQVRFICcsIEBwcmVmaXgsICdfcG9zdG1ldGEgU0VUIG1ldGFfdmFsdWUgPSByZXBsYWNlKG1ldGFfdmFsdWUsICInLCBAZnJvbV9kb21haW4sJyIsICInLCBAdG9fZG9tYWluLCciKTsnKTsKU0VUIEBzNCA9IENPTkNBVCgnVVBEQVRFICcsIEBwcmVmaXgsICdfcG9zdHMgU0VUIGd1aWQgPSByZXBsYWNlKGd1aWQsICInLCBAZnJvbV9kb21haW4sJyIsICInLCBAdG9fZG9tYWluLCciKTsnKTsKClBSRVBBUkUgczEgRlJPTSBAczE7CkVYRUNVVEUgczE7CkRFQUxMT0NBVEUgUFJFUEFSRSBzMTsKClBSRVBBUkUgczIgRlJPTSBAczI7CkVYRUNVVEUgczI7CkRFQUxMT0NBVEUgUFJFUEFSRSBzMjsKClBSRVBBUkUgczMgRlJPTSBAczM7CkVYRUNVVEUgczM7CkRFQUxMT0NBVEUgUFJFUEFSRSBzMzsKClBSRVBBUkUgczQgRlJPTSBAczQ7CkVYRUNVVEUgczQ7CkRFQUxMT0NBVEUgUFJFUEFSRSBzNDs=
+        <attribute name="path" type="string">replace-url-domain-in-database.sql</attribute>
+        <attribute name="content" type="binary">U0VUIEBmcm9tX2RvbWFpbiA9ICcvL2Zyb20uZGV2JzsKU0VUIEB0b19kb21haW4gPSAnLy90by5j
+b20nOwpTRVQgQHByZWZpeCA9ICd3cCc7CgpTRVQgQHMxID0gQ09OQ0FUKCdVUERBVEUgJywgQHByZWZpeCwgJ19wb3N0cyBTRVQgcG9zdF9jb250ZW50ID0gcmVwbGFjZShwb3N0X2NvbnRlbnQsICInLCBAZnJvbV9kb21haW4sJyIsICInLCBAdG9fZG9tYWluLCciKTsnKTsKU0VUIEBzMiA9IENPTkNBVCgnVVBEQVRFICcsIEBwcmVmaXgsICdfb3B0aW9ucyBTRVQgb3B0aW9uX3ZhbHVlID0gcmVwbGFjZShvcHRpb25fdmFsdWUsICInLCBAZnJvbV9kb21haW4sJyIsICInLCBAdG9fZG9tYWluLCciKSBXSEVSRSBvcHRpb25fbmFtZT0iaG9tZSIgT1Igb3B0aW9uX25hbWUgPSAic2l0ZXVybCInKTsKU0VUIEBzMyA9IENPTkNBVCgnVVBEQVRFICcsIEBwcmVmaXgsICdfcG9zdG1ldGEgU0VUIG1ldGFfdmFsdWUgPSByZXBsYWNlKG1ldGFfdmFsdWUsICInLCBAZnJvbV9kb21haW4sJyIsICInLCBAdG9fZG9tYWluLCciKTsnKTsKU0VUIEBzNCA9IENPTkNBVCgnVVBEQVRFICcsIEBwcmVmaXgsICdfcG9zdHMgU0VUIGd1aWQgPSByZXBsYWNlKGd1aWQsICInLCBAZnJvbV9kb21haW4sJyIsICInLCBAdG9fZG9tYWluLCciKTsnKTsKClBSRVBBUkUgczEgRlJPTSBAczE7CkVYRUNVVEUgczE7CkRFQUxMT0NBVEUgUFJFUEFSRSBzMTsKClBSRVBBUkUgczIgRlJPTSBAczI7CkVYRUNVVEUgczI7CkRFQUxMT0NBVEUgUFJFUEFSRSBzMjsKClBSRVBBUkUgczMgRlJPTSBAczM7CkVYRUNVVEUgczM7CkRFQUxMT0NBVEUgUFJFUEFSRSBzMzsKClBSRVBBUkUgczQgRlJPTSBAczQ7CkVYRUNVVEUgczQ7CkRFQUxMT0NBVEUgUFJFUEFSRSBzNDs=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z129"></relationship>
     </object>
     <object type="SNIPPET" id="z129">
-        <attribute name="name" type="string">Replace URL domain</attribute>
-        <attribute name="modified" type="date">448896792.04960298538208007812</attribute>
+        <attribute name="name" type="string">Replace URL domain in database</attribute>
+        <attribute name="modified" type="date">453647996.43478697538375854492</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z128"></relationship>
@@ -220,7 +220,7 @@ YXJyYXkpIHsKICAgICRodG1sID0gJyc7CiAgICB3aGlsZSgkbnVtX2NvbHMgPiAwKSB7CiAgICAgICRp
     </object>
     <object type="TAG" id="z132">
         <attribute name="name" type="string">php</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z924 z873 z130 z1004 z243 z203 z862 z1054 z1057 z922 z955 z972 z918 z683 z953 z723 z947 z920 z909 z864 z158 z898 z1000 z821 z892 z255 z945 z940 z639 z894 z727 z914 z798 z905 z629"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z924 z873 z130 z1004 z243 z203 z862 z1054 z1057 z922 z955 z972 z918 z683 z953 z1090 z723 z947 z1081 z920 z909 z864 z158 z898 z1000 z821 z892 z255 z945 z940 z639 z894 z727 z914 z798 z905 z629"></relationship>
     </object>
     <object type="ASSET" id="z133">
         <attribute name="content" type="binary">ZnVuY3Rpb24gc3BsaXRfbmF2X2ludG9fY29sdW1ucygkY2hpbGRfcGFnZV9pZHMsICRudW1fY29s
@@ -284,7 +284,7 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5
     </object>
     <object type="TAG" id="z145">
         <attribute name="name" type="string">terminal</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z990 z813 z665 z631 z650 z706 z207 z178 z151 z646 z648 z241 z704 z143 z232 z209 z211 z670 z815 z716 z148"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z631 z650 z143 z232 z267 z704 z670 z148 z209 z207 z706 z648 z646 z665 z990 z151 z241 z716 z815 z178 z211 z813"></relationship>
     </object>
     <object type="SNIPPET" id="z148">
         <attribute name="name" type="string">Remove .svn directories</attribute>
@@ -386,7 +386,7 @@ GgcIDxUdJygrMzc8PUJGTFFSV11iZ2xvcHJ0VSRudWxs0wkKCwwNDl8QD05TU3VicHJlZGljYXRlc18Q
     </object>
     <object type="TAG" id="z166">
         <attribute name="name" type="string">jquery</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1066 z162 z681 z1045 z171 z168 z627 z655 z880 z882 z679 z643 z215 z265 z877 z708 z1061 z163 z884"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z1088 z168 z679 z877 z1085 z265 z1100 z681 z1113 z882 z627 z1105 z708 z880 z884 z163 z215 z643 z162 z1045 z1066 z655 z1061 z171"></relationship>
     </object>
     <object type="ASSET" id="z167">
         <attribute name="sort" type="int32">1</attribute>
@@ -436,7 +436,7 @@ bml0X3BvcyA9ICQoJyNzaWRlYmFyJykub2Zmc2V0KCkudG9wOwp9KS5vbignc2Nyb2xsJywgZnVuY3Rp
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">html-entities.html</attribute>
         <attribute name="content" type="binary">JiM4MjExOyAg4oCTICBlbmRhc2gKJiM4MjEyOyAg4oCUICBlbWRhc2gKJiM4MjA5OyAg4oCRICBu
-b24tYnJlYWtpbmcgaHlwaGVuCiYjODIwMTsgICAgIHRoaW4gc3BhY2UKJiM4MjAzOyAgICAgemVyby13aWR0aCBzcGFjZQoKbm9uIGJyZWFraW5nIHNwYWNlIDogJm5ic3A7CmVuIHNwYWNlIDogJiM4MTk0OyBvciAmZW5zcDsKZW0gc3BhY2UgOiAmIzgxOTU7IG9yICZlbXNwOwozLXBlci1lbSBzcGFjZSA6ICYjODE5NjsKNC1wZXItZW0gc3BhY2UgOiAmIzgxOTc74oCFCjYtcGVyLWVtIHNwYWNlIDogJiM4MTk4O+KAhgpmaWd1cmUgc3BhY2UgOiAmIzgxOTk74oCHCnB1bmN0dWF0aW9uIHNwYWNlIDogJiM4MjAwO+KAiAp0aGluIHNwYWNlIDogJiM4MjAxO+KAiW9yICZ0aGluc3A7CmhhaXIgc3BhY2UgOiAmIzgyMDI7CgomIzgyMjA7ICDigJwgIHF1b3RlIGRvdWJsZSBsZWZ0CiYjODIyMTsgIOKAnSAgcXVvdGUgZG91YmxlIHJpZ2h0CiYjODIxNjsgIOKAmCAgcXVvdGUgbGVmdAomIzgyMTc7ICDigJkgIHF1b3RlIHJpZ2h0CgombGFxdW87ICDCqyAgZ3VpbGxtZXQgZG91YmxlIGxlZnQKJnJhcXVvOyAgwrsgIGd1aWxsbWV0IGRvdWJsZSByaWdodAombHNhcXVvOyDigLkgIGd1aWxsbWV0IGxlZnQKJnJzYXF1bzsg4oC6ICBndWlsbG1ldCByaWdodAoKJiM4NDgyOyAg4oSiICB0cmFkZW1hcmsKJiN4MjcxMzsg4pyTICBjaGVja21hcmsK
+b24tYnJlYWtpbmcgaHlwaGVuCiZzaHk7ICAgIC0gIGRpc2NyZXRpb25hcnkgaHlwaGVuIChzb2Z0IGh5cGhlbikKJiM4MjAxOyAgICAgdGhpbiBzcGFjZQomIzgyMDM7ICAgICB6ZXJvLXdpZHRoIHNwYWNlCgpub24gYnJlYWtpbmcgc3BhY2UgOiAmbmJzcDsKZW4gc3BhY2UgOiAmIzgxOTQ7IG9yICZlbnNwOwplbSBzcGFjZSA6ICYjODE5NTsgb3IgJmVtc3A7CjMtcGVyLWVtIHNwYWNlIDogJiM4MTk2Owo0LXBlci1lbSBzcGFjZSA6ICYjODE5NzvigIUKNi1wZXItZW0gc3BhY2UgOiAmIzgxOTg74oCGCmZpZ3VyZSBzcGFjZSA6ICYjODE5OTvigIcKcHVuY3R1YXRpb24gc3BhY2UgOiAmIzgyMDA74oCICnRoaW4gc3BhY2UgOiAmIzgyMDE74oCJb3IgJnRoaW5zcDsKaGFpciBzcGFjZSA6ICYjODIwMjsKCiYjODIyMDsgIOKAnCAgcXVvdGUgZG91YmxlIGxlZnQKJiM4MjIxOyAg4oCdICBxdW90ZSBkb3VibGUgcmlnaHQKJiM4MjE2OyAg4oCYICBxdW90ZSBsZWZ0CiYjODIxNzsgIOKAmSAgcXVvdGUgcmlnaHQKCiZsYXF1bzsgIMKrICBndWlsbG1ldCBkb3VibGUgbGVmdAomcmFxdW87ICDCuyAgZ3VpbGxtZXQgZG91YmxlIHJpZ2h0CiZsc2FxdW87IOKAuSAgZ3VpbGxtZXQgbGVmdAomcnNhcXVvOyDigLogIGd1aWxsbWV0IHJpZ2h0CgomIzg0ODI7ICDihKIgIHRyYWRlbWFyawomI3gyNzEzOyDinJMgIGNoZWNrbWFyawo=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z174"></relationship>
     </object>
@@ -670,7 +670,7 @@ CiAgICAkLnRyaW0oJHRoaXMudGV4dCgpKS5sZW5ndGgKICAgIHx8ICR0aGlzLmhhcygnaW1nJykubGVu
     </object>
     <object type="TAG" id="z223">
         <attribute name="name" type="string">css</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z905 z696 z228 z888 z640 z234 z637 z760 z1026 z756 z261 z940 z231 z970 z894 z262 z702 z720 z896"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z228 z720 z696 z760 z1026 z894 z702 z896 z1109 z234 z637 z231 z262 z640 z756 z940 z261 z888 z970 z905"></relationship>
     </object>
     <object type="ASSET" id="z224">
         <attribute name="sort" type="int32">-1</attribute>
@@ -801,8 +801,8 @@ ICFpc3NldCgkcXZbJ3Bvc3RfdHlwZSddKSkgewogICAgJHF2Wydwb3N0X3R5cGUnXSA9IGFycmF5KCdw
     <object type="ASSET" id="z242">
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">database-connection-through-php.php</attribute>
-        <attribute name="content" type="binary">Ly8gbG9nIHNlYXJjaCB0ZXJtcwokZGIgPSBteXNxbGlfY29ubmVjdCgnbG9jYWxob3N0JywgJ3Vz
-ZXInLCAncGFzc3dvcmQnLCAnZGF0YWJhc2VfbmFtZScpOwoKJHNlYXJjaF9sb2cgPSAiSU5TRVJUIElOVE8gZGF0YWJhc2VfbmFtZSAoc2VhcmNoX3Rlcm1zKSBWQUxVRVMgKCciLm15c3FsX3JlYWxfZXNjYXBlX3N0cmluZygkdGV4dF9saXN0KS4iJykiOwoKaWYobXlzcWxpX2Nvbm5lY3RfZXJybm8oKSkgewogIHByaW50ZigiQ29ubmVjdCBmYWlsZWQ6ICVzXG4iLCBteXNxbGlfY29ubmVjdF9lcnJvcigpKTsKICBleGl0KCk7Cn0KCiRyZXN1bHQgPSBteXNxbGlfcXVlcnkoJGRiLCAkc2VhcmNoX2xvZyk7CmlmKCRyZXN1bHQgPT09IGZhbHNlKSB7CiAgZGllKG15c3FsX2Vycm9yKCkpOwp9Cm15c3FsaV9mcmVlX3Jlc3VsdCgkcmVzdWx0KTsKbXlzcWxpX2Nsb3NlKCRkYik7Cg==
+        <attribute name="content" type="binary">JGRiID0gbXlzcWxpX2Nvbm5lY3QoJ2xvY2FsaG9zdCcsICd1c2VyJywgJ3Bhc3N3b3JkJywgJ2Rh
+dGFiYXNlX25hbWUnKTsKCiRzcWwgPSAiSU5TRVJUIElOVE8gZGF0YWJhc2VfbmFtZSAoc2VhcmNoX3Rlcm1zKSBWQUxVRVMgKCciLm15c3FsaV9yZWFsX2VzY2FwZV9zdHJpbmcoJHRleHRfbGlzdCkuIicpIjsKCmlmKG15c3FsaV9jb25uZWN0X2Vycm5vKCkpIHsKICBwcmludGYoIkNvbm5lY3QgZmFpbGVkOiAlc1xuIiwgbXlzcWxpX2Nvbm5lY3RfZXJyb3IoKSk7CiAgZXhpdCgpOwp9CgokcmVzdWx0ID0gbXlzcWxpX3F1ZXJ5KCRkYiwgJHNxbCk7CmlmKCRyZXN1bHQgPT09IGZhbHNlKSB7CiAgZGllKG15c3FsX2Vycm9yKCkpOwp9Cm15c3FsaV9mcmVlX3Jlc3VsdCgkcmVzdWx0KTsKbXlzcWxpX2Nsb3NlKCRkYik7Cg==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z243"></relationship>
     </object>
@@ -963,18 +963,18 @@ CiAgICAgIHByZXZfd2luZG93X3dpZHRoLAogICAgICB0b3RhbF9yZXNpemVfZGlzdGFuY2UsCiAgICAg
     <object type="ASSET" id="z266">
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">log-sql-queries-run-by-wordpress.sh</attribute>
-        <attribute name="content" type="binary">U0VUIEdMT0JBTCBnZW5lcmFsX2xvZyA9ICdPTic7ClNIT1cgVkFSSUFCTEVTIFdIRVJFIFZhcmlh
-YmxlX25hbWUgPSAnZ2VuZXJhbF9sb2dfZmlsZSc7CiMgb3IKU0VMRUNUIEBAZ2VuZXJhbF9sb2dfZmlsZTsKCiMgaW4gVGVybWluYWw6CnRhaWwgLWYgW3BhdGggdG8gZmlsZV0KdGFpbCAtZiAvQXBwbGljYXRpb25zL01BTVAvZGIvbXlzcWwvUmV0aW5hLmxvZw==
+        <attribute name="content" type="binary">U0VUIEdMT0JBTCBnZW5lcmFsX2xvZyA9ICdPTic7ClNFTEVDVCBAQGdlbmVyYWxfbG9nX2ZpbGU7
+CiMgT3I6IFNIT1cgVkFSSUFCTEVTIFdIRVJFIFZhcmlhYmxlX25hbWUgPSAnZ2VuZXJhbF9sb2dfZmlsZSc7CgojIEluIFRlcm1pbmFsOgp0YWlsIC1mIFtwYXRoIHRvIGZpbGVdCnRhaWwgLWYgL0FwcGxpY2F0aW9ucy9NQU1QL2RiL215c3FsL1JldGluYS5sb2cKdGFpbCAtZiAvTGlicmFyeS9BcHBsaWNhdGlvblwgU3VwcG9ydC9hcHBzb2x1dGUvTUFNUFwgUFJPL2RiL215c3FsL1JldGluYS5sb2c=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z267"></relationship>
     </object>
     <object type="SNIPPET" id="z267">
         <attribute name="name" type="string">Log SQL queries run by WordPress</attribute>
-        <attribute name="modified" type="date">449843533.97114199399948120117</attribute>
+        <attribute name="modified" type="date">455682586.95460200309753417969</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z266"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z119 z114"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z119 z145 z114"></relationship>
     </object>
     <object type="SNIPPET" id="z622">
         <attribute name="name" type="string">Create new database user</attribute>
@@ -1227,6 +1227,7 @@ dGlhbC1zY2FsZT0xLjAsIG1pbmltdW0tc2NhbGU9MS4wLCBtYXhpbXVtLXNjYWxlPTEuMCwgdXNlci1z
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z119 z114"></relationship>
     </object>
     <object type="ASSET" id="z659">
+        <attribute name="notes" type="string">Related to "Group posts by multiple taxonomies"</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">select-meta-values-and-taxonomy-terms-as-lists.sql</attribute>
         <attribute name="content" type="binary">U0VMRUNUCiAgcHAucG9zdF90aXRsZSBBUyB0aXRsZSwKICBwcC5wb3N0X2RhdGUgQVMgZGF0ZV9w
@@ -1236,7 +1237,7 @@ dWJsaXNoZWQsCiAgUkVQTEFDRShzdGF0ZXMsICcmYW1wOycsICcmJykgQVMgc3RhdGVzLAogIFJFUExB
     </object>
     <object type="TAG" id="z663">
         <attribute name="name" type="string">scss</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z940 z262 z760 z756 z875 z213 z665 z745 z228 z696 z741 z702 z743"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z665 z702 z743 z1098 z756 z741 z262 z940 z760 z228 z745 z213 z875 z696"></relationship>
     </object>
     <object type="ASSET" id="z664">
         <attribute name="sort" type="int32">-1</attribute>
@@ -1307,7 +1308,7 @@ dGF0dXMnLCBhcnJheSgnaW5jbHVkZSc9PiR0ZXJtX2lkKSkpOwogICRhbGxfdGVybXNbJ3N0YXR1cydd
         <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">lazy-load-images.js</attribute>
         <attribute name="content" type="binary">OyhmdW5jdGlvbigkKXsKICB2YXIgYW5pbV9kdXIgPSAzMDA7CiAgdmFyIGxhenlfY2xhc3MgPSAn
-bGF6eSc7CiAgdmFyIGxhenlfYmdfY2xhc3MgPSAnbGF6eS1iZyc7CiAgdmFyIHdvcmtpbmdfY2xhc3MgPSAnd29ya2luZyc7CiAgdmFyIGZhZGVkX2NsYXNzID0gJ2ZhZGVkJzsKICB2YXIgaXNfd2Via2l0ID0gL3dlYmtpdC8udGVzdChuYXZpZ2F0b3IudXNlckFnZW50LnRvTG93ZXJDYXNlKCkpOwogIHZhciAkYm9keSA9IG51bGw7CiAgdmFyIHBhZ2VfbG9hZGVkID0gZmFsc2U7IC8vIFRPRE86IHVzZSB0aGlzIHNvbWVob3cKICAKICB2YXIgdGhyb3R0bGVfY2hlY2tfaW1hZ2VzID0gJC50aHJvdHRsZShmdW5jdGlvbigpewogICAgY2hlY2tfaW1hZ2VzKCk7CiAgfSwgMjAwKTsKICAKICAKICAkKGZ1bmN0aW9uKCl7CiAgICAvLyByZWFkeQogICAgJGJvZHkgPSAkKGlzX3dlYmtpdCA/ICdib2R5JyA6ICdodG1sJyk7CiAgICAkKHdpbmRvdykKICAgICAgLm9uKCdsb2FkJywgd2luZG93X2xvYWQpCiAgICAgIC5vbignc2Nyb2xsLicgKyBsYXp5X2NsYXNzLCB0aHJvdHRsZV9jaGVja19pbWFnZXMpCiAgICAgIC5vbigncmVzaXplLicgKyBsYXp5X2NsYXNzLCB0aHJvdHRsZV9jaGVja19pbWFnZXMpOwogIH0pOwogIAogIAogIGZ1bmN0aW9uIHdpbmRvd19sb2FkKCkgewogICAgc2V0VGltZW91dChmdW5jdGlvbigpewogICAgICBjaGVja19pbWFnZXMoKTsKICAgIH0sIGFuaW1fZHVyKTsKICB9CiAgZnVuY3Rpb24gY2hlY2tfaW1hZ2VzKCkgewogICAgLy8gVE9ETzogaW5jb3Jwb3JhdGUgZWFnZXIgbG9hZGluZyBmcm9tIE9JQQogICAgdmFyICRsYXp5X2ltZ3MgPSAkKCdpbWcuJyArIGxhenlfY2xhc3MgKyAnOm5vdCguJyArIHdvcmtpbmdfY2xhc3MgKyAnKScpOwogICAgdmFyICRsYXp5X2JncyA9ICQoJy4nICsgbGF6eV9iZ19jbGFzcyArICcuJyArIGZhZGVkX2NsYXNzICsgJzpub3QoLicgKyB3b3JraW5nX2NsYXNzICsgJyknKTsKICAgIGlmKCEkbGF6eV9pbWdzLmxlbmd0aCAmJiAhJGxhenlfYmdzLmxlbmd0aCkgewogICAgICAkKHdpbmRvdykKICAgICAgICAub2ZmKCdzY3JvbGwuJyArIGxhenlfY2xhc3MpCiAgICAgICAgLm9mZigncmVzaXplLicgKyBsYXp5X2NsYXNzKTsKICAgIH0KICAgICRsYXp5X2ltZ3MuZWFjaChmdW5jdGlvbigpewogICAgICAkKHRoaXMpLmxhenlMb2FkKCk7CiAgICB9KTsKICAgICRsYXp5X2Jncy5lYWNoKGZ1bmN0aW9uKCl7CiAgICAgICQodGhpcykubGF6eUxvYWRCZygpOwogICAgfSk7CiAgfQogIGZ1bmN0aW9uIGlzX2luX3JhbmdlKCRvYmosIGxvb2thcm91bmQpIHsKICAgIGlmKCEkb2JqLmlzKCc6dmlzaWJsZScpKSByZXR1cm4gZmFsc2U7CiAgICAKICAgIC8vIExvb2thcm91bmQgc2NhbGVzIHRoZSByZWdpb24gdG8gYmUgc2Nhbm5lZCBmb3IgdW5sb2FkZWQgaW1hZ2VzOgogICAgLy8gMCA9IE9ubHkgbG9hZCBpbWFnZXMgdGhhdCBhcmUgdmlzaWJsZSBpbiB0aGUgdmlld3BvcnQgKGV2ZW4gYSBzaW5nbGUgcGl4ZWwgcm93KQogICAgLy8gMC41ID0gTG9vayBvdXRzaWRlIG9mIHRoZSB2aWV3cG9ydCBieSBhbiBhZGRpdGlvbmFsIDUwJSBvZiBpdHMgaGVpZ2h0CiAgICB2YXIgb2JqX3RvcCA9ICRvYmoub2Zmc2V0KCkudG9wOwogICAgdmFyIG9ial9oZWlnaHQgPSAkb2JqLmlubmVySGVpZ2h0KCk7CiAgICB2YXIgd2luZG93X3RvcCA9ICRib2R5LnNjcm9sbFRvcCgpOwogICAgdmFyIHdpbmRvd19oZWlnaHQgPSAkKHdpbmRvdykuaGVpZ2h0KCk7CiAgICAKICAgIHZhciB0b3BfaW5fcmFuZ2UgPSAob2JqX3RvcCA8IHdpbmRvd190b3AgKyAod2luZG93X2hlaWdodCAqICgxICsgbG9va2Fyb3VuZCkpKTsKICAgIHZhciBib3R0b21faW5fcmFuZ2UgPSAob2JqX3RvcCArIG9ial9oZWlnaHQgPiB3aW5kb3dfdG9wIC0gKHdpbmRvd19oZWlnaHQgKiBsb29rYXJvdW5kKSk7CiAgICByZXR1cm4gKHRvcF9pbl9yYW5nZSAmJiBib3R0b21faW5fcmFuZ2UpOwogIH0KICAKICAKICAkLmZuLmxhenlMb2FkID0gZnVuY3Rpb24oKXsKICAgIHZhciAkaW1nID0gdGhpczsKICAgIGlmKCFpc19pbl9yYW5nZSgkaW1nLCAwLjI1KSkgcmV0dXJuIGZhbHNlOwogICAgCiAgICB2YXIgbmV3X2ltYWdlID0gbmV3IEltYWdlKCk7CiAgICB2YXIgbmV3X3NvdXJjZSA9ICRpbWcuYXR0cignZGF0YS1zb3VyY2UnKTsKICAgICQobmV3X2ltYWdlKS5sb2FkKGZ1bmN0aW9uKCl7CiAgICAgICRpbWcuYXR0cignc3JjJywgbmV3X3NvdXJjZSkKICAgICAgICAucmVtb3ZlQXR0cignc3R5bGUgZGF0YS1zb3VyY2UnKQogICAgICAgIC5yZW1vdmVDbGFzcyh3b3JraW5nX2NsYXNzKTsKICAgIH0pLmF0dHIoJ3NyYycsIG5ld19zb3VyY2UpOwogICAgJGltZy5hZGRDbGFzcyh3b3JraW5nX2NsYXNzKS5yZW1vdmVDbGFzcyhsYXp5X2NsYXNzKTsKICB9OwogICQuZm4ubGF6eUxvYWRCZyA9IGZ1bmN0aW9uKCl7CiAgICB2YXIgJGJnID0gdGhpczsKICAgIGlmKCFpc19pbl9yYW5nZSgkYmcsIDAuMjUpKSByZXR1cm4gZmFsc2U7CiAgICAKICAgICRiZy5hZGRDbGFzcyh3b3JraW5nX2NsYXNzKTsKICAgIHZhciAkY29udGFpbmVyID0gJGJnLnBhcmVudCgpOwogICAgdmFyIG5ld19pbWFnZSA9IG5ldyBJbWFnZSgpOwogICAgJChuZXdfaW1hZ2UpLm9uKCdsb2FkJywgZnVuY3Rpb24oKXsKICAgICAgJGJnLmNzcygnYmFja2dyb3VuZC1pbWFnZScsICd1cmwoXCcnICsgJGJnLmF0dHIoJ2RhdGEtaW1hZ2UnKSArICdcJyknKTsKICAgICAgJGJnLnJlbW92ZUNsYXNzKGZhZGVkX2NsYXNzKTsKICAgICAgc2V0VGltZW91dChmdW5jdGlvbigpewogICAgICAgICRiZy5yZW1vdmVDbGFzcyh3b3JraW5nX2NsYXNzKTsKICAgICAgICBpZighJGNvbnRhaW5lci5jaGlsZHJlbignLicgKyBsYXp5X2JnX2NsYXNzICsgJy4nICsgZmFkZWRfY2xhc3MpLmxlbmd0aCkgewogICAgICAgICAgJGNvbnRhaW5lci5hZGRDbGFzcygnbG9hZGVkJykuZmluZCgnLicgKyBsYXp5X2JnX2NsYXNzKS5yZW1vdmUoKTsKICAgICAgICAgIC8vIFRPRE86IHdoeSByZW1vdmUgLmxhenktYmcgZWxlbWVudHM/CiAgICAgICAgfQogICAgICB9LCBhbmltX2R1cik7CiAgICB9KS5hdHRyKCdzcmMnLCAkYmcuYXR0cignZGF0YS1pbWFnZScpKTsKICB9Owp9KShqUXVlcnkpOwo=
+bGF6eSc7CiAgdmFyIGxhenlfYmdfY2xhc3MgPSAnbGF6eS1iZyc7CiAgdmFyIGVhZ2VyX2NsYXNzID0gJ2VhZ2VyJzsKICB2YXIgd29ya2luZ19jbGFzcyA9ICd3b3JraW5nJzsKICB2YXIgZG9uZV9jbGFzcyA9ICdkb25lJzsKICB2YXIgaW1hZ2VfYXR0ciA9ICdkYXRhLWltYWdlJzsKICB2YXIgbm9uX2VtcHR5X2ltYWdlX2F0dHIgPSAnWycgKyBpbWFnZV9hdHRyICsgJyE9IiJdJzsKICB2YXIgaXNfd2Via2l0ID0gL3dlYmtpdC8udGVzdChuYXZpZ2F0b3IudXNlckFnZW50LnRvTG93ZXJDYXNlKCkpOwogIHZhciAkYm9keSA9IG51bGw7CiAgCiAgdmFyIHRocm90dGxlX2NoZWNrX2ltYWdlcyA9ICQudGhyb3R0bGUoZnVuY3Rpb24oKXsKICAgIGNoZWNrX2ltYWdlcygpOwogIH0sIDIwMCk7CiAgCiAgCiAgJChmdW5jdGlvbigpewogICAgJGJvZHkgPSAkKGlzX3dlYmtpdCA/ICdib2R5JyA6ICdodG1sJyk7CiAgICAkKHdpbmRvdykKICAgICAgLm9uKCdsb2FkJywgd2luZG93X2xvYWQpCiAgICAgIC5vbignc2Nyb2xsLicgKyBsYXp5X2NsYXNzLCB0aHJvdHRsZV9jaGVja19pbWFnZXMpCiAgICAgIC5vbigncmVzaXplLicgKyBsYXp5X2NsYXNzLCB0aHJvdHRsZV9jaGVja19pbWFnZXMpOwogICAgCiAgICAvLyBDaGVjayBzbGlkZSBpbWFnZXMgaW1tZWRpYXRlbHkKICAgIGNoZWNrX2ltYWdlcygndWwuc2xpZGVzJyk7CiAgfSk7CiAgCiAgCiAgZnVuY3Rpb24gd2luZG93X2xvYWQoKSB7CiAgICBzZXRUaW1lb3V0KGZ1bmN0aW9uKCl7CiAgICAgIGNoZWNrX2ltYWdlcygpOwogICAgfSwgYW5pbV9kdXIpOwogIH0KICBmdW5jdGlvbiBjaGVja19pbWFnZXMoY29udGFpbmVyX3NlbGVjdG9yKSB7CiAgICBpZihjb250YWluZXJfc2VsZWN0b3IgPT09IHVuZGVmaW5lZCB8fCBjb250YWluZXJfc2VsZWN0b3IgPT09IG51bGwpIHsKICAgICAgY29udGFpbmVyX3NlbGVjdG9yID0gJyc7CiAgICB9IGVsc2UgewogICAgICBjb250YWluZXJfc2VsZWN0b3IgKz0gJyAnOwogICAgICBpZighJCgkLnRyaW0oY29udGFpbmVyX3NlbGVjdG9yKSkubGVuZ3RoKSByZXR1cm4gZmFsc2U7CiAgICB9CiAgICB2YXIgdW5sb2FkZWRfaW1hZ2Vfc2VsZWN0b3IgPSBjb250YWluZXJfc2VsZWN0b3IKICAgICAgKyAnaW1nLicgKyBsYXp5X2NsYXNzCiAgICAgICsgJzpub3QoLicgKyB3b3JraW5nX2NsYXNzICsgJyknCiAgICAgICsgJzpub3QoLicgKyBkb25lX2NsYXNzICsgJyknCiAgICAgICsgbm9uX2VtcHR5X2ltYWdlX2F0dHI7CiAgICB2YXIgdW5sb2FkZWRfYmdfc2VsZWN0b3IgPSBjb250YWluZXJfc2VsZWN0b3IKICAgICAgKyAnLicgKyBsYXp5X2JnX2NsYXNzCiAgICAgICsgJzpub3QoLicgKyB3b3JraW5nX2NsYXNzICsgJyknCiAgICAgICsgJzpub3QoLicgKyBkb25lX2NsYXNzICsgJyknCiAgICAgICsgbm9uX2VtcHR5X2ltYWdlX2F0dHI7CiAgICB2YXIgaWdub3JlX3JhbmdlID0gISFjb250YWluZXJfc2VsZWN0b3IubGVuZ3RoOwogICAgCiAgICB2YXIgJGVhZ2VyID0gJCgnLicgKyBlYWdlcl9jbGFzcyArIG5vbl9lbXB0eV9pbWFnZV9hdHRyKTsKICAgIGlmKCRlYWdlci5sZW5ndGgpIHsKICAgICAgJGVhZ2VyLmZpbHRlcih1bmxvYWRlZF9pbWFnZV9zZWxlY3RvcikubGF6eUxvYWQoaWdub3JlX3JhbmdlKTsKICAgICAgJGVhZ2VyLmZpbHRlcih1bmxvYWRlZF9iZ19zZWxlY3RvcikubGF6eUxvYWRCZyhpZ25vcmVfcmFuZ2UpOwogICAgICByZXR1cm4gZmFsc2U7CiAgICB9CiAgICB2YXIgJGxhenlfaW1ncyA9ICQodW5sb2FkZWRfaW1hZ2Vfc2VsZWN0b3IpOwogICAgdmFyICRsYXp5X2JncyA9ICQodW5sb2FkZWRfYmdfc2VsZWN0b3IpOwogICAgaWYoISRsYXp5X2ltZ3MubGVuZ3RoICYmICEkbGF6eV9iZ3MubGVuZ3RoKSB7CiAgICAgICQod2luZG93KQogICAgICAgIC5vZmYoJ3Njcm9sbC4nICsgbGF6eV9jbGFzcykKICAgICAgICAub2ZmKCdyZXNpemUuJyArIGxhenlfY2xhc3MpOwogICAgfQogICAgJGxhenlfaW1ncy5lYWNoKGZ1bmN0aW9uKCl7CiAgICAgICQodGhpcykubGF6eUxvYWQoaWdub3JlX3JhbmdlKTsKICAgIH0pOwogICAgJGxhenlfYmdzLmVhY2goZnVuY3Rpb24oKXsKICAgICAgJCh0aGlzKS5sYXp5TG9hZEJnKGlnbm9yZV9yYW5nZSk7CiAgICB9KTsKICB9CiAgZnVuY3Rpb24gaXNfaW5fcmFuZ2UoJG9iaiwgbG9va2Fyb3VuZCkgewogICAgaWYoISRvYmouaXMoJzp2aXNpYmxlJykpIHJldHVybiBmYWxzZTsKICAgIAogICAgLy8gTG9va2Fyb3VuZCBzY2FsZXMgdGhlIHJlZ2lvbiB0byBiZSBzY2FubmVkIGZvciB1bmxvYWRlZCBpbWFnZXMKICAgIC8vIDAgPSBPbmx5IGxvYWQgaW1hZ2VzIHRoYXQgYXJlIHZpc2libGUgaW4gdGhlIHZpZXdwb3J0IChldmVuIGEgc2luZ2xlIHBpeGVsIHJvdykKICAgIC8vIDAuNSA9IExvb2sgb3V0c2lkZSBvZiB0aGUgdmlld3BvcnQgYnkgYW4gYWRkaXRpb25hbCA1MCUgb2YgaXRzIGhlaWdodAogICAgdmFyIG9ial90b3AgPSAkb2JqLm9mZnNldCgpLnRvcDsKICAgIHZhciBvYmpfaGVpZ2h0ID0gJG9iai5pbm5lckhlaWdodCgpOwogICAgdmFyIHdpbmRvd190b3AgPSAkYm9keS5zY3JvbGxUb3AoKTsKICAgIHZhciB3aW5kb3dfaGVpZ2h0ID0gJCh3aW5kb3cpLmhlaWdodCgpOwogICAgCiAgICB2YXIgdG9wX2luX3JhbmdlID0gKG9ial90b3AgPCB3aW5kb3dfdG9wICsgKHdpbmRvd19oZWlnaHQgKiAoMSArIGxvb2thcm91bmQpKSk7CiAgICB2YXIgYm90dG9tX2luX3JhbmdlID0gKG9ial90b3AgKyBvYmpfaGVpZ2h0ID4gd2luZG93X3RvcCAtICh3aW5kb3dfaGVpZ2h0ICogbG9va2Fyb3VuZCkpOwogICAgcmV0dXJuICh0b3BfaW5fcmFuZ2UgJiYgYm90dG9tX2luX3JhbmdlKTsKICB9CiAgCiAgCiAgJC5mbi5sYXp5TG9hZCA9IGZ1bmN0aW9uKGlnbm9yZV9yYW5nZSl7CiAgICB2YXIgJGltZyA9IHRoaXM7CiAgICBpZigkaW1nLmhhc0NsYXNzKGRvbmVfY2xhc3MpKSByZXR1cm4gZmFsc2U7CiAgICBpZighaWdub3JlX3JhbmdlICYmICFpc19pbl9yYW5nZSgkaW1nLCAwLjI1KSkgcmV0dXJuIGZhbHNlOwogICAgCiAgICB2YXIgaW1hZ2VfdXJsID0gJGltZy5hdHRyKGltYWdlX2F0dHIpOwogICAgdmFyIG5ld19pbWFnZSA9IG5ldyBJbWFnZSgpOwogICAgJChuZXdfaW1hZ2UpLmxvYWQoZnVuY3Rpb24oKXsKICAgICAgJGltZwogICAgICAgIC5hdHRyKCdzcmMnLCBpbWFnZV91cmwpCiAgICAgICAgLnJlbW92ZUF0dHIoJ3N0eWxlICcgKyBpbWFnZV9hdHRyKQogICAgICAgIC5yZW1vdmVDbGFzcyh3b3JraW5nX2NsYXNzKQogICAgICAgIC5hZGRDbGFzcyhkb25lX2NsYXNzKTsKICAgIH0pLmF0dHIoJ3NyYycsIGltYWdlX3VybCk7CiAgICAkaW1nLmFkZENsYXNzKHdvcmtpbmdfY2xhc3MpLnJlbW92ZUNsYXNzKGxhenlfY2xhc3MpOwogIH07CiAgJC5mbi5sYXp5TG9hZEJnID0gZnVuY3Rpb24oaWdub3JlX3JhbmdlLCByZW1vdmVfd2hlbl9sb2FkZWQpewogICAgdmFyICRiZyA9IHRoaXM7CiAgICBpZigkYmcuaGFzQ2xhc3MoZG9uZV9jbGFzcykpIHJldHVybiBmYWxzZTsKICAgIGlmKCFpZ25vcmVfcmFuZ2UgJiYgIWlzX2luX3JhbmdlKCRiZywgMC4yNSkpIHJldHVybiBmYWxzZTsKICAgIAogICAgJGJnLmFkZENsYXNzKHdvcmtpbmdfY2xhc3MpOwogICAgdmFyIGltYWdlX3VybCA9ICRiZy5hdHRyKGltYWdlX2F0dHIpOwogICAgCiAgICB2YXIgbmV3X2ltYWdlID0gbmV3IEltYWdlKCk7CiAgICAkKG5ld19pbWFnZSkub24oJ2xvYWQnLCBmdW5jdGlvbigpewogICAgICAkYmcKICAgICAgICAuY3NzKCdiYWNrZ3JvdW5kLWltYWdlJywgJ3VybChcJycgKyBpbWFnZV91cmwgKyAnXCcpJykKICAgICAgICAucmVtb3ZlQXR0cihpbWFnZV9hdHRyKQogICAgICAgIC5yZW1vdmVDbGFzcyh3b3JraW5nX2NsYXNzKQogICAgICAgIC5hZGRDbGFzcyhkb25lX2NsYXNzKTsKICAgICAgaWYoJGJnLmhhc0NsYXNzKGVhZ2VyX2NsYXNzKSkgewogICAgICAgICRiZy5yZW1vdmVDbGFzcyhlYWdlcl9jbGFzcyk7CiAgICAgICAgY2hlY2tfaW1hZ2VzKCk7CiAgICAgIH0KICAgICAgCiAgICAgIC8vIE9wdGlvbmFsbHkgcmVtb3ZlIC5sYXp5LWJnIGVsZW1lbnRzIGlmIC5sb2FkZWQgY29udGFpbmVyIGhhcwogICAgICAvLyBhIGJhY2tncm91bmQgaW1hZ2UgdGhhdCBzaG91bGQgYmUgZGlzcGxheWVkIG9uY2UgYWxsIG90aGVyCiAgICAgIC8vIGJhY2tncm91bmRzIGhhdmUgbG9hZGVkCiAgICAgIGlmKHJlbW92ZV93aGVuX2xvYWRlZCkgewogICAgICAgIHNldFRpbWVvdXQoZnVuY3Rpb24oKXsKICAgICAgICAgIHZhciAkY29udGFpbmVyID0gJGJnLnBhcmVudCgpOwogICAgICAgICAgaWYoISRjb250YWluZXIuY2hpbGRyZW4oCiAgICAgICAgICAgICcuJyArIGxhenlfYmdfY2xhc3MKICAgICAgICAgICAgKyAnOm5vdCgnICsgd29ya2luZ19jbGFzcyArICcpJwogICAgICAgICAgICArICc6bm90KCcgKyBkb25lX2NsYXNzICsgJyknCiAgICAgICAgICApLmxlbmd0aCkgewogICAgICAgICAgICAkY29udGFpbmVyLmFkZENsYXNzKCdsb2FkZWQnKS5jaGlsZHJlbignLicgKyBsYXp5X2JnX2NsYXNzKS5yZW1vdmUoKTsKICAgICAgICAgIH0KICAgICAgICB9LCBhbmltX2R1cik7CiAgICAgIH0KICAgIH0pLmF0dHIoJ3NyYycsIGltYWdlX3VybCk7CiAgfTsKfSkoalF1ZXJ5KTsK
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z679"></relationship>
     </object>
@@ -1372,8 +1373,8 @@ Tl9TQ0hFTUEuQ09MVU1OUwogIFdIRVJFIHRhYmxlX25hbWUgPSAnY291cnNlX2xpc3QnIjsKJGNvbHVt
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z690"></relationship>
     </object>
     <object type="ASSET" id="z695">
-        <attribute name="content" type="binary">IyBGaW5kCnVybFwoJyguKlwuW2Etel17M30pJ1wpCgojIFJlcGxhY2UKdXJsKCckMT8jeyR2ZXJz
-aW9ufScp
+        <attribute name="content" type="binary">IyBGaW5kCnVybFwoJyguKlwuKHBuZ3xnaWZ8anBnKSknXCkKCiMgUmVwbGFjZQp1cmwoJyQxPyN7
+JHZlcnNpb259Jyk=
 </attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">add-version-number-to-css-image.sh</attribute>
@@ -1660,7 +1661,7 @@ L3dvcmRwcmVzcy8nOwpjaGRpcigkaW5zdGFsbF9kaXIpOwppbmNsdWRlKCd3cC1sb2FkLnBocCcpOwoK
     </object>
     <object type="TAG" id="z749">
         <attribute name="name" type="string">taco</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z247 z922 z853 z981 z932 z866 z858 z987 z1014 z924 z996 z1040 z994 z1043 z1038 z1066 z918 z934 z985 z927 z1006 z796 z912 z926 z806 z935 z983 z748 z920 z1012 z979 z916 z251 z930 z1002 z857 z977 z770 z992 z1008 z938"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z853 z1038 z977 z1040 z1082 z927 z1002 z1006 z922 z920 z926 z1014 z932 z996 z1043 z924 z857 z247 z979 z1095 z930 z1008 z912 z981 z987 z994 z916 z983 z806 z1066 z985 z796 z935 z992 z748 z934 z866 z858 z251 z1012 z1093 z938 z918 z770"></relationship>
     </object>
     <object type="ASSET" id="z750">
         <attribute name="sort" type="int32">-1</attribute>
@@ -1802,6 +1803,8 @@ dDsKICBpZihpc3NldCgkcG9zdCkpIHsKICAgICRjbGFzc2VzW10gPSAkcG9zdC0+cG9zdF9uYW1lOwog
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z119"></relationship>
     </object>
     <object type="ASSET" id="z775">
+        <attribute name="notes" type="string">- Disable all items under Appearance, except for Menus
+- Disable standard WordPress tools</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">disable-admin-menus.php</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gZGlzYWJsZV9hZG1pbl9tZW51cygpIHsKICAvLyByZW1vdmVfbWVudV9wYWdlKCd0
@@ -1837,7 +1840,7 @@ bGVuKHRyaW0oJGF0dHJbJ3RpdGxlJ10pKSB7CiAgICB1bnNldCgkYXR0clsndGl0bGUnXSk7CiAgfQog
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">add-featured-images-support.php</attribute>
         <attribute name="content" type="binary">Ly8gQWRkIGZlYXR1cmVkIGltYWdlcyBzdXBwb3J0CmFkZF90aGVtZV9zdXBwb3J0KCdwb3N0LXRo
-dW1ibmFpbHMnKTsKCi8vIEltYWdlIGRpbWVuc2lvbnMKYWRkX2ltYWdlX3NpemUoJ3JhbmRvbS1wcm9maWxlJywgMjAwLCAyMDAsIHRydWUpOwphZGRfaW1hZ2Vfc2l6ZSgncHJvZ3JhbS1kZXRhaWwnLCAxNDAwLCA0NjAsIHRydWUpOwo=
+dW1ibmFpbHMnKTsKCi8vIEltYWdlIGRpbWVuc2lvbnMKYWRkX2ltYWdlX3NpemUoJ3N0YWZmLW1lbWJlcicsIDIwMCwgMjAwLCB0cnVlKTsKYWRkX2ltYWdlX3NpemUoJ3Byb2dyYW0taGVhZGVyJywgMTQwMCwgNDYwLCB0cnVlKTsK
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z780"></relationship>
     </object>
@@ -1984,7 +1987,7 @@ IDAgdG8gJHBhZ2VfaWQgZm9yIHRvcC1sZXZlbCBuYXYgb25seQogKiBAcGFyYW0gaW50ICRwYWdlX2lk
         <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">get-pagination.php</attribute>
         <attribute name="content" type="binary">LyoqCiAqIEdldCBwYWdpbmF0aW9uCiAqICRhcmdzIGNvbnRhaW5zIGFyZ3VtZW50cyBmb3IgYm90
-aCB3cmFwcGVyIGFuZCBwYWdlIG51bWJlcnMKICogQHBhcmFtIGludCAkY3VycmVudF9wYWdlCiAqIEBwYXJhbSBpbnQgJHRvdGFsX3Bvc3RzCiAqIEBwYXJhbSBhcnJheSAkYXJncwogKiBXcmFwcGVyOgogKiAtIHN0cmluZyAkbGFiZWwKICogLSBzdHJpbmcgJGNvbnRhaW5lcl9jbGFzcwogKiBQYWdlIG51bWJlcnM6CiAqIC0gaW50ICRtYXhfcGFnZXMKICogLSBpbnQgJHBlcl9wYWdlCiAqIC0gc3RyaW5nICRsaW5rX3ByZWZpeAogKiAtIHN0cmluZyAkcHJldmlvdXNfbGFiZWwKICogLSBzdHJpbmcgJG5leHRfbGFiZWwKICogLSBib29sICRpc19hamF4CiAqIEJvdGggd3JhcHBlciBhbmQgcGFnZSBudW1iZXJzOgogKiAtIGJvb2wgJGlzX3NlbGVjdAogKiBAcmV0dXJuIHN0cmluZyBIVE1MCiAqLwpwdWJsaWMgc3RhdGljIGZ1bmN0aW9uIGdldFBhZ2luYXRpb24oJGN1cnJlbnRfcGFnZSwgJHRvdGFsX3Bvc3RzLCAkYXJncz1hcnJheSgpKSB7CiAgJGRlZmF1bHRfYXJncyA9IGFycmF5KAogICAgJ2xhYmVsJyA9PiAnUGFnZTonLAogICAgJ2NvbnRhaW5lcl9jbGFzcycgPT4gJ3BhZ2UtbnVtYmVycyBjbGVhcmZpeCcsCiAgICAnaXNfc2VsZWN0JyA9PiBmYWxzZSwKICApOwogICRhcmdzID0gKEFycjo6aXRlcmFibGUoJGFyZ3MpKQogICAgPyBhcnJheV9tZXJnZSgkZGVmYXVsdF9hcmdzLCAkYXJncykKICAgIDogJGRlZmF1bHRfYXJnczsKICBleHRyYWN0KCRhcmdzKTsKICAKICAkbGFiZWwgPSAoc3RybGVuKCRsYWJlbCkpID8gJzxwPicuJGxhYmVsLic8L3A+JyA6IG51bGw7CiAgJGxpc3RfZWxlbWVudCA9ICgkaXNfc2VsZWN0KSA/ICdzZWxlY3QnIDogJ3VsJzsKICAkcGFnaW5hdGlvbiA9IHNlbGY6OmdldFBhZ2luYXRpb25JdGVtcygkY3VycmVudF9wYWdlLCAkdG90YWxfcG9zdHMsICRhcmdzKTsKICBpZihpc19udWxsKCRwYWdpbmF0aW9uKSkgcmV0dXJuIG51bGw7CiAgCiAgcmV0dXJuIHNwcmludGYoCiAgICAnPGRpdiBjbGFzcz0iJXMiPgogICAgICAlcwogICAgICA8JXM+CiAgICAgICAgJXMKICAgICAgPC8lcz4KICAgIDwvZGl2PicsCiAgICAkY29udGFpbmVyX2NsYXNzLAogICAgJGxhYmVsLAogICAgJGxpc3RfZWxlbWVudCwKICAgICRwYWdpbmF0aW9uLAogICAgJGxpc3RfZWxlbWVudAogICk7Cn0KCgovKioKICogR2V0IHBhZ2UgbnVtYmVycyBmb3IgcGFnaW5hdGlvbiwgZWl0aGVyIGFzIGxpbmtzIG9yIG9wdGlvbiBlbGVtZW50cwogKiBAcGFyYW0gaW50ICRjdXJyZW50X3BhZ2UKICogQHBhcmFtIGludCAkdG90YWxfcG9zdHMKICogQHBhcmFtIGFycmF5ICRhcmdzCiAqIC0gaW50ICRtYXhfcGFnZXMKICogLSBpbnQgJHBlcl9wYWdlCiAqIC0gc3RyaW5nICRsaW5rX3ByZWZpeAogKiAtIHN0cmluZyAkcHJldmlvdXNfbGFiZWwKICogLSBzdHJpbmcgJG5leHRfbGFiZWwKICogLSBib29sICRpc19hamF4CiAqIC0gYm9vbCAkaXNfc2VsZWN0CiAqIEByZXR1cm4gc3RyaW5nIEhUTUwKICovCnB1YmxpYyBzdGF0aWMgZnVuY3Rpb24gZ2V0UGFnaW5hdGlvbkl0ZW1zKCRjdXJyZW50X3BhZ2UsICR0b3RhbF9wb3N0cywgJGFyZ3M9YXJyYXkoKSkgewogIGlmKGlzX251bGwoJGN1cnJlbnRfcGFnZSkgfHwgaXNfbnVsbCgkdG90YWxfcG9zdHMpKSByZXR1cm4gbnVsbDsKICAKICAkZGVmYXVsdF9hcmdzID0gYXJyYXkoCiAgICAnbWF4X3BhZ2VzJyA9PiA1LAogICAgJ3Blcl9wYWdlJyA9PiAxMCwKICAgICdsaW5rX3ByZWZpeCcgPT4gbnVsbCwKICAgICdwcmV2aW91c19sYWJlbCcgPT4gJyZoZWxsaXA7JywKICAgICduZXh0X2xhYmVsJyA9PiAnJmhlbGxpcDsnLAogICAgJ2lzX2FqYXgnID0+IGZhbHNlLAogICAgJ2lzX3NlbGVjdCcgPT4gZmFsc2UsCiAgKTsKICAkYXJncyA9IChBcnI6Oml0ZXJhYmxlKCRhcmdzKSkKICAgID8gYXJyYXlfbWVyZ2UoJGRlZmF1bHRfYXJncywgJGFyZ3MpCiAgICA6ICRkZWZhdWx0X2FyZ3M7CiAgZXh0cmFjdCgkYXJncyk7CiAgCiAgaWYoJHRvdGFsX3Bvc3RzIDw9ICRwZXJfcGFnZSkgcmV0dXJuIG51bGw7CiAgCiAgJHBhZ2luYXRpb24gPSBhcnJheSgpOwogICRwYWdlX2NvdW50ID0gY2VpbCgkdG90YWxfcG9zdHMgLyAkcGVyX3BhZ2UpOwogIAogIGlmKCRpc19zZWxlY3QpIHsKICAgICRvcHRpb25zID0gYXJyYXkoKTsKICAgIGZvcigkaSA9IDE7ICRpIDw9ICRwYWdlX2NvdW50OyAkaSsrKSB7CiAgICAgICRjdXJyZW50X3BhZ2VfYXR0ciA9ICgkaSA9PSAkY3VycmVudF9wYWdlKQogICAgICAgID8gJyBzZWxlY3RlZCcKICAgICAgICA6IG51bGw7CiAgICAgICRwYWdlX251bWJlcl92YWx1ZSA9ICghJGlzX2FqYXgpCiAgICAgICAgPyAkbGlua19wcmVmaXguJGkuJy8nCiAgICAgICAgOiAkaTsKICAgICAgJG9wdGlvbnNbXSA9IHNwcmludGYoCiAgICAgICAgJzxvcHRpb24lcyB2YWx1ZT0iJXMiIGRhdGEtcGFnZT0iJWQiPiVkPC9vcHRpb24+JywKICAgICAgICAkY3VycmVudF9wYWdlX2F0dHIsCiAgICAgICAgJHBhZ2VfbnVtYmVyX3ZhbHVlLAogICAgICAgICRpLAogICAgICAgICRpCiAgICAgICk7CiAgICB9CiAgICByZXR1cm4gam9pbigiXG4iLCAkb3B0aW9ucyk7CiAgfQogIAogIC8vIFNldCBmaXJzdCBhbmQgbGFzdCBwYWdlIG51bWJlcnMgdG8gYmUgZGlzcGxheWVkCiAgLy8gYmV0d2VlbiAicHJldmlvdXMiIGFuZCAibmV4dCIgbGlua3MKICAkZmlyc3RfcGFnZV9udW1iZXIgPSAoJG1heF9wYWdlcyA8ICRwYWdlX2NvdW50KQogICAgPyBtYXgoJGN1cnJlbnRfcGFnZSAtIGZsb29yKCRtYXhfcGFnZXMgLyAyKSwgMSkKICAgIDogMTsKICAkbGFzdF9wYWdlX251bWJlciA9IG1pbigkZmlyc3RfcGFnZV9udW1iZXIgKyAoJG1heF9wYWdlcyAtIDEpLCAkcGFnZV9jb3VudCk7CiAgCiAgLy8gRXZhbHVhdGUgZmlyc3QgcGFnZSBudW1iZXIgYWdhaW4sIGZvciB3aGVuCiAgLy8gb25lIG9mIHRoZSBsYXN0IHBhZ2VzIGlzIHNlbGVjdGVkCiAgJGZpcnN0X3BhZ2VfbnVtYmVyID0gKCRtYXhfcGFnZXMgPCAkcGFnZV9jb3VudCkKICAgID8gbWluKCRmaXJzdF9wYWdlX251bWJlciwgJGxhc3RfcGFnZV9udW1iZXIgLSAoJG1heF9wYWdlcyAtIDEpKQogICAgOiAkZmlyc3RfcGFnZV9udW1iZXI7CiAgCiAgJGxpbmtfcHJlZml4ID0gbnVsbDsKICBpZighJGlzX2FqYXgpIHsKICAgICRsaW5rX3ByZWZpeCA9ICRsaW5rX3ByZWZpeC4nL3BhZ2UvJzsKICAgIAogICAgLy8gUmVtb3ZlIGNvbnNlY3V0aXZlIHNsYXNoZXMKICAgICRsaW5rX3ByZWZpeCA9IHByZWdfcmVwbGFjZSgnL1wvKy8nLCAnLycsICRsaW5rX3ByZWZpeCk7CiAgfQogIAogIC8vIFByZXZpb3VzIGxpbmsKICBpZigkZmlyc3RfcGFnZV9udW1iZXIgIT0gMSkgewogICAgJHByZXZpb3VzX2xpbmsgPSAoISRpc19hamF4KQogICAgICA/ICRsaW5rX3ByZWZpeC4oJGZpcnN0X3BhZ2VfbnVtYmVyIC0gMSkuJy8nCiAgICAgIDogJyMnOwogICAgJHBhZ2luYXRpb25bXSA9IHNwcmludGYoCiAgICAgICc8bGkgZGF0YS1wYWdlPSIlZCI+PGEgaHJlZj0iJXMiPiVzPC9hPjwvbGk+JywKICAgICAgKCRmaXJzdF9wYWdlX251bWJlciAtIDEpLAogICAgICAkcHJldmlvdXNfbGluaywKICAgICAgJHByZXZpb3VzX2xhYmVsCiAgICApOwogIH0KICAKICAvLyBQYWdlIG51bWJlciBsaW5rcwogIGZvcigkaSA9ICRmaXJzdF9wYWdlX251bWJlcjsgJGkgPD0gJGxhc3RfcGFnZV9udW1iZXI7ICRpKyspIHsKICAgICRjdXJyZW50X3BhZ2VfY2xhc3MgPSAoJGkgPT0gJGN1cnJlbnRfcGFnZSkKICAgICAgPyAnIGNsYXNzPSJvbiInCiAgICAgIDogbnVsbDsKICAgICRwYWdlX251bWJlcl9saW5rID0gKCEkaXNfYWpheCkKICAgICAgPyAkbGlua19wcmVmaXguJGkuJy8nCiAgICAgIDogJyMnOwogICAgJHBhZ2luYXRpb25bXSA9IHNwcmludGYoCiAgICAgICc8bGklcyBkYXRhLXBhZ2U9IiVkIj48YSBocmVmPSIlcyI+JWQ8L2E+PC9saT4nLAogICAgICAkY3VycmVudF9wYWdlX2NsYXNzLAogICAgICAkaSwKICAgICAgJHBhZ2VfbnVtYmVyX2xpbmssCiAgICAgICRpCiAgICApOwogIH0KICAKICAvLyBOZXh0IGxpbmsKICBpZigkbGFzdF9wYWdlX251bWJlciA8ICRwYWdlX2NvdW50KSB7CiAgICAkbmV4dF9saW5rID0gKCEkaXNfYWpheCkKICAgICAgPyAkbGlua19wcmVmaXguKCRsYXN0X3BhZ2VfbnVtYmVyICsgMSkuJy8nCiAgICAgIDogJyMnOwogICAgJHBhZ2luYXRpb25bXSA9IHNwcmludGYoCiAgICAgICc8bGkgZGF0YS1wYWdlPSIlZCI+PGEgaHJlZj0iJXMiPiVzPC9hPjwvbGk+JywKICAgICAgKCRsYXN0X3BhZ2VfbnVtYmVyICsgMSksCiAgICAgICRuZXh0X2xpbmssCiAgICAgICRuZXh0X2xhYmVsCiAgICApOwogIH0KICAKICByZXR1cm4gam9pbigiXG4iLCAkcGFnaW5hdGlvbik7Cn0=
+aCB3cmFwcGVyIGFuZCBwYWdlIG51bWJlcnMKICogQHBhcmFtIGludCAkY3VycmVudF9wYWdlCiAqIEBwYXJhbSBpbnQgJHRvdGFsX3Bvc3RzCiAqIEBwYXJhbSBhcnJheSAkYXJncwogKiBXcmFwcGVyOgogKiAtIHN0cmluZyAkbGFiZWwKICogLSBzdHJpbmcgJGNvbnRhaW5lcl9jbGFzcwogKiBQYWdlIG51bWJlcnM6CiAqIC0gaW50ICRtYXhfcGFnZXMKICogLSBpbnQgJHBlcl9wYWdlCiAqIC0gc3RyaW5nICRsaW5rX3ByZWZpeAogKiAtIHN0cmluZyAkcHJldmlvdXNfbGFiZWwKICogLSBzdHJpbmcgJG5leHRfbGFiZWwKICogLSBib29sICRpc19hamF4CiAqIEJvdGggd3JhcHBlciBhbmQgcGFnZSBudW1iZXJzOgogKiAtIGJvb2wgJGlzX3NlbGVjdAogKiBAcmV0dXJuIHN0cmluZyBIVE1MCiAqLwpwdWJsaWMgc3RhdGljIGZ1bmN0aW9uIGdldFBhZ2luYXRpb24oJGN1cnJlbnRfcGFnZSwgJHRvdGFsX3Bvc3RzLCAkYXJncz1hcnJheSgpKSB7CiAgJGRlZmF1bHRfYXJncyA9IGFycmF5KAogICAgJ2xhYmVsJyA9PiAnUGFnZTonLAogICAgJ2NvbnRhaW5lcl9jbGFzcycgPT4gJ3BhZ2UtbnVtYmVycyBjbGVhcmZpeCcsCiAgICAnaXNfc2VsZWN0JyA9PiBmYWxzZSwKICApOwogICRhcmdzID0gKEFycjo6aXRlcmFibGUoJGFyZ3MpKQogICAgPyBhcnJheV9tZXJnZSgkZGVmYXVsdF9hcmdzLCAkYXJncykKICAgIDogJGRlZmF1bHRfYXJnczsKICBleHRyYWN0KCRhcmdzKTsKICAKICAkbGFiZWwgPSAoc3RybGVuKCRsYWJlbCkpID8gJzxwPicuJGxhYmVsLic8L3A+JyA6IG51bGw7CiAgJGxpc3RfZWxlbWVudCA9ICgkaXNfc2VsZWN0KSA/ICdzZWxlY3QnIDogJ3VsJzsKICAkcGFnaW5hdGlvbiA9IHNlbGY6OmdldFBhZ2luYXRpb25JdGVtcygkY3VycmVudF9wYWdlLCAkdG90YWxfcG9zdHMsICRhcmdzKTsKICBpZihpc19udWxsKCRwYWdpbmF0aW9uKSkgcmV0dXJuIG51bGw7CiAgCiAgcmV0dXJuIHNwcmludGYoCiAgICAnPGRpdiBjbGFzcz0iJXMiPgogICAgICAlcwogICAgICA8JXM+CiAgICAgICAgJXMKICAgICAgPC8lcz4KICAgIDwvZGl2PicsCiAgICAkY29udGFpbmVyX2NsYXNzLAogICAgJGxhYmVsLAogICAgJGxpc3RfZWxlbWVudCwKICAgICRwYWdpbmF0aW9uLAogICAgJGxpc3RfZWxlbWVudAogICk7Cn0KCgovKioKICogR2V0IHBhZ2UgbnVtYmVycyBmb3IgcGFnaW5hdGlvbiwgZWl0aGVyIGFzIGxpbmtzIG9yIG9wdGlvbiBlbGVtZW50cwogKiBAcGFyYW0gaW50ICRjdXJyZW50X3BhZ2UKICogQHBhcmFtIGludCAkdG90YWxfcG9zdHMKICogQHBhcmFtIGFycmF5ICRhcmdzCiAqIC0gaW50ICRtYXhfcGFnZXMKICogLSBpbnQgJHBlcl9wYWdlCiAqIC0gc3RyaW5nICRsaW5rX3ByZWZpeAogKiAtIHN0cmluZyAkcHJldmlvdXNfbGFiZWwKICogLSBzdHJpbmcgJG5leHRfbGFiZWwKICogLSBib29sICRpc19hamF4CiAqIC0gYm9vbCAkaXNfc2VsZWN0CiAqIEByZXR1cm4gc3RyaW5nIEhUTUwKICovCnB1YmxpYyBzdGF0aWMgZnVuY3Rpb24gZ2V0UGFnaW5hdGlvbkl0ZW1zKCRjdXJyZW50X3BhZ2UsICR0b3RhbF9wb3N0cywgJGFyZ3M9YXJyYXkoKSkgewogIGlmKGlzX251bGwoJGN1cnJlbnRfcGFnZSkgfHwgaXNfbnVsbCgkdG90YWxfcG9zdHMpKSByZXR1cm4gbnVsbDsKICAKICAkZGVmYXVsdF9hcmdzID0gYXJyYXkoCiAgICAnbWF4X3BhZ2VzJyA9PiA1LAogICAgJ3Blcl9wYWdlJyA9PiAxMCwKICAgICdsaW5rX3ByZWZpeCcgPT4gbnVsbCwKICAgICdwcmV2aW91c19sYWJlbCcgPT4gJyZoZWxsaXA7JywKICAgICduZXh0X2xhYmVsJyA9PiAnJmhlbGxpcDsnLAogICAgJ2lzX2FqYXgnID0+IGZhbHNlLAogICAgJ2lzX3NlbGVjdCcgPT4gZmFsc2UsCiAgKTsKICAkYXJncyA9IChBcnI6Oml0ZXJhYmxlKCRhcmdzKSkKICAgID8gYXJyYXlfbWVyZ2UoJGRlZmF1bHRfYXJncywgJGFyZ3MpCiAgICA6ICRkZWZhdWx0X2FyZ3M7CiAgZXh0cmFjdCgkYXJncyk7CiAgCiAgaWYoJHRvdGFsX3Bvc3RzIDw9ICRwZXJfcGFnZSkgcmV0dXJuIG51bGw7CiAgCiAgJHBhZ2luYXRpb24gPSBhcnJheSgpOwogICRwYWdlX2NvdW50ID0gY2VpbCgkdG90YWxfcG9zdHMgLyAkcGVyX3BhZ2UpOwogIAogIGlmKCRpc19zZWxlY3QpIHsKICAgICRvcHRpb25zID0gYXJyYXkoKTsKICAgIGZvcigkaSA9IDE7ICRpIDw9ICRwYWdlX2NvdW50OyAkaSsrKSB7CiAgICAgICRjdXJyZW50X3BhZ2VfYXR0ciA9ICgkaSA9PSAkY3VycmVudF9wYWdlKQogICAgICAgID8gJyBzZWxlY3RlZCcKICAgICAgICA6IG51bGw7CiAgICAgICRwYWdlX251bWJlcl92YWx1ZSA9ICghJGlzX2FqYXgpCiAgICAgICAgPyAkbGlua19wcmVmaXguJGkuJy8nCiAgICAgICAgOiAkaTsKICAgICAgJG9wdGlvbnNbXSA9IHNwcmludGYoCiAgICAgICAgJzxvcHRpb24lcyB2YWx1ZT0iJXMiIGRhdGEtcGFnZT0iJWQiPiVkPC9vcHRpb24+JywKICAgICAgICAkY3VycmVudF9wYWdlX2F0dHIsCiAgICAgICAgJHBhZ2VfbnVtYmVyX3ZhbHVlLAogICAgICAgICRpLAogICAgICAgICRpCiAgICAgICk7CiAgICB9CiAgICByZXR1cm4gam9pbigiXG4iLCAkb3B0aW9ucyk7CiAgfQogIAogIC8vIFNldCBmaXJzdCBhbmQgbGFzdCBwYWdlIG51bWJlcnMgdG8gYmUgZGlzcGxheWVkCiAgLy8gYmV0d2VlbiAicHJldmlvdXMiIGFuZCAibmV4dCIgbGlua3MKICAkZmlyc3RfcGFnZV9udW1iZXIgPSAoJG1heF9wYWdlcyA8ICRwYWdlX2NvdW50KQogICAgPyBtYXgoJGN1cnJlbnRfcGFnZSAtIGZsb29yKCRtYXhfcGFnZXMgLyAyKSwgMSkKICAgIDogMTsKICAkbGFzdF9wYWdlX251bWJlciA9IG1pbigkZmlyc3RfcGFnZV9udW1iZXIgKyAoJG1heF9wYWdlcyAtIDEpLCAkcGFnZV9jb3VudCk7CiAgCiAgLy8gRXZhbHVhdGUgZmlyc3QgcGFnZSBudW1iZXIgYWdhaW4sIGZvciB3aGVuCiAgLy8gb25lIG9mIHRoZSBsYXN0IHBhZ2VzIGlzIHNlbGVjdGVkCiAgJGZpcnN0X3BhZ2VfbnVtYmVyID0gKCRtYXhfcGFnZXMgPCAkcGFnZV9jb3VudCkKICAgID8gbWluKCRmaXJzdF9wYWdlX251bWJlciwgJGxhc3RfcGFnZV9udW1iZXIgLSAoJG1heF9wYWdlcyAtIDEpKQogICAgOiAkZmlyc3RfcGFnZV9udW1iZXI7CiAgCiAgaWYoISRpc19hamF4KSB7CiAgICAkbGlua19wcmVmaXggPSAkbGlua19wcmVmaXguJy9wYWdlLyc7CiAgICAkbGlua19wcmVmaXggPSBwcmVnX3JlcGxhY2UoJy9cLysvJywgJy8nLCAkbGlua19wcmVmaXgpOwogIH0KICAKICAvLyBQcmV2aW91cyBsaW5rCiAgaWYoJGZpcnN0X3BhZ2VfbnVtYmVyICE9IDEpIHsKICAgICRwcmV2aW91c19saW5rID0gKCEkaXNfYWpheCkKICAgICAgPyAkbGlua19wcmVmaXguKCRmaXJzdF9wYWdlX251bWJlciAtIDEpLicvJwogICAgICA6ICcjJzsKICAgICRwYWdpbmF0aW9uW10gPSBzcHJpbnRmKAogICAgICAnPGxpIGRhdGEtcGFnZT0iJWQiPjxhIGhyZWY9IiVzIj4lczwvYT48L2xpPicsCiAgICAgICgkZmlyc3RfcGFnZV9udW1iZXIgLSAxKSwKICAgICAgJHByZXZpb3VzX2xpbmssCiAgICAgICRwcmV2aW91c19sYWJlbAogICAgKTsKICB9CiAgCiAgLy8gUGFnZSBudW1iZXIgbGlua3MKICBmb3IoJGkgPSAkZmlyc3RfcGFnZV9udW1iZXI7ICRpIDw9ICRsYXN0X3BhZ2VfbnVtYmVyOyAkaSsrKSB7CiAgICAkY3VycmVudF9wYWdlX2NsYXNzID0gKCRpID09ICRjdXJyZW50X3BhZ2UpCiAgICAgID8gJyBjbGFzcz0ib24iJwogICAgICA6IG51bGw7CiAgICAkcGFnZV9udW1iZXJfbGluayA9ICghJGlzX2FqYXgpCiAgICAgID8gJGxpbmtfcHJlZml4LiRpLicvJwogICAgICA6ICcjJzsKICAgICRwYWdpbmF0aW9uW10gPSBzcHJpbnRmKAogICAgICAnPGxpJXMgZGF0YS1wYWdlPSIlZCI+PGEgaHJlZj0iJXMiPiVkPC9hPjwvbGk+JywKICAgICAgJGN1cnJlbnRfcGFnZV9jbGFzcywKICAgICAgJGksCiAgICAgICRwYWdlX251bWJlcl9saW5rLAogICAgICAkaQogICAgKTsKICB9CiAgCiAgLy8gTmV4dCBsaW5rCiAgaWYoJGxhc3RfcGFnZV9udW1iZXIgPCAkcGFnZV9jb3VudCkgewogICAgJG5leHRfbGluayA9ICghJGlzX2FqYXgpCiAgICAgID8gJGxpbmtfcHJlZml4LigkbGFzdF9wYWdlX251bWJlciArIDEpLicvJwogICAgICA6ICcjJzsKICAgICRwYWdpbmF0aW9uW10gPSBzcHJpbnRmKAogICAgICAnPGxpIGRhdGEtcGFnZT0iJWQiPjxhIGhyZWY9IiVzIj4lczwvYT48L2xpPicsCiAgICAgICgkbGFzdF9wYWdlX251bWJlciArIDEpLAogICAgICAkbmV4dF9saW5rLAogICAgICAkbmV4dF9sYWJlbAogICAgKTsKICB9CiAgCiAgcmV0dXJuIGpvaW4oIlxuIiwgJHBhZ2luYXRpb24pOwp9
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z806"></relationship>
     </object>
@@ -1993,7 +1996,7 @@ aCB3cmFwcGVyIGFuZCBwYWdlIG51bWJlcnMKICogQHBhcmFtIGludCAkY3VycmVudF9wYWdlCiAqIEBw
         <attribute name="modified" type="date">449855227.18847799301147460938</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z805"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z805 z1103"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z749 z855"></relationship>
     </object>
     <object type="ASSET" id="z807">
@@ -2117,14 +2120,14 @@ RSBXSEVOIHBtX3dlaWdodC5tZXRhX3ZhbHVlID0gJycgVEhFTiAxIEVMU0UgMCBFTkQsCiAgcG1fd2Vp
         <attribute name="path" type="string">lazy-load-images-background.php</attribute>
         <attribute name="notes" type="string">- Load background images
 - Accepts multiple backgrounds</attribute>
-        <attribute name="content" type="binary">PGRpdiBjbGFzcz0iY29udGFpbmVyIj4KICA8ZGl2IGNsYXNzPSJsYXp5LWJnIGZhZGVkIiBkYXRh
-LWltYWdlPSJbdXJsXSI+PC9kaXY+CiAgPGRpdiBjbGFzcz0ibGF6eS1iZyBmYWRlZCIgZGF0YS1pbWFnZT0iW3VybF0iPjwvZGl2PgogIDxkaXYgY2xhc3M9ImNvbnRlbnQiPgogIDwvZGl2Pgo8L2Rpdj4=
+        <attribute name="content" type="binary">PGRpdiBjbGFzcz0iY29udGFpbmVyIj4KICA8ZGl2IGNsYXNzPSJsYXp5LWJnIiBkYXRhLWltYWdl
+PSJbdXJsXSI+PC9kaXY+CiAgPGRpdiBjbGFzcz0ibGF6eS1iZyIgZGF0YS1pbWFnZT0iW3VybF0iPjwvZGl2PgogIDxkaXYgY2xhc3M9ImNvbnRlbnQiPgogIDwvZGl2Pgo8L2Rpdj4=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z679"></relationship>
     </object>
     <object type="ASSET" id="z829">
-        <attribute name="content" type="binary">LmNvbnRhaW5lciB7CiAgcG9zaXRpb246IHJlbGF0aXZlOwp9Ci5sYXp5LWJnIHsKICBwb3NpdGlv
-bjogYWJzb2x1dGU7CiAgbGVmdDogMDsKICB0b3A6IDA7CiAgei1pbmRleDogMDsKICBkaXNwbGF5OiBibG9jazsKICB3aWR0aDogMTAwJTsKICBoZWlnaHQ6IDEwMCU7CiAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQgY2VudGVyIG5vLXJlcGVhdDsKICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyOwogIEBpbmNsdWRlIHRyYW5zaXQob3BhY2l0eSAkdHJhbnNpdF9zcGVlZF9nZW5lcmFsIGxpbmVhcik7CiAgJi5mYWRlZCB7CiAgICBvcGFjaXR5OiAwOwogIH0KfQ==
+        <attribute name="content" type="binary">LmxhenktYmcgewogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICBsZWZ0OiAwOwogIHJpZ2h0OiAwOwog
+IHRvcDogMDsKICBib3R0b206IDA7CiAgei1pbmRleDogLTE7CiAgZGlzcGxheTogYmxvY2s7CiAgYmFja2dyb3VuZDogewogICAgY29sb3I6IHRyYW5zcGFyZW50OwogICAgcG9zaXRpb246IGNlbnRlcjsKICAgIHJlcGVhdDogbm8tcmVwZWF0OwogICAgc2l6ZTogY292ZXI7CiAgfQogIG9wYWNpdHk6IDA7CiAgQGluY2x1ZGUgdHJhbnNpdChvcGFjaXR5ICRzcGVlZF9jb2xvciBsaW5lYXIpOwogICYuZG9uZSB7CiAgICBvcGFjaXR5OiAxOwogIH0KfQo=
 </attribute>
         <attribute name="sort" type="int32">2</attribute>
         <attribute name="path" type="string">lazy-load-images-background.scss</attribute>
@@ -2224,7 +2227,7 @@ aW5hbmNpYWwtYWlkIFtSPTMwMSxORSxMXQ==
     </object>
     <object type="TAG" id="z841">
         <attribute name="name" type="string">htaccess</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z842 z942 z868"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z842 z868 z1087 z942"></relationship>
     </object>
     <object type="SNIPPET" id="z842">
         <attribute name="name" type="string">Redirect to URL with hash</attribute>
@@ -2344,8 +2347,8 @@ CgokY3VycmVudF9wYWdlID0gKGdldF9xdWVyeV92YXIoJ3BhZ2VkJykpID86IDE7CiRwZXJfcGFnZSA9
     <object type="ASSET" id="z859">
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">get-pagination-for-category-template.php</attribute>
-        <attribute name="content" type="binary">JGNhdGVnb3J5ID0gcmVzZXQoZ2V0X3RoZV9jYXRlZ29yeSgpKTsKICAvLyA9PT09PSBPUiA9PT09
-PQogICR0ZXJtX2lkID0gZ2V0X3F1ZXJ5X3ZhcignY2F0Jyk7CiAgJGNhdGVnb3J5ID0gZ2V0X3Rlcm1fYnkoJ2lkJywgJHRlcm1faWQsICdjYXRlZ29yeScpOwoKJGN1cnJlbnRfcGFnZSA9IChnZXRfcXVlcnlfdmFyKCdwYWdlZCcpKSA/OiAxOwokcGVyX3BhZ2UgPSBnZXRfb3B0aW9uKCdwb3N0c19wZXJfcGFnZScpOwovLyBPcjogJHBlcl9wYWdlID0gUG9zdDo6Z2V0UG9zdHNQZXJQYWdlKCk7CgokY2F0ZWdvcnlfcG9zdHMgPSBcVGFjb1xQb3N0XEZhY3Rvcnk6OmNyZWF0ZU11bHRpcGxlKCRwb3N0cyk7CgokdG90YWxfcG9zdHMgPSAkY2F0ZWdvcnktPmNvdW50OwplY2hvIFV0aWw6OmdldFBhZ2luYXRpb24oJGN1cnJlbnRfcGFnZSwgJHRvdGFsX3Bvc3RzLCBhcnJheSgKICAncGVyX3BhZ2UnID0+ICRwZXJfcGFnZSwKICAnbGlua19wcmVmaXgnID0+ICcvY2F0ZWdvcnkvJy4kY2F0ZWdvcnktPnNsdWcsCikpOwo=
+        <attribute name="content" type="binary">JGNhdGVnb3J5ID0gZ2V0X3F1ZXJpZWRfb2JqZWN0KCk7CiAgLy8gPT09PT0gT1IgPT09PT0KICAk
+Y2F0ZWdvcnkgPSByZXNldChnZXRfdGhlX2NhdGVnb3J5KCkpOwogIC8vID09PT09IE9SID09PT09CiAgJHRlcm1faWQgPSBnZXRfcXVlcnlfdmFyKCdjYXQnKTsKICAkY2F0ZWdvcnkgPSBnZXRfdGVybV9ieSgnaWQnLCAkdGVybV9pZCwgJ2NhdGVnb3J5Jyk7CgokY3VycmVudF9wYWdlID0gKGdldF9xdWVyeV92YXIoJ3BhZ2VkJykpID86IDE7CiRwZXJfcGFnZSA9IGdldF9vcHRpb24oJ3Bvc3RzX3Blcl9wYWdlJyk7Ci8vIE9yOiAkcGVyX3BhZ2UgPSBQb3N0OjpnZXRQb3N0c1BlclBhZ2UoKTsKCi8vIFRoaXMgaXMgYWxyZWFkeSBhIHNpbmdsZSBwYWdlIG9mIHJlc3VsdHMKJGNhdGVnb3J5X3Bvc3RzID0gXFRhY29cUG9zdFxGYWN0b3J5OjpjcmVhdGVNdWx0aXBsZSgkcG9zdHMpOwoKJHRvdGFsX3Bvc3RzID0gJGNhdGVnb3J5LT5jb3VudDsKZWNobyBVdGlsOjpnZXRQYWdpbmF0aW9uKCRjdXJyZW50X3BhZ2UsICR0b3RhbF9wb3N0cywgYXJyYXkoCiAgJ3Blcl9wYWdlJyA9PiAkcGVyX3BhZ2UsCiAgJ2xpbmtfcHJlZml4JyA9PiAnL2NhdGVnb3J5LycuJGNhdGVnb3J5LT5zbHVnLAopKTsK
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z857"></relationship>
     </object>
@@ -2638,7 +2641,7 @@ cyIgbWVkaWE9InNjcmVlbiIgaHJlZj0iL2Nzcy9pZTkuY3NzIj4KPCFbZW5kaWZdLS0+
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">wordpress-header.php</attribute>
         <attribute name="content" type="binary">PCFkb2N0eXBlIGh0bWw+CjwhLS1baWYgbHQgSUUgN10+IDxodG1sIGNsYXNzPSJuby1qcyBsdC1p
-ZTkgbHQtaWU4IGx0LWllNyIgPD9waHAgbGFuZ3VhZ2VfYXR0cmlidXRlcygpOyA/Pj4gPCFbZW5kaWZdLS0+CjwhLS1baWYgSUUgN10+ICAgIDxodG1sIGNsYXNzPSJuby1qcyBsdC1pZTkgbHQtaWU4IiA8P3BocCBsYW5ndWFnZV9hdHRyaWJ1dGVzKCk7ID8+PiA8IVtlbmRpZl0tLT4KPCEtLVtpZiBJRSA4XT4gICAgPGh0bWwgY2xhc3M9Im5vLWpzIGx0LWllOSIgPD9waHAgbGFuZ3VhZ2VfYXR0cmlidXRlcygpOyA/Pj4gPCFbZW5kaWZdLS0+CjwhLS1baWYgZ3QgSUUgOF0+PCEtLT4gPGh0bWwgY2xhc3M9Im5vLWpzIiA8P3BocCBsYW5ndWFnZV9hdHRyaWJ1dGVzKCk7ID8+PiA8IS0tPCFbZW5kaWZdLS0+CjxoZWFkPgogIDxtZXRhIGNoYXJzZXQ9Ijw/cGhwIGJsb2dpbmZvKCdjaGFyc2V0Jyk7ID8+IiAvPgogIDxtZXRhIGh0dHAtZXF1aXY9IlgtVUEtQ29tcGF0aWJsZSIgY29udGVudD0iSUU9ZWRnZSxjaHJvbWU9MSI+CiAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAsIG1pbmltdW0tc2NhbGU9MS4wLCBtYXhpbXVtLXNjYWxlPTEuMCwgdXNlci1zY2FsYWJsZT1ubyI+CiAgCiAgPD9waHAKICAkcGFnZV90aXRsZSA9IG51bGw7CiAgaWYoaXNfdGF4KCkpIHsKICAgICR0ZXJtID0gZ2V0X3Rlcm1fYnkoJ3NsdWcnLCBnZXRfcXVlcnlfdmFyKCd0ZXJtJyksIGdldF9xdWVyeV92YXIoJ3RheG9ub215JykpOwogICAgJHBhZ2VfdGl0bGUgPSAkdGVybS0+bmFtZTsKICB9IGVsc2UgewogICAgJHBhZ2VfdGl0bGUgPSB3cF90aXRsZShudWxsLCBmYWxzZSk7CiAgfQogICRmdWxsX3RpdGxlID0gam9pbignIHwgJywgYXJyYXlfZmlsdGVyKGFycmF5KAogICAgJHBhZ2VfdGl0bGUsCiAgICBnZXRfYmxvZ2luZm8oJ25hbWUnKQogICksICdzdHJsZW4nKSk7CiAgZWNobyAnPHRpdGxlPicuJGZ1bGxfdGl0bGUuJzwvdGl0bGU+JzsKICA/PgogIAogIDw/cGhwIC8vaW5jbHVkZSBkaXJuYW1lKF9fRklMRV9fKS4nL2luY2wtb3Blbi1ncmFwaC1tZXRhLnBocCc7ID8+CiAgCiAgPGxpbmsgcmVsPSJwaW5nYmFjayIgaHJlZj0iPD9waHAgYmxvZ2luZm8oJ3BpbmdiYWNrX3VybCcpOyA/PiIgLz4KICAKICA8bGluayByZWw9InNob3J0Y3V0IGljb24iIGhyZWY9Ijw/cGhwIGVjaG8gZ2V0X3RlbXBsYXRlX2RpcmVjdG9yeV91cmkoKTsgPz4vZmF2aWNvbi5pY28iIC8+CiAgPD9waHAKICAkdGVtcGxhdGVfZGlyID0gZ2V0X3RlbXBsYXRlX2RpcmVjdG9yeV91cmkoKTsKICAkc2l6ZXMgPSBhcnJheSgKICAgICcnLAogICAgJzU3eDU3JywKICAgICc3Mng3MicsCiAgICAnNzZ4NzYnLAogICAgJzExNHgxMTQnLAogICAgJzEyMHgxMjAnLAogICAgJzE0NHgxNDQnLAogICAgJzE1MngxNTInLAogICk7CiAgZm9yZWFjaCgkc2l6ZXMgYXMgJHNpemUpIHsKICAgICRzaXplc19hdHRyID0gKHN0cmxlbigkc2l6ZSkpCiAgICAgID8gJ3NpemVzPSInLiRzaXplLiciJwogICAgICA6IG51bGw7CiAgICAkc2l6ZV9zdWZmaXggPSAoc3RybGVuKCRzaXplKSkKICAgICAgPyAnLScuJHNpemUKICAgICAgOiBudWxsOwogICAgZWNobyBzcHJpbnRmKAogICAgICAnPGxpbmsgcmVsPSJhcHBsZS10b3VjaC1pY29uIiAlcyBocmVmPSIlcy9pbWcvYXBwbGUtdG91Y2gtaWNvbiVzLnBuZyIgLz4nLAogICAgICAkc2l6ZXNfYXR0ciwKICAgICAgJHRlbXBsYXRlX2RpciwKICAgICAgJHNpemVfc3VmZml4CiAgICApOwogIH0KICA/PgogIAogIDw/cGhwCiAgLy8gR2V0IFdpbmRvd3MgQ1NTCiAgJGJyb3dzZXIgPSBzdHJ0b2xvd2VyKCRfU0VSVkVSWydIVFRQX1VTRVJfQUdFTlQnXSk7CiAgaWYoc3RycG9zKCRicm93c2VyLCAnd2luZG93cycpICE9PSBmYWxzZSkgewogICAgZWNobyAnPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgbWVkaWE9ImFsbCIgaHJlZj0iJy5nZXRfdGVtcGxhdGVfZGlyZWN0b3J5X3VyaSgpLicvY3NzL3dpbmRvd3MuY3NzIj4nOwogIH0KICA/PgogIAogIDw/cGhwIHdwX2hlYWQoKTsgPz4KICAKICA8IS0tW2lmIGx0ZSBJRSA5XT4KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgdHlwZT0idGV4dC9jc3MiIG1lZGlhPSJzY3JlZW4iIGhyZWY9Ijw/cGhwIGVjaG8gZ2V0X3RlbXBsYXRlX2RpcmVjdG9yeV91cmkoKTsgPz4vY3NzL2llOS5jc3MiPgogIDwhW2VuZGlmXS0tPgo8L2hlYWQ+Cjw/cGhwIGZsdXNoKCk7ID8+Cgo8P3BocCBnbG9iYWwgJGJvZHlfY2xhc3M7ID8+Cjxib2R5IDw/cGhwIGJvZHlfY2xhc3MoKGlzc2V0KCRib2R5X2NsYXNzKSkgPyAkYm9keV9jbGFzcyA6IG51bGwpOyA/Pj4KPD9waHAgaW5jbHVkZSBfX0RJUl9fLicvaW5jbC1nb29nbGUtdGFnLW1hbmFnZXIucGhwJzsgPz4KCjxkaXYgaWQ9InNraXAtbGluayI+PGEgaHJlZj0iI2NvbnRlbnQiPlNraXAgdG8gTWFpbiBDb250ZW50PC9hPjwvZGl2PgoKPGhlYWRlciByb2xlPSJiYW5uZXIiPgogIDxkaXYgY2xhc3M9ImxvZ28iPgogICAgPD9waHAKICAgICRzaXRlX3RpdGxlID0gJ091dGRvb3IgSW5kdXN0cnkgQXNzb2NpYXRpb24nOwogICAgaWYoaXNfZnJvbnRfcGFnZSgpKSB7CiAgICAgIGVjaG8gJzxoMT4nLiRzaXRlX3RpdGxlLic8L2gxPic7CiAgICB9IGVsc2UgewogICAgICBlY2hvICc8YSBocmVmPSIvIj4nLiRzaXRlX3RpdGxlLic8L2E+JzsKICAgIH0KICAgID8+CiAgPC9kaXY+CiAgPD9waHAgd3BfbmF2X21lbnUoYXJyYXkoJ3RoZW1lX2xvY2F0aW9uJz0+J21lbnVfc2Vjb25kYXJ5JywgJ2NvbnRhaW5lcic9PmZhbHNlKSk7ID8+CjwvaGVhZGVyPgoKPGRpdiBpZD0ibWFpbiI+
+ZTkgbHQtaWU4IGx0LWllNyIgPD9waHAgbGFuZ3VhZ2VfYXR0cmlidXRlcygpOyA/Pj4gPCFbZW5kaWZdLS0+CjwhLS1baWYgSUUgN10+ICAgIDxodG1sIGNsYXNzPSJuby1qcyBsdC1pZTkgbHQtaWU4IiA8P3BocCBsYW5ndWFnZV9hdHRyaWJ1dGVzKCk7ID8+PiA8IVtlbmRpZl0tLT4KPCEtLVtpZiBJRSA4XT4gICAgPGh0bWwgY2xhc3M9Im5vLWpzIGx0LWllOSIgPD9waHAgbGFuZ3VhZ2VfYXR0cmlidXRlcygpOyA/Pj4gPCFbZW5kaWZdLS0+CjwhLS1baWYgZ3QgSUUgOF0+PCEtLT4gPGh0bWwgY2xhc3M9Im5vLWpzIiA8P3BocCBsYW5ndWFnZV9hdHRyaWJ1dGVzKCk7ID8+PiA8IS0tPCFbZW5kaWZdLS0+CjxoZWFkPgogIDxtZXRhIGNoYXJzZXQ9Ijw/cGhwIGJsb2dpbmZvKCdjaGFyc2V0Jyk7ID8+IiAvPgogIDxtZXRhIGh0dHAtZXF1aXY9IlgtVUEtQ29tcGF0aWJsZSIgY29udGVudD0iSUU9ZWRnZSxjaHJvbWU9MSI+CiAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAsIG1pbmltdW0tc2NhbGU9MS4wLCBtYXhpbXVtLXNjYWxlPTEuMCwgdXNlci1zY2FsYWJsZT1ubyI+CiAgCiAgPD9waHAKICAkcGFnZV90aXRsZSA9IG51bGw7CiAgaWYoaXNfdGF4KCkpIHsKICAgICR0ZXJtID0gZ2V0X3Rlcm1fYnkoJ3NsdWcnLCBnZXRfcXVlcnlfdmFyKCd0ZXJtJyksIGdldF9xdWVyeV92YXIoJ3RheG9ub215JykpOwogICAgJHBhZ2VfdGl0bGUgPSAkdGVybS0+bmFtZTsKICB9IGVsc2UgewogICAgJHBhZ2VfdGl0bGUgPSB3cF90aXRsZShudWxsLCBmYWxzZSk7CiAgfQogICRmdWxsX3RpdGxlID0gam9pbignIHwgJywgYXJyYXlfZmlsdGVyKGFycmF5KAogICAgJHBhZ2VfdGl0bGUsCiAgICBnZXRfYmxvZ2luZm8oJ25hbWUnKQogICksICdzdHJsZW4nKSk7CiAgZWNobyAnPHRpdGxlPicuJGZ1bGxfdGl0bGUuJzwvdGl0bGU+JzsKICA/PgogIAogIDw/cGhwIC8vIGluY2x1ZGUgX19ESVJfXy4nL2luY2wtb3Blbi1ncmFwaC1tZXRhLnBocCc7ID8+CiAgCiAgPGxpbmsgcmVsPSJwaW5nYmFjayIgaHJlZj0iPD9waHAgYmxvZ2luZm8oJ3BpbmdiYWNrX3VybCcpOyA/PiIgLz4KICAKICA8bGluayByZWw9InNob3J0Y3V0IGljb24iIGhyZWY9Ijw/cGhwIGVjaG8gZ2V0X3RlbXBsYXRlX2RpcmVjdG9yeV91cmkoKTsgPz4vZmF2aWNvbi5pY28iIC8+CiAgPD9waHAKICAkdGVtcGxhdGVfZGlyID0gZ2V0X3RlbXBsYXRlX2RpcmVjdG9yeV91cmkoKTsKICAkc2l6ZXMgPSBhcnJheSgKICAgICcnLAogICAgJzU3eDU3JywKICAgICc3Mng3MicsCiAgICAnNzZ4NzYnLAogICAgJzExNHgxMTQnLAogICAgJzEyMHgxMjAnLAogICAgJzE0NHgxNDQnLAogICAgJzE1MngxNTInLAogICk7CiAgZm9yZWFjaCgkc2l6ZXMgYXMgJHNpemUpIHsKICAgICRzaXplc19hdHRyID0gKHN0cmxlbigkc2l6ZSkpCiAgICAgID8gJ3NpemVzPSInLiRzaXplLiciJwogICAgICA6IG51bGw7CiAgICAkc2l6ZV9zdWZmaXggPSAoc3RybGVuKCRzaXplKSkKICAgICAgPyAnLScuJHNpemUKICAgICAgOiBudWxsOwogICAgZWNobyBzcHJpbnRmKAogICAgICAnPGxpbmsgcmVsPSJhcHBsZS10b3VjaC1pY29uIiAlcyBocmVmPSIlcy9pbWcvYXBwbGUtdG91Y2gtaWNvbiVzLnBuZyIgLz4nLAogICAgICAkc2l6ZXNfYXR0ciwKICAgICAgJHRlbXBsYXRlX2RpciwKICAgICAgJHNpemVfc3VmZml4CiAgICApOwogIH0KICA/PgogIAogIDw/cGhwCiAgLy8gR2V0IFdpbmRvd3MgQ1NTCiAgJGJyb3dzZXIgPSBzdHJ0b2xvd2VyKCRfU0VSVkVSWydIVFRQX1VTRVJfQUdFTlQnXSk7CiAgaWYoc3RycG9zKCRicm93c2VyLCAnd2luZG93cycpICE9PSBmYWxzZSkgewogICAgZWNobyAnPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgbWVkaWE9ImFsbCIgaHJlZj0iJy5nZXRfdGVtcGxhdGVfZGlyZWN0b3J5X3VyaSgpLicvY3NzL3dpbmRvd3MuY3NzIj4nOwogIH0KICA/PgogIAogIDw/cGhwIHdwX2hlYWQoKTsgPz4KICAKICA8IS0tW2lmIGx0ZSBJRSA5XT4KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgdHlwZT0idGV4dC9jc3MiIG1lZGlhPSJzY3JlZW4iIGhyZWY9Ijw/cGhwIGVjaG8gZ2V0X3RlbXBsYXRlX2RpcmVjdG9yeV91cmkoKTsgPz4vY3NzL2llOS5jc3MiPgogIDwhW2VuZGlmXS0tPgo8L2hlYWQ+Cjw/cGhwIGZsdXNoKCk7ID8+Cgo8P3BocCBnbG9iYWwgJGJvZHlfY2xhc3M7ID8+Cjxib2R5IDw/cGhwIGJvZHlfY2xhc3MoKGlzc2V0KCRib2R5X2NsYXNzKSkgPyAkYm9keV9jbGFzcyA6IG51bGwpOyA/Pj4KPD9waHAgaW5jbHVkZSBfX0RJUl9fLicvaW5jbC1nb29nbGUtdGFnLW1hbmFnZXIucGhwJzsgPz4KCjxkaXYgaWQ9InNraXAtbGluayI+PGEgaHJlZj0iI2NvbnRlbnQiPlNraXAgdG8gTWFpbiBDb250ZW50PC9hPjwvZGl2PgoKPGhlYWRlciByb2xlPSJiYW5uZXIiPgogIDxkaXYgY2xhc3M9ImxvZ28iPgogICAgPD9waHAKICAgICRzaXRlX3RpdGxlID0gJ091dGRvb3IgSW5kdXN0cnkgQXNzb2NpYXRpb24nOwogICAgaWYoaXNfZnJvbnRfcGFnZSgpKSB7CiAgICAgIGVjaG8gJzxoMT4nLiRzaXRlX3RpdGxlLic8L2gxPic7CiAgICB9IGVsc2UgewogICAgICBlY2hvICc8YSBocmVmPSIvIj4nLiRzaXRlX3RpdGxlLic8L2E+JzsKICAgIH0KICAgID8+CiAgPC9kaXY+CiAgPD9waHAgd3BfbmF2X21lbnUoYXJyYXkoJ3RoZW1lX2xvY2F0aW9uJz0+J21lbnVfc2Vjb25kYXJ5JywgJ2NvbnRhaW5lcic9PmZhbHNlKSk7ID8+CjwvaGVhZGVyPgoKPGRpdiBpZD0ibWFpbiI+
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z898"></relationship>
     </object>
@@ -2790,7 +2793,7 @@ aWMgZnVuY3Rpb24gZ2V0RGF0ZSgpIHsKICBpZigkdGhpcy0+Z2V0UG9zdFR5cGUoKSAhPT0gJ2V2ZW50
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">get-version-number-from-scss-to-bust-cache.php</attribute>
         <attribute name="content" type="binary">Ly8gQ2FjaGUgYnVzdGluZwpkZWZpbmUoJ1RIRU1FX1ZFUlNJT04nLCAoRU5WSVJPTk1FTlQgIT09
-IEVOVklST05NRU5UX0RFVikgPyBtdF9yYW5kKCkgOiAoaW50KSBwcmVnX3JlcGxhY2UoJy8oKD86LiopXCR2ZXJzaW9uXDpccysoXGQrKTsoPzouKikpL3NpJywgJyQyJywgZmlsZV9nZXRfY29udGVudHMoZGlybmFtZShfX0ZJTEVfXykuJy9zY3NzL19tYWluLnNjc3MnKSkpOwpkZWZpbmUoJ1RIRU1FX1NVRkZJWCcsIHNwcmludGYoJz92PSVzJywgVEhFTUVfVkVSU0lPTikpOw==
+IEVOVklST05NRU5UX0RFVikgPyBtdF9yYW5kKCkgOiAoaW50KSBwcmVnX3JlcGxhY2UoJy8oKD86LiopXCR2ZXJzaW9uXDpccysoXGQrKTsoPzouKikpL3NpJywgJyQyJywgZmlsZV9nZXRfY29udGVudHMoX19ESVJfXy4nL3Njc3MvX21haW4uc2NzcycpKSk7CmRlZmluZSgnVEhFTUVfU1VGRklYJywgc3ByaW50ZignP3Y9JXMnLCBUSEVNRV9WRVJTSU9OKSk7
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z920"></relationship>
     </object>
@@ -2806,7 +2809,7 @@ IEVOVklST05NRU5UX0RFVikgPyBtdF9yYW5kKCkgOiAoaW50KSBwcmVnX3JlcGxhY2UoJy8oKD86Liop
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">example-config.php</attribute>
         <attribute name="content" type="binary">Ly8gQ2FjaGUgYnVzdGluZwpkZWZpbmUoJ1RIRU1FX1ZFUlNJT04nLCAoRU5WSVJPTk1FTlQgIT09
-IEVOVklST05NRU5UX0RFVikgPyBtdF9yYW5kKCkgOiAoaW50KSBwcmVnX3JlcGxhY2UoJy8oKD86LiopXCR2ZXJzaW9uXDpccysoXGQrKTsoPzouKikpL3NpJywgJyQyJywgZmlsZV9nZXRfY29udGVudHMoZGlybmFtZShfX0ZJTEVfXykuJy9zY3NzL19tYWluLnNjc3MnKSkpOwpkZWZpbmUoJ1RIRU1FX1NVRkZJWCcsIHNwcmludGYoJz92PSVzJywgVEhFTUVfVkVSU0lPTikpOwoKLy8gQ29sdW1uIGNsYXNzZXMKZGVmaW5lKCdDT0xVTU5TX0NPTlRFTlQnLCAnY29sdW1ucyBhdmVyYWdlLTgnKTsKZGVmaW5lKCdDT0xVTU5TX1NJREVCQVInLCAnY29sdW1ucyBhdmVyYWdlLTQnKTsKZGVmaW5lKCdDT0xVTU5TX0NFTlRFUkVEJywgJ3NtYWxsLTggbWVkaXVtLTYgYXZlcmFnZS0xMiBzbWFsbC1vZmZzZXQtMiBtZWRpdW0tb2Zmc2V0LTMgYXZlcmFnZS1vZmZzZXQtMCcpOwoKLy8gR2V0IHJlcXVlc3QgcHJvdG9jb2wKJHByb3RvY29sID0gKAogICghZW1wdHkoJF9TRVJWRVJbJ0hUVFBTJ10pICYmICRfU0VSVkVSWydIVFRQUyddICE9PSAnb2ZmJykKICB8fCAkX1NFUlZFUlsnU0VSVkVSX1BPUlQnXSA9PSA0NDMKKSA/ICdodHRwcycgOiAnaHR0cCc7CgovLyBVUkxzCmRlZmluZSgnVVJMX0JBU0UnLCBzcHJpbnRmKCclczovLyVzJywgJHByb3RvY29sLCAkX1NFUlZFUlsnSFRUUF9IT1NUJ10pKTsKZGVmaW5lKCdVUkxfUkVRVUVTVCcsIFVSTF9CQVNFLiRfU0VSVkVSWydSRVFVRVNUX1VSSSddKTsKZGVmaW5lKCdVUkxfTkVXUycsICcvbmV3cy8nKTsKZGVmaW5lKCdVUkxfUkVTT1VSQ0VfTElCUkFSWScsICcvcmVzZWFyY2gtdG9vbHMvcmVzb3VyY2UtbGlicmFyeS8nKTsKCi8vIFVzZXIgbG9nZ2VkIGluL291dCBjbGFzc2VzIGFyZSBhbHNvIGluIG1haW4uanMKZGVmaW5lKCdVU0VSX0xPR0dFRF9JTl9DTEFTUycsICd1c2VyLWxvZ2dlZC1pbicpOwpkZWZpbmUoJ1VTRVJfTE9HR0VEX09VVF9DTEFTUycsICd1c2VyLWxvZ2dlZC1vdXQnKTsKCi8vIFRleHQKZGVmaW5lKCdURVhUX0ZJRUxEX1NUWUxFJywgJ3dpZHRoOiAxMDAlOycpOwpkZWZpbmUoJ0xJTkVfQlJFQUtTJywgc2VyaWFsaXplKGFycmF5KCI8L3A+XG48cD4iLCAiXHJcbiIsICJcbiIsICJcciIsICc8YnI+JywgJzxiciAvPicpKSk7CgovLyBQb3N0IElEcwpkZWZpbmUoJ1BPU1RfSURfRVZFTlRTJywgNDk1NDIpOwpkZWZpbmUoJ1BPU1RfSURfQk9BUkRfT0ZfRElSRUNUT1JTJywgNDk2MTYpOwpkZWZpbmUoJ1BPU1RfSURfU1RBRkYnLCA0OTYxNyk7
+IEVOVklST05NRU5UX1BST0QpID8gbXRfcmFuZCgpIDogKGludCkgcHJlZ19yZXBsYWNlKCcvKCg/Oi4qKVwkdmVyc2lvblw6XHMrKFxkKyk7KD86LiopKS9zaScsICckMicsIGZpbGVfZ2V0X2NvbnRlbnRzKF9fRElSX18uJy9zY3NzL19tYWluLnNjc3MnKSkpOwpkZWZpbmUoJ1RIRU1FX1NVRkZJWCcsIHNwcmludGYoJz92PSVzJywgVEhFTUVfVkVSU0lPTikpOwoKLy8gQ29sdW1uIGNsYXNzZXMKZGVmaW5lKCdDT0xVTU5TX0NPTlRFTlQnLCAnY29sdW1ucyBhdmVyYWdlLTgnKTsKZGVmaW5lKCdDT0xVTU5TX1NJREVCQVInLCAnY29sdW1ucyBhdmVyYWdlLTQnKTsKZGVmaW5lKCdDT0xVTU5TX0NFTlRFUkVEJywgJ3NtYWxsLTggbWVkaXVtLTYgYXZlcmFnZS0xMiBzbWFsbC1vZmZzZXQtMiBtZWRpdW0tb2Zmc2V0LTMgYXZlcmFnZS1vZmZzZXQtMCcpOwoKLy8gR2V0IHJlcXVlc3QgcHJvdG9jb2wKJHByb3RvY29sID0gKAogICghZW1wdHkoJF9TRVJWRVJbJ0hUVFBTJ10pICYmICRfU0VSVkVSWydIVFRQUyddICE9PSAnb2ZmJykKICB8fCAkX1NFUlZFUlsnU0VSVkVSX1BPUlQnXSA9PSA0NDMKKSA/ICdodHRwcycgOiAnaHR0cCc7CgovLyBVUkxzCmRlZmluZSgnVVJMX0JBU0UnLCBzcHJpbnRmKCclczovLyVzJywgJHByb3RvY29sLCAkX1NFUlZFUlsnSFRUUF9IT1NUJ10pKTsKZGVmaW5lKCdVUkxfUkVRVUVTVCcsIFVSTF9CQVNFLiRfU0VSVkVSWydSRVFVRVNUX1VSSSddKTsKZGVmaW5lKCdVUkxfTkVXUycsICcvbmV3cy8nKTsKZGVmaW5lKCdVUkxfUkVTT1VSQ0VfTElCUkFSWScsICcvcmVzZWFyY2gtdG9vbHMvcmVzb3VyY2UtbGlicmFyeS8nKTsKCi8vIFVzZXIgbG9nZ2VkIGluL291dCBjbGFzc2VzIGFyZSBhbHNvIGluIG1haW4uanMKZGVmaW5lKCdVU0VSX0xPR0dFRF9JTl9DTEFTUycsICd1c2VyLWxvZ2dlZC1pbicpOwpkZWZpbmUoJ1VTRVJfTE9HR0VEX09VVF9DTEFTUycsICd1c2VyLWxvZ2dlZC1vdXQnKTsKCi8vIFRleHQKZGVmaW5lKCdURVhUX0ZJRUxEX1NUWUxFJywgJ3dpZHRoOiAxMDAlOycpOwpkZWZpbmUoJ0xJTkVfQlJFQUtTJywgc2VyaWFsaXplKGFycmF5KCI8L3A+XG48cD4iLCAiXHJcbiIsICJcbiIsICJcciIsICc8YnI+JywgJzxiciAvPicpKSk7CgovLyBQb3N0IElEcwpkZWZpbmUoJ1BPU1RfSURfRVZFTlRTJywgNDk1NDIpOwpkZWZpbmUoJ1BPU1RfSURfQk9BUkRfT0ZfRElSRUNUT1JTJywgNDk2MTYpOwpkZWZpbmUoJ1BPU1RfSURfU1RBRkYnLCA0OTYxNyk7
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z922"></relationship>
     </object>
@@ -3304,8 +3307,8 @@ Y291bnRpZXMnKTsKfQ==
         <attribute name="notes" type="string">TODO: see which of these methods actually works</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">get-taxonomy-slug-rewrite.php</attribute>
-        <attribute name="content" type="binary">Ly8gTWF5YmUgdGhpcyBpbiBhIHBvc3QgdHlwZSBjbGFzcwpwdWJsaWMgZnVuY3Rpb24gZ2V0VGF4
-b25vbWllcygpIHsKICByZXR1cm4gYXJyYXkoCiAgICAnbmV3cy10eXBlJyA9PiBhcnJheSgKICAgICAgJ3Jld3JpdGUnID0+IGFycmF5KAogICAgICAgICdzbHVnJyA9PiAnbmV3cycKICAgICAgKQogICAgKQogICk7Cn0KCi8vIE9yIHBvc3NpYmx5IHRoaXMgaW4gdGhlIHRheG9ub215IGNsYXNzCnB1YmxpYyBmdW5jdGlvbiBnZXRSZXdyaXRlKCkgewogIHJldHVybiBhcnJheSgnc2x1ZycgPT4gJ3Byb2dyYW1zJyk7Cn0K
+        <attribute name="content" type="binary">Ly8gTWF5YmUgdGhpcyBpbiBhIHBvc3QgdHlwZSBjbGFzcwovLyBUSElTIERFRklOSVRFTFkgV09S
+S1MKcHVibGljIGZ1bmN0aW9uIGdldFRheG9ub21pZXMoKSB7CiAgcmV0dXJuIGFycmF5KAogICAgJ25ld3MtdHlwZScgPT4gYXJyYXkoCiAgICAgICdyZXdyaXRlJyA9PiBhcnJheSgKICAgICAgICAnc2x1ZycgPT4gJ25ld3MnCiAgICAgICkKICAgICkKICApOwp9CgovLyBPciBwb3NzaWJseSB0aGlzIGluIHRoZSB0YXhvbm9teSBjbGFzcwpwdWJsaWMgZnVuY3Rpb24gZ2V0UmV3cml0ZSgpIHsKICByZXR1cm4gYXJyYXkoJ3NsdWcnID0+ICdwcm9ncmFtcycpOwp9Cg==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z994"></relationship>
     </object>
@@ -3430,7 +3433,7 @@ ICogQHJldHVybiBzdHJpbmcKICovCmZ1bmN0aW9uIHJlbW92ZV9kb21haW5fbmFtZSgkdXJsKSB7CiAg
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z749"></relationship>
     </object>
     <object type="ASSET" id="z1013">
-        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">get-terms-used-within-one-post-type.php</attribute>
         <attribute name="content" type="binary">LyoqCiAqIEdldCB0ZXJtcyB1c2VkIHdpdGhpbiBvbmUgcG9zdCB0eXBlCiAqIENvdmVycyBtdWx0
 aXBsZSB0YXhvbm9taWVzIGlmIGFwcGxpY2FibGUKICogQHJldHVybiBhcnJheQogKi8KcHVibGljIHN0YXRpYyBmdW5jdGlvbiBnZXRUZXJtc1VzZWQoJHBvc3RfdHlwZT0ncG9zdCcpIHsKICBnbG9iYWwgJHdwZGI7CiAgJHNxbF90ZXJtcyA9IHNwcmludGYoCiAgICAiU0VMRUNUIERJU1RJTkNUCiAgICAgIHQudGVybV9pZCwKICAgICAgdC5uYW1lLAogICAgICB0LnNsdWcsCiAgICAgIHR0LnRheG9ub215CiAgICBGUk9NICVzIEFTIHQKICAgIElOTkVSIEpPSU4gJXMgQVMgdHQgT04gdHQudGVybV9pZCA9IHQudGVybV9pZAogICAgSU5ORVIgSk9JTiAlcyBBUyB0ciBPTiB0ci50ZXJtX3RheG9ub215X2lkID0gdHQudGVybV90YXhvbm9teV9pZAogICAgSU5ORVIgSk9JTiAlcyBBUyBwIE9OIHAuSUQgPSB0ci5vYmplY3RfaWQKICAgIFdIRVJFIHAucG9zdF90eXBlID0gJyVzJwogICAgQU5EIHAucG9zdF9zdGF0dXMgPSAncHVibGlzaCcKICAgIE9SREVSIEJZIHQubmFtZSBBU0MiLAogICAgCiAgICAkd3BkYi0+dGVybXMsCiAgICAkd3BkYi0+dGVybV90YXhvbm9teSwKICAgICR3cGRiLT50ZXJtX3JlbGF0aW9uc2hpcHMsCiAgICAkd3BkYi0+cG9zdHMsCiAgICAkcG9zdF90eXBlCiAgKTsKICByZXR1cm4gJHdwZGItPmdldF9yZXN1bHRzKCRzcWxfdGVybXMsIEFSUkFZX0EpOwp9
@@ -3442,7 +3445,7 @@ aXBsZSB0YXhvbm9taWVzIGlmIGFwcGxpY2FibGUKICogQHJldHVybiBhcnJheQogKi8KcHVibGljIHN0
         <attribute name="modified" type="date">450449002.87561601400375366211</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1013"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1092 z1013"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z749"></relationship>
     </object>
     <object type="ASSET" id="z1015">
@@ -3487,6 +3490,7 @@ RVBMQUNFKHBvc3RfY29udGVudCwgJ2NvbnNlcnZhdGlvbicsICcnKSkpIC8gMTIpCiAgICArICgoTEVO
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z119"></relationship>
     </object>
     <object type="ASSET" id="z1023">
+        <attribute name="notes" type="string">These words are prohibited and forbidden from being used as class names.</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">reserved-wordpress-terms.md</attribute>
         <attribute name="content" type="binary">RG8gbm90IHVzZSB0aGVzZSB3aGVuIGNyZWF0aW5nIHBvc3QgdHlwZXMgb3IgdGF4b25vbWllcy4g
@@ -3872,5 +3876,281 @@ CiAgPHNwYW4gaXRlbXByb3A9Im5hbWUiIGNsYXNzPSJzY3JlZW4tcmVhZGVyLXRleHQiPk5hbWU8L3Nw
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1078"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z172"></relationship>
+    </object>
+    <object type="ASSET" id="z1080">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">get-subclasses-of-current-class.php</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gZ2V0U3ViY2xhc3NlcygpIHsKICAkc3ViY2xhc3NlcyA9IGFycmF5KCk7CiAgZm9y
+ZWFjaChnZXRfZGVjbGFyZWRfY2xhc3NlcygpIGFzICRjbGFzcykgewogICAgaWYoaXNfc3ViY2xhc3Nfb2YoJGNsYXNzLCBfX0NMQVNTX18pKSB7CiAgICAgICRzdWJjbGFzc2VzW10gPSAkY2xhc3M7CiAgICB9CiAgfQogIHJldHVybiAkc3ViY2xhc3NlczsKfQo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1081"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1081">
+        <attribute name="name" type="string">Get subclasses of current class</attribute>
+        <attribute name="modified" type="date">451931339.51205402612686157227</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1080"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z132"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1082">
+        <attribute name="name" type="string">Get posts by non-existent meta key</attribute>
+        <attribute name="modified" type="date">453134360.17920297384262084961</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1083"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z119 z749"></relationship>
+    </object>
+    <object type="ASSET" id="z1083">
+        <attribute name="notes" type="string">This is useful for checkboxes, where an unchecked value is entirely absent from the database. This gets posts where the meta key does not exist.</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">get-posts-by-non-existent-meta-key.php</attribute>
+        <attribute name="content" type="binary">Ly8gVGFjbwokcG9zdHMgPSBQb3N0VHlwZTo6Z2V0QnkoJ21ldGFfa2V5JywgJycsICdOT1QgRVhJ
+U1RTJyk7CgovLyBTdGFuZGFyZCBtZXRhIHF1ZXJ5CiRtZXRhX3F1ZXJ5ID0gYXJyYXkoKTsKaWYoIWlzX251bGwoJGluY2x1ZGVfZmVhdHVyZWQpKSB7CiAgJGNvbXBhcmUgPSAoJGluY2x1ZGVfZmVhdHVyZWQpID8gJz0nIDogJ05PVCBFWElTVFMnOwogICRtZXRhX3F1ZXJ5WydtZXRhX3F1ZXJ5J10gPSBhcnJheSgKICAgIGFycmF5KAogICAgICAna2V5JyA9PiAnaXNfZmVhdHVyZWQnLAogICAgICAndmFsdWUnID0+IDEsCiAgICAgICdjb21wYXJlJyA9PiAkY29tcGFyZQogICAgKQogICk7Cn0K
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1082"></relationship>
+    </object>
+    <object type="ASSET" id="z1084">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">parallax-example.js</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gcGFyYWxsYXgoKXsKICBpZigkKCIjanMtcGFyYWxsYXgtd2luZG93IikubGVuZ3Ro
+ID4gMCkgewogICAgdmFyIHBseEJhY2tncm91bmQgPSAkKCIjanMtcGFyYWxsYXgtYmFja2dyb3VuZCIpOwogICAgdmFyIHBseFdpbmRvdyA9ICQoIiNqcy1wYXJhbGxheC13aW5kb3ciKTsKICAgIAogICAgdmFyIHBseFdpbmRvd1RvcFRvUGFnZVRvcCA9ICQocGx4V2luZG93KS5vZmZzZXQoKS50b3A7CiAgICB2YXIgd2luZG93VG9wVG9QYWdlVG9wID0gJCh3aW5kb3cpLnNjcm9sbFRvcCgpOwogICAgdmFyIHBseFdpbmRvd1RvcFRvV2luZG93VG9wID0gcGx4V2luZG93VG9wVG9QYWdlVG9wIC0gd2luZG93VG9wVG9QYWdlVG9wOwogICAgCiAgICB2YXIgcGx4QmFja2dyb3VuZFRvcFRvUGFnZVRvcCA9ICQocGx4QmFja2dyb3VuZCkub2Zmc2V0KCkudG9wOwogICAgdmFyIHdpbmRvd0lubmVySGVpZ2h0ID0gd2luZG93LmlubmVySGVpZ2h0OwogICAgdmFyIHBseEJhY2tncm91bmRUb3BUb1dpbmRvd1RvcCA9IHBseEJhY2tncm91bmRUb3BUb1BhZ2VUb3AgLSB3aW5kb3dUb3BUb1BhZ2VUb3A7CiAgICB2YXIgcGx4QmFja2dyb3VuZFRvcFRvV2luZG93Qm90dG9tID0gd2luZG93SW5uZXJIZWlnaHQgLSBwbHhCYWNrZ3JvdW5kVG9wVG9XaW5kb3dUb3A7CiAgICB2YXIgcGx4U3BlZWQgPSAwLjM1OwogICAgCiAgICBwbHhCYWNrZ3JvdW5kLmNzcygndG9wJywgLSAocGx4V2luZG93VG9wVG9XaW5kb3dUb3AgKiBwbHhTcGVlZCkgKyAncHgnKTsKICB9Cn0K
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1085"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1085">
+        <attribute name="name" type="string">Parallax example</attribute>
+        <attribute name="modified" type="date">452521578.42172199487686157227</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1084"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z166"></relationship>
+    </object>
+    <object type="ASSET" id="z1086">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">redirect-to-same-url-on-different-domain.sh</attribute>
+        <attribute name="content" type="binary">UmV3cml0ZUNvbmQgJXtIVFRQX0hPU1R9IF5vbGRcLmRvbWFpblwuY29tJCBbTkNdClJld3JpdGVS
+dWxlIF4oLiopJCBodHRwOi8vbmV3LmRvbWFpbi5jb20vJDEgW1I9MzAxLExdCg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1087"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1087">
+        <attribute name="name" type="string">Redirect to same URL on different domain</attribute>
+        <attribute name="modified" type="date">452807571.64940601587295532227</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1086"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z841"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1088">
+        <attribute name="name" type="string">Get external JSON file</attribute>
+        <attribute name="modified" type="date">453223661.53455799818038940430</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1089"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z166"></relationship>
+    </object>
+    <object type="ASSET" id="z1089">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">get-external-json-file.js</attribute>
+        <attribute name="content" type="binary">dmFyIHdvcmRzID0gW107CiQuZ2V0SlNPTignL2pzL3RvcGljcy5qc29uJywgZnVuY3Rpb24oZGF0
+YSl7CiAgd29yZHMgPSBkYXRhLnRvcGljczsKfSk7Cg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1088"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1090">
+        <attribute name="name" type="string">Get fancy date</attribute>
+        <attribute name="modified" type="date">453335671.57623702287673950195</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1091"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z132"></relationship>
+    </object>
+    <object type="ASSET" id="z1091">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">get-fancy-date.php</attribute>
+        <attribute name="content" type="binary">LyoqCiAqIEdldCB0aGUgZmFuY3kgZGF0ZQogKiBAcGFyYW0gc3RyaW5nICRwb3N0X2RhdGUKICog
+QHJldHVybiBzdHJpbmcKICovCmZ1bmN0aW9uIGFwcF9nZXRfZmFuY3lfZGF0ZSgkcG9zdF9kYXRlKSB7CiAgJHBvc3RfdGltZXN0YW1wID0gc3RydG90aW1lKCRwb3N0X2RhdGUpOwogIGlmKCEkcG9zdF90aW1lc3RhbXApIHJldHVybiAkcG9zdF9kYXRlOwogIAogICRhZ2Vfc2Vjb25kcyA9IG1pY3JvdGltZSh0cnVlKSAtICRwb3N0X3RpbWVzdGFtcDsKICAkYWdlX2RheXMgPSBmbG9vcigkYWdlX3NlY29uZHMgLyAoMjQgKiA2MCAqIDYwKSk7CiAgaWYoJGFnZV9kYXlzID09IDApIHJldHVybiAnVG9kYXknOwogIGlmKCRhZ2VfZGF5cyA9PSAxKSByZXR1cm4gJ1llc3RlcmRheSc7CiAgCiAgcmV0dXJuICgkYWdlX3NlY29uZHMgPCAoNSoyNCo2MCo2MCkpCiAgICA/IHNwcmludGYoJyVkIGRheXMgYWdvJywgJGFnZV9kYXlzKQogICAgOiBkYXRlKCdGIGosIFknLCAkcG9zdF90aW1lc3RhbXApOwp9Cg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1090"></relationship>
+    </object>
+    <object type="ASSET" id="z1092">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">get-terms-used-within-one-post-type.sql</attribute>
+        <attribute name="content" type="binary">U0VMRUNUIERJU1RJTkNUCiAgdC50ZXJtX2lkLAogIHQubmFtZSwKICB0LnNsdWcsCiAgdHQudGF4
+b25vbXkKRlJPTSB3cF90ZXJtcyBBUyB0CklOTkVSIEpPSU4gd3BfdGVybV90YXhvbm9teSBBUyB0dCBPTiB0dC50ZXJtX2lkID0gdC50ZXJtX2lkCklOTkVSIEpPSU4gd3BfdGVybV9yZWxhdGlvbnNoaXBzIEFTIHRyIE9OIHRyLnRlcm1fdGF4b25vbXlfaWQgPSB0dC50ZXJtX3RheG9ub215X2lkCklOTkVSIEpPSU4gd3BfcG9zdHMgQVMgcCBPTiBwLklEID0gdHIub2JqZWN0X2lkCldIRVJFIHAucG9zdF90eXBlID0gJ3Bvc3QtdHlwZScKQU5EIHAucG9zdF9zdGF0dXMgPSAncHVibGlzaCcKT1JERVIgQlkgdC5uYW1lIEFTQwo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1014"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1093">
+        <attribute name="name" type="string">Get post count for a specific term</attribute>
+        <attribute name="modified" type="date">453758356.84359699487686157227</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1094"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z749"></relationship>
+    </object>
+    <object type="ASSET" id="z1094">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">get-post-count-for-a-specific-term.php</attribute>
+        <attribute name="content" type="binary">LyoqCiAqIEdldCBwb3N0IGNvdW50IGJ5IHRlcm0KICogQHBhcmFtIHN0cmluZyAkdGF4b25vbXkK
+ICogQHBhcmFtIGludC9hcnJheSAkdGVybXMKICogQHBhcmFtIGJvb2wgJGluY2x1ZGVfY2hpbGRyZW4KICovCnB1YmxpYyBzdGF0aWMgZnVuY3Rpb24gZ2V0Q291bnRCeVRlcm0oJHRheG9ub215LCAkdGVybXMsICRpbmNsdWRlX2NoaWxkcmVuPWZhbHNlKSB7CiAgJHRheF9xdWVyeSA9IGFycmF5KAogICAgYXJyYXkoCiAgICAgICd0YXhvbm9teScgPT4gJHRheG9ub215LAogICAgICAndGVybXMnID0+ICR0ZXJtcywKICAgICAgJ2luY2x1ZGVfY2hpbGRyZW4nID0+ICRpbmNsdWRlX2NoaWxkcmVuCiAgICApCiAgKTsKICByZXR1cm4gc2VsZjo6Z2V0Q291bnQoYXJyYXkoCiAgICAnbnVtYmVycG9zdHMnID0+IC0xLAogICAgJ3RheF9xdWVyeScgPT4gJHRheF9xdWVyeQogICkpOwp9Cg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1093"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1095">
+        <attribute name="name" type="string">Group posts by multiple taxonomies</attribute>
+        <attribute name="modified" type="date">453947040.54251402616500854492</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1096"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z749 z114"></relationship>
+    </object>
+    <object type="ASSET" id="z1096">
+        <attribute name="notes" type="string">Related to "Select meta values and taxonomy terms as lists"</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">group-posts-by-multiple-taxonomies.php</attribute>
+        <attribute name="content" type="binary">LyoqCiAqIEdldCBsaXN0cyBvZiBwb3N0cyBncm91cGVkIGJ5IG11bHRpcGxlIHRheG9ub21pZXMK
+ICogQHJldHVybiBzdHJpbmcgSFRNTAogKi8KcHVibGljIHN0YXRpYyBmdW5jdGlvbiBnZXRMaXN0cygpIHsKICBnbG9iYWwgJHdwZGI7CiAgCiAgJHBvc3RfdHlwZSA9IFN0cjo6bWFjaGluZShTdHI6OmNhbWVsVG9IdW1hbihnZXRfY2FsbGVkX2NsYXNzKCkpLCBcVGFjb1xCYXNlOjpTRVBBUkFUT1IpOwogICR0YXhvbm9taWVzID0gYXJyYXkoCiAgICAidG9waWMiLAogICAgInRhbGtlZSIsCiAgKTsKICAkam9pbl9ieV90YXhvbm9taWVzID0gYXJyYXkoKTsKICBmb3JlYWNoKCR0YXhvbm9taWVzIGFzICR0YXhvbm9teSkgewogICAgJGpvaW5fYnlfdGF4b25vbWllc1tdID0gc3ByaW50ZigKICAgICAgIklOTkVSIEpPSU4gKAogICAgICAgIFNFTEVDVCBESVNUSU5DVAogICAgICAgICAgcC5JRCwKICAgICAgICAgIHAucG9zdF90aXRsZSwKICAgICAgICAgIHQuc2x1ZyBBUyAlcwogICAgICAgIEZST00gJXMgQVMgcAogICAgICAgICAgSU5ORVIgSk9JTiAlcyBBUyB0ciBPTiBwLklEID0gdHIub2JqZWN0X2lkCiAgICAgICAgICBJTk5FUiBKT0lOICVzIEFTIHR0IE9OIHRyLnRlcm1fdGF4b25vbXlfaWQgPSB0dC50ZXJtX3RheG9ub215X2lkCiAgICAgICAgICBJTk5FUiBKT0lOICVzIEFTIHQgT04gdC50ZXJtX2lkID0gdHQudGVybV9pZAogICAgICAgIFdIRVJFIHR0LnRheG9ub215ID0gJyVzJwogICAgICAgIEdST1VQIEJZIHAuSUQKICAgICAgKSAlc19zdWJxdWVyeSBPTiBwcC5JRCA9ICVzX3N1YnF1ZXJ5LklEIiwKICAgICAgJHRheG9ub215LAogICAgICAkd3BkYi0+cG9zdHMsCiAgICAgICR3cGRiLT50ZXJtX3JlbGF0aW9uc2hpcHMsCiAgICAgICR3cGRiLT50ZXJtX3RheG9ub215LAogICAgICAkd3BkYi0+dGVybXMsCiAgICAgICR0YXhvbm9teSwKICAgICAgJHRheG9ub215LAogICAgICAkdGF4b25vbXkKICAgICk7CiAgfQogIAogICRzcWwgPSBzcHJpbnRmKAogICAgIlNFTEVDVAogICAgICBwcC5JRCwKICAgICAgcHAucG9zdF90aXRsZSwKICAgICAgJXMsIC8qIHRheG9ub21pZXMgKi8KICAgICAgcHAubWVudV9vcmRlcgogICAgRlJPTSAlcyBBUyBwcAogICAgJXMgLyogam9pbl9ieV90YXhvbm9taWVzICovCiAgICBXSEVSRSBwcC5wb3N0X3R5cGUgPSAnJXMnCiAgICBBTkQgcHAucG9zdF9zdGF0dXMgPSAncHVibGlzaCcKICAgIE9SREVSIEJZICVzLCBwcC5tZW51X29yZGVyIEFTQyIsCiAgICAKICAgIGpvaW4oJywgJywgJHRheG9ub21pZXMpLAogICAgJHdwZGItPnBvc3RzLAogICAgam9pbigiXG4iLCAkam9pbl9ieV90YXhvbm9taWVzKSwKICAgICRwb3N0X3R5cGUsCiAgICBqb2luKCcsICcsICR0YXhvbm9taWVzKQogICk7CiAgJHJlc3VsdHMgPSAkd3BkYi0+Z2V0X3Jlc3VsdHMoJHNxbCwgQVJSQVlfQSk7CiAgCiAgJHBvc3RfbGlzdHMgPSBhcnJheSgpOwogICRyZXN1bHRzX2J5X3RvcGljID0gQ29sbGVjdGlvbjo6Z3JvdXBCeSgkcmVzdWx0cywgJ3RvcGljJyk7CiAgZm9yZWFjaCgkcmVzdWx0c19ieV90b3BpYyBhcyAkdG9waWMgPT4gJHRvcGljX2dyb3VwKSB7CiAgICAkcmVzdWx0c19ieV90YWxrZWUgPSBDb2xsZWN0aW9uOjpncm91cEJ5KCR0b3BpY19ncm91cCwgJ3RhbGtlZScpOwogICAgZm9yZWFjaCgkcmVzdWx0c19ieV90YWxrZWUgYXMgJHRhbGtlZSA9PiAkdGFsa2VlX2dyb3VwKSB7CiAgICAgICR0YWxrX2l0ZW1fcG9zdF9pZHMgPSBDb2xsZWN0aW9uOjpwbHVjaygkdGFsa2VlX2dyb3VwLCAnSUQnKTsKICAgICAgJHRhbGtfaXRlbXMgPSBcVGFjb1xQb3N0XEZhY3Rvcnk6OmNyZWF0ZU11bHRpcGxlKCR0YWxrX2l0ZW1fcG9zdF9pZHMsIGZhbHNlKTsKICAgICAgJHBvc3RfbGlzdF9pdGVtcyA9IGFycmF5KCk7CiAgICAgIGZvcmVhY2goJHRhbGtfaXRlbXMgYXMgJHRhbGtfaXRlbSkgewogICAgICAgICRwb3N0X2xpc3RfaXRlbXNbXSA9ICR0YWxrX2l0ZW0tPmdldExpc3RJdGVtKCk7CiAgICAgIH0KICAgICAgJHBvc3RfbGlzdHNbXSA9IHNwcmludGYoCiAgICAgICAgJzx1bCBjbGFzcz0iYWNjb3JkaW9uIiBkYXRhLXRvcGljPSIlcyIgZGF0YS10YWxrZWU9IiVzIj4KICAgICAgICAgICVzCiAgICAgICAgPC91bD4nLAogICAgICAgICR0b3BpYywKICAgICAgICAkdGFsa2VlLAogICAgICAgIGpvaW4oJycsICRwb3N0X2xpc3RfaXRlbXMpCiAgICAgICk7CiAgICB9CiAgfQogIHJldHVybiBqb2luKCcnLCAkcG9zdF9saXN0cyk7Cn0K
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1095"></relationship>
+    </object>
+    <object type="ASSET" id="z1097">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">disable-text-selection-within-an-element.scss</attribute>
+        <attribute name="content" type="binary">QG1peGluIGRpc2FibGVfc2VsZWN0aW9uIHsKICAtd2Via2l0LXRvdWNoLWNhbGxvdXQ6IG5vbmU7
+CiAgLXdlYmtpdC11c2VyLXNlbGVjdDogbm9uZTsKICAta2h0bWwtdXNlci1zZWxlY3Q6IG5vbmU7CiAgLW1vei11c2VyLXNlbGVjdDogbm9uZTsKICAtbXMtdXNlci1zZWxlY3Q6IG5vbmU7CiAgdXNlci1zZWxlY3Q6IG5vbmU7Cn0K
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1098"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1098">
+        <attribute name="name" type="string">Disable text selection within an element</attribute>
+        <attribute name="modified" type="date">453993619.15039402246475219727</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1097"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z663"></relationship>
+    </object>
+    <object type="ASSET" id="z1099">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">get-all-attributes-of-element.js</attribute>
+        <attribute name="content" type="binary">KGZ1bmN0aW9uKG9yaWdpbmFsX2ZuKSB7CiAgJC5mbi5hdHRyID0gZnVuY3Rpb24oKXsKICAgIGlm
+KGFyZ3VtZW50cy5sZW5ndGggPT09IDApIHsKICAgICAgaWYodGhpcy5sZW5ndGggPT09IDApIHJldHVybiBudWxsOwogICAgICAKICAgICAgdmFyIG9iaiA9IHt9OwogICAgICAkLmVhY2godGhpc1swXS5hdHRyaWJ1dGVzLCBmdW5jdGlvbigpewogICAgICAgIGlmKHRoaXMuc3BlY2lmaWVkKSB7CiAgICAgICAgICBvYmpbdGhpcy5uYW1lXSA9IHRoaXMudmFsdWU7CiAgICAgICAgfQogICAgICB9KTsKICAgICAgcmV0dXJuIG9iajsKICAgIH0KICAgIHJldHVybiBvcmlnaW5hbF9mbi5hcHBseSh0aGlzLCBhcmd1bWVudHMpOwogIH07Cn0pKCQuZm4uYXR0cik7Cg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1100"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1100">
+        <attribute name="name" type="string">Get all attributes of element</attribute>
+        <attribute name="modified" type="date">454211567.38320702314376831055</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1099"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z166"></relationship>
+    </object>
+    <object type="ASSET" id="z1101">
+        <attribute name="content" type="binary">U0VMRUNUIEFWRyhwb3N0c19lYWNoX21vbnRoKQpGUk9NICgKICBTRUxFQ1QKICAgIENPVU5UKCop
+IEFTIHBvc3RzX2VhY2hfbW9udGgsCiAgICBGUk9NX1VOSVhUSU1FKHAucG9zdF9kYXRlLCAnJVktJW0nKSBBUyBwdWJsaXNoZWRfb24KICBGUk9NIHdwX3Bvc3RzIEFTIHAKICBXSEVSRSBwLnBvc3RfZGF0ZSA+PSBVTklYX1RJTUVTVEFNUCgnMjAxNC0wMi0wMSAwMDowMDowMCcpCiAgR1JPVVAgQlkgcHVibGlzaGVkX29uCiAgT1JERVIgQlkgcHVibGlzaGVkX29uCikgQVMgcmVzdWx0Cg==
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">get-average-number-of-posts-within-a-time-period.sql</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1102"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1102">
+        <attribute name="name" type="string">Get average number of posts within a time period</attribute>
+        <attribute name="modified" type="date">454454056.80891102552413940430</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1101"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z114"></relationship>
+    </object>
+    <object type="ASSET" id="z1103">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">get-pagination-prev-next.php</attribute>
+        <attribute name="notes" type="string">- This version always shows the first and last page number, and previous/next links
+- TODO: make previous/next links optional</attribute>
+        <attribute name="content" type="binary">LyoqCiAqIEdldCBwYWdpbmF0aW9uCiAqICRhcmdzIGNvbnRhaW5zIGFyZ3VtZW50cyBmb3IgYm90
+aCB3cmFwcGVyIGFuZCBwYWdlIG51bWJlcnMKICogQHBhcmFtIGludCAkY3VycmVudF9wYWdlCiAqIEBwYXJhbSBpbnQgJHRvdGFsX3Bvc3RzCiAqIEBwYXJhbSBhcnJheSAkYXJncwogKiBXcmFwcGVyOgogKiAtIHN0cmluZyAkbGFiZWwKICogLSBzdHJpbmcgJGNvbnRhaW5lcl9jbGFzcwogKiBQYWdlIG51bWJlcnM6CiAqIC0gaW50ICRtYXhfcGFnZXMKICogLSBpbnQgJHBlcl9wYWdlCiAqIC0gc3RyaW5nICRsaW5rX3ByZWZpeAogKiAtIHN0cmluZyAkcHJldmlvdXNfbGFiZWwKICogLSBzdHJpbmcgJG5leHRfbGFiZWwKICogLSBib29sICRpc19hamF4CiAqIEJvdGggd3JhcHBlciBhbmQgcGFnZSBudW1iZXJzOgogKiAtIGJvb2wgJGlzX3NlbGVjdAogKiBAcmV0dXJuIHN0cmluZyBIVE1MCiAqLwpwdWJsaWMgc3RhdGljIGZ1bmN0aW9uIGdldFBhZ2luYXRpb24oJGN1cnJlbnRfcGFnZSwgJHRvdGFsX3Bvc3RzLCAkYXJncz1hcnJheSgpKSB7CiAgJGRlZmF1bHRfYXJncyA9IGFycmF5KAogICAgJ2xhYmVsJyA9PiAnUGFnZTonLAogICAgJ2NvbnRhaW5lcl9jbGFzcycgPT4gJ3BhZ2UtbnVtYmVycyBjbGVhcmZpeCcsCiAgICAnaXNfc2VsZWN0JyA9PiBmYWxzZSwKICApOwogICRhcmdzID0gKEFycjo6aXRlcmFibGUoJGFyZ3MpKQogICAgPyBhcnJheV9tZXJnZSgkZGVmYXVsdF9hcmdzLCAkYXJncykKICAgIDogJGRlZmF1bHRfYXJnczsKICBleHRyYWN0KCRhcmdzKTsKICAKICAkbGFiZWwgPSAoc3RybGVuKCRsYWJlbCkpID8gJzxwPicuJGxhYmVsLic8L3A+JyA6IG51bGw7CiAgJGxpc3RfZWxlbWVudCA9ICgkaXNfc2VsZWN0KSA/ICdzZWxlY3QnIDogJ3VsJzsKICAkcGFnaW5hdGlvbiA9IHNlbGY6OmdldFBhZ2luYXRpb25JdGVtcygkY3VycmVudF9wYWdlLCAkdG90YWxfcG9zdHMsICRhcmdzKTsKICBpZihpc19udWxsKCRwYWdpbmF0aW9uKSkgcmV0dXJuIG51bGw7CiAgCiAgcmV0dXJuIHNwcmludGYoCiAgICAnPGRpdiBjbGFzcz0iJXMiPgogICAgICAlcwogICAgICA8JXM+CiAgICAgICAgJXMKICAgICAgPC8lcz4KICAgIDwvZGl2PicsCiAgICAkY29udGFpbmVyX2NsYXNzLAogICAgJGxhYmVsLAogICAgJGxpc3RfZWxlbWVudCwKICAgICRwYWdpbmF0aW9uLAogICAgJGxpc3RfZWxlbWVudAogICk7Cn0KCgovKioKICogR2V0IHBhZ2UgbnVtYmVycyBmb3IgcGFnaW5hdGlvbiwgZWl0aGVyIGFzIGxpbmtzIG9yIG9wdGlvbiBlbGVtZW50cwogKiBAcGFyYW0gaW50ICRjdXJyZW50X3BhZ2UKICogQHBhcmFtIGludCAkdG90YWxfcG9zdHMKICogQHBhcmFtIGFycmF5ICRhcmdzCiAqIC0gaW50ICRtYXhfcGFnZXMKICogLSBpbnQgJHBlcl9wYWdlCiAqIC0gc3RyaW5nICRsaW5rX3ByZWZpeAogKiAtIHN0cmluZyAkcHJldmlvdXNfbGFiZWwKICogLSBzdHJpbmcgJG5leHRfbGFiZWwKICogLSBib29sICRpc19hamF4CiAqIC0gYm9vbCAkaXNfc2VsZWN0CiAqIEByZXR1cm4gc3RyaW5nIEhUTUwKICovCnB1YmxpYyBzdGF0aWMgZnVuY3Rpb24gZ2V0UGFnaW5hdGlvbkl0ZW1zKCRjdXJyZW50X3BhZ2UsICR0b3RhbF9wb3N0cywgJGFyZ3M9YXJyYXkoKSkgewogIGlmKGlzX251bGwoJGN1cnJlbnRfcGFnZSkgfHwgaXNfbnVsbCgkdG90YWxfcG9zdHMpKSByZXR1cm4gbnVsbDsKICAKICAkZGVmYXVsdF9hcmdzID0gYXJyYXkoCiAgICAnbWF4X3BhZ2VzJyA9PiA1LAogICAgJ3Blcl9wYWdlJyA9PiAxMCwKICAgICdsaW5rX3ByZWZpeCcgPT4gbnVsbCwKICAgICdwcmV2aW91c19sYWJlbCcgPT4gJ1ByZXZpb3VzJywKICAgICduZXh0X2xhYmVsJyA9PiAnTmV4dCcsCiAgICAnaXNfYWpheCcgPT4gZmFsc2UsCiAgICAnaXNfc2VsZWN0JyA9PiBmYWxzZSwKICApOwogICRhcmdzID0gKEFycjo6aXRlcmFibGUoJGFyZ3MpKQogICAgPyBhcnJheV9tZXJnZSgkZGVmYXVsdF9hcmdzLCAkYXJncykKICAgIDogJGRlZmF1bHRfYXJnczsKICBleHRyYWN0KCRhcmdzKTsKICAKICBpZigkdG90YWxfcG9zdHMgPD0gJHBlcl9wYWdlKSByZXR1cm4gbnVsbDsKICAKICAkcGFnaW5hdGlvbiA9IGFycmF5KCk7CiAgJHBhZ2VfY291bnQgPSAoaW50KSBjZWlsKCR0b3RhbF9wb3N0cyAvICRwZXJfcGFnZSk7CiAgCiAgaWYoJGlzX3NlbGVjdCkgewogICAgJG9wdGlvbnMgPSBhcnJheSgpOwogICAgZm9yKCRpID0gMTsgJGkgPD0gJHBhZ2VfY291bnQ7ICRpKyspIHsKICAgICAgJGN1cnJlbnRfcGFnZV9hdHRyID0gKCRpID09ICRjdXJyZW50X3BhZ2UpCiAgICAgICAgPyAnIHNlbGVjdGVkJwogICAgICAgIDogbnVsbDsKICAgICAgJHBhZ2VfbnVtYmVyX3ZhbHVlID0gKCEkaXNfYWpheCkKICAgICAgICA/ICRsaW5rX3ByZWZpeC4kaS4nLycKICAgICAgICA6ICRpOwogICAgICAkb3B0aW9uc1tdID0gc3ByaW50ZigKICAgICAgICAnPG9wdGlvbiVzIHZhbHVlPSIlcyIgZGF0YS1wYWdlPSIlZCI+JWQ8L29wdGlvbj4nLAogICAgICAgICRjdXJyZW50X3BhZ2VfYXR0ciwKICAgICAgICAkcGFnZV9udW1iZXJfdmFsdWUsCiAgICAgICAgJGksCiAgICAgICAgJGkKICAgICAgKTsKICAgIH0KICAgIHJldHVybiBqb2luKCJcbiIsICRvcHRpb25zKTsKICB9CiAgCiAgLy8gU2V0IGZpcnN0IGFuZCBsYXN0IHBhZ2UgbnVtYmVycyB0byBiZSBkaXNwbGF5ZWQKICAvLyBiZXR3ZWVuICJwcmV2aW91cyIgYW5kICJuZXh0IiBsaW5rcwogICRmaXJzdF9wYWdlX251bWJlciA9ICgkbWF4X3BhZ2VzIDwgJHBhZ2VfY291bnQpCiAgICA/IChpbnQpIG1heCgkY3VycmVudF9wYWdlIC0gZmxvb3IoJG1heF9wYWdlcyAvIDIpLCAxKQogICAgOiAxOwogICRsYXN0X3BhZ2VfbnVtYmVyID0gKGludCkgbWluKCRmaXJzdF9wYWdlX251bWJlciArICgkbWF4X3BhZ2VzIC0gMSksICRwYWdlX2NvdW50KTsKICAKICAvLyBFdmFsdWF0ZSBmaXJzdCBwYWdlIG51bWJlciBhZ2FpbiwgZm9yIHdoZW4KICAvLyBvbmUgb2YgdGhlIGxhc3QgcGFnZXMgaXMgc2VsZWN0ZWQKICAkZmlyc3RfcGFnZV9udW1iZXIgPSAoJG1heF9wYWdlcyA8ICRwYWdlX2NvdW50KQogICAgPyAoaW50KSBtaW4oJGZpcnN0X3BhZ2VfbnVtYmVyLCAkbGFzdF9wYWdlX251bWJlciAtICgkbWF4X3BhZ2VzIC0gMSkpCiAgICA6ICRmaXJzdF9wYWdlX251bWJlcjsKICAKICBpZighJGlzX2FqYXgpIHsKICAgICRsaW5rX3ByZWZpeCA9ICRsaW5rX3ByZWZpeC4nL3BhZ2UvJzsKICAgICRsaW5rX3ByZWZpeCA9IHByZWdfcmVwbGFjZSgnL1wvezIsfS8nLCAnLycsICRsaW5rX3ByZWZpeCk7CiAgfQogIAogIC8vIFByZXZpb3VzIGxpbmsKICBpZigkY3VycmVudF9wYWdlICE9PSAxKSB7CiAgICAkcHJldmlvdXNfbGluayA9ICghJGlzX2FqYXgpCiAgICAgID8gJGxpbmtfcHJlZml4LigkY3VycmVudF9wYWdlIC0gMSkuJy8nCiAgICAgIDogJyMnOwogICAgJHBhZ2luYXRpb25bXSA9IHNwcmludGYoCiAgICAgICc8bGkgY2xhc3M9InByZXYiIGRhdGEtcGFnZT0iJWQiPjxhIGhyZWY9IiVzIj4lczwvYT48L2xpPicsCiAgICAgICgkY3VycmVudF9wYWdlIC0gMSksCiAgICAgICRwcmV2aW91c19saW5rLAogICAgICAkcHJldmlvdXNfbGFiZWwKICAgICk7CiAgfQogIAogIC8vIFBhZ2UgMQogIGlmKCRmaXJzdF9wYWdlX251bWJlciAhPT0gMSkgewogICAgJHBhZ2VfbnVtYmVyX2xpbmsgPSAoISRpc19hamF4KQogICAgICA/ICRsaW5rX3ByZWZpeC4nMS8nCiAgICAgIDogJyMnOwogICAgJHBhZ2luYXRpb25bXSA9IHNwcmludGYoCiAgICAgICc8bGkgZGF0YS1wYWdlPSIxIj48YSBocmVmPSIlcyI+MTwvYT48L2xpPicsCiAgICAgICRwYWdlX251bWJlcl9saW5rCiAgICApOwogIH0KICAKICAvLyBEb3RzIGFmdGVyIHBhZ2UgMQogIGlmKCRmaXJzdF9wYWdlX251bWJlciA+IDIpIHsKICAgICRwYWdpbmF0aW9uW10gPSAnPGxpIGNsYXNzPSJkb3RzIj4maGVsbGlwOzwvbGk+JzsKICB9CiAgCiAgLy8gUGFnZSBudW1iZXIgbGlua3MKICBmb3IoJGkgPSAkZmlyc3RfcGFnZV9udW1iZXI7ICRpIDw9ICRsYXN0X3BhZ2VfbnVtYmVyOyAkaSsrKSB7CiAgICAkY3VycmVudF9wYWdlX2NsYXNzID0gKCRpID09ICRjdXJyZW50X3BhZ2UpCiAgICAgID8gJyBjbGFzcz0ib24iJwogICAgICA6IG51bGw7CiAgICAkcGFnZV9udW1iZXJfbGluayA9ICghJGlzX2FqYXgpCiAgICAgID8gJGxpbmtfcHJlZml4LiRpLicvJwogICAgICA6ICcjJzsKICAgICRwYWdpbmF0aW9uW10gPSBzcHJpbnRmKAogICAgICAnPGxpJXMgZGF0YS1wYWdlPSIlZCI+PGEgaHJlZj0iJXMiPiVkPC9hPjwvbGk+JywKICAgICAgJGN1cnJlbnRfcGFnZV9jbGFzcywKICAgICAgJGksCiAgICAgICRwYWdlX251bWJlcl9saW5rLAogICAgICAkaQogICAgKTsKICB9CiAgCiAgLy8gRG90cyBiZWZvcmUgbGFzdCBwYWdlCiAgaWYoJGxhc3RfcGFnZV9udW1iZXIgPCAkcGFnZV9jb3VudCAtIDEpIHsKICAgICRwYWdpbmF0aW9uW10gPSAnPGxpIGNsYXNzPSJkb3RzIj4maGVsbGlwOzwvbGk+JzsKICB9CiAgCiAgLy8gTGFzdCBwYWdlCiAgaWYoJGxhc3RfcGFnZV9udW1iZXIgIT09ICRwYWdlX2NvdW50KSB7CiAgICAkcGFnZV9udW1iZXJfbGluayA9ICghJGlzX2FqYXgpCiAgICAgID8gJGxpbmtfcHJlZml4LiRwYWdlX2NvdW50LicvJwogICAgICA6ICcjJzsKICAgICRwYWdpbmF0aW9uW10gPSBzcHJpbnRmKAogICAgICAnPGxpIGRhdGEtcGFnZT0iJWQiPjxhIGhyZWY9IiVzIj4lZDwvYT48L2xpPicsCiAgICAgICRwYWdlX2NvdW50LAogICAgICAkcGFnZV9udW1iZXJfbGluaywKICAgICAgJHBhZ2VfY291bnQKICAgICk7CiAgfQogIAogIC8vIE5leHQgbGluawogIGlmKCRjdXJyZW50X3BhZ2UgIT09ICRwYWdlX2NvdW50KSB7CiAgICAkbmV4dF9saW5rID0gKCEkaXNfYWpheCkKICAgICAgPyAkbGlua19wcmVmaXguKCRjdXJyZW50X3BhZ2UgKyAxKS4nLycKICAgICAgOiAnIyc7CiAgICAkcGFnaW5hdGlvbltdID0gc3ByaW50ZigKICAgICAgJzxsaSBjbGFzcz0ibmV4dCIgZGF0YS1wYWdlPSIlZCI+PGEgaHJlZj0iJXMiPiVzPC9hPicsCiAgICAgICgkY3VycmVudF9wYWdlICsgMSksCiAgICAgICRuZXh0X2xpbmssCiAgICAgICRuZXh0X2xhYmVsCiAgICApOwogIH0KICAKICByZXR1cm4gam9pbigiXG4iLCAkcGFnaW5hdGlvbik7Cn0K
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z806"></relationship>
+    </object>
+    <object type="ASSET" id="z1104">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">break-out-of-jquery-each.js</attribute>
+        <attribute name="content" type="binary">JC5lYWNoKGFycmF5LCBmdW5jdGlvbih2YWwpewogIHJldHVybiB0cnVlOyAvLyBjb250aW51ZTsK
+ICByZXR1cm4gZmFsc2U7IC8vIGJyZWFrOwp9KTsK
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1105"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1105">
+        <attribute name="name" type="string">Break out of $.each</attribute>
+        <attribute name="modified" type="date">454578900.73682999610900878906</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1104"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z166"></relationship>
+    </object>
+    <object type="ASSET" id="z1106">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">delete-terms-by-post-type.sql</attribute>
+        <attribute name="content" type="binary">REVMRVRFIHRyCkZST00gd3BfdGVybV9yZWxhdGlvbnNoaXBzIEFTIHRyCiAgSU5ORVIgSk9JTiB3
+cF9wb3N0cyBBUyBwIE9OIHAuSUQgPSB0ci5vYmplY3RfaWQKV0hFUkUgcC5wb3N0X3R5cGUgPSAncG9zdCcKICBBTkQgdHIudGVybV90YXhvbm9teV9pZCAhPSAxCg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1107"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1107">
+        <attribute name="name" type="string">Delete terms by post type</attribute>
+        <attribute name="modified" type="date">455031246.09261697530746459961</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1106"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z119 z114"></relationship>
+    </object>
+    <object type="ASSET" id="z1108">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">disallow-bold-italic.css</attribute>
+        <attribute name="content" type="binary">c3Ryb25nIGVtLApzdHJvbmcgaSwKYiBlbSwKYiBpLAplbSBzdHJvbmcsCmkgc3Ryb25nLAplbSBi
+LAppIGIgewogIGZvbnQtc3R5bGU6IG5vcm1hbDsKfQo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1109"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1109">
+        <attribute name="name" type="string">Disallow bold italic</attribute>
+        <attribute name="modified" type="date">455232255.69857197999954223633</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z223"></relationship>
+    </object>
+    <object type="ASSET" id="z1110">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">get-posts-by-multiple-taxonomy-terms.php</attribute>
+        <attribute name="content" type="binary">JHNxbCA9IHNwcmludGYoCiAgIlNFTEVDVCBwLklECiAgRlJPTSAlcyBBUyBwCiAgICBJTk5FUiBK
+T0lOICVzIEFTIHRyX2dlbmRlciBPTiAocC5JRCA9IHRyX2dlbmRlci5vYmplY3RfaWQpCiAgICBJTk5FUiBKT0lOICVzIEFTIHRyX3N0ZXAgT04gKHAuSUQgPSB0cl9zdGVwLm9iamVjdF9pZCkKICBXSEVSRSB0cl9nZW5kZXIudGVybV90YXhvbm9teV9pZCA9ICVkCiAgICBBTkQgdHJfc3RlcC50ZXJtX3RheG9ub215X2lkID0gJWQKICAgIEFORCBwLnBvc3RfdHlwZSA9ICdyZWFkeS1xdWVzdGlvbicKICAgIEFORCBwLnBvc3Rfc3RhdHVzID0gJ3B1Ymxpc2gnCiAgT1JERVIgQlkgcC5tZW51X29yZGVyIEFTQyIsCiAgJHdwZGItPnBvc3RzLAogICR3cGRiLT50ZXJtX3JlbGF0aW9uc2hpcHMsCiAgJHdwZGItPnRlcm1fcmVsYXRpb25zaGlwcywKICAkZ2VuZGVyX3Rlcm1faWQsCiAgJHN0ZXBfdGVybV9pZAopOwo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1111"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1111">
+        <attribute name="name" type="string">Get posts by multiple taxonomy terms</attribute>
+        <attribute name="modified" type="date">455915011.32744199037551879883</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1110"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z114 z119"></relationship>
+    </object>
+    <object type="ASSET" id="z1112">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">select-elements-by-data.js</attribute>
+        <attribute name="content" type="binary">dmFyICRjaGlsZHJlbiA9ICR0LmNoaWxkcmVuKCkuZmlsdGVyKGZ1bmN0aW9uKCl7CiAgcmV0dXJu
+ICQodGhpcykuZGF0YSgnZWxlbWVudF90eXBlJykgIT09IHVuZGVmaW5lZDsKfSk7Cg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z1113"></relationship>
+    </object>
+    <object type="SNIPPET" id="z1113">
+        <attribute name="name" type="string">Select elements by data</attribute>
+        <attribute name="modified" type="date">455993330.14040201902389526367</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z1112"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z166"></relationship>
     </object>
 </database>

@@ -1,5 +1,5 @@
-SET @from_domain = '';
-SET @to_domain = '';
+SET @from_domain = '//from.dev';
+SET @to_domain = '//to.com';
 SET @prefix = 'wp';
 
 SET @s1 = CONCAT('UPDATE ', @prefix, '_posts SET post_content = replace(post_content, "', @from_domain,'", "', @to_domain,'");');

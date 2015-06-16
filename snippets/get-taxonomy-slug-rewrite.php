@@ -1,4 +1,5 @@
 // Maybe this in a post type class
+// THIS DEFINITELY WORKS
 public function getTaxonomies() {
   return array(
     'news-type' => array(
