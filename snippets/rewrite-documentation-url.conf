@@ -1,0 +1,1 @@
+RewriteRule ^docs/?(.*)$ /wp-content/docs/$1 [L]
